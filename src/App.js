@@ -1,7 +1,9 @@
+import Navigation from './ui/Navigation'
+
 const App = () => {
 	return (
 		<main>
-			<p>Hello World</p>
+			<Navigation />
 		</main>
 	)
 }
