@@ -1,4 +1,4 @@
-const App = () => {
+const Navigation = () => {
 	return (
 		<nav>
 			<ul>
@@ -12,4 +12,4 @@ const App = () => {
 	)
 }
 
-export default App
+export default Navigation
