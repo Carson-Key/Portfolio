@@ -1,9 +1,9 @@
-import Navigation from './ui/Navigation'
+import Header from './ui/Header'
 
 const App = () => {
 	return (
 		<main>
-			<Navigation />
+			<Header />
 		</main>
 	)
 }
