@@ -12,7 +12,7 @@ const Navigation = () => {
 	return (
 		<nav className="text-white">
             <div className="flex relative w-screen h-14 z-40 bg-secondary">
-                <button onClick={openDrawerMenu}><MdMenu className="absolute inset-y-0 left-0 h-14 text-4xl ml-2"/></button>
+                <button onClick={openDrawerMenu}><MdMenu className="absolute inset-y-0 left-0 h-14 text-2xl ml-2"/></button>
                 <div className="flex justify-center my-auto mx-auto">
                     <h1 className="my-auto text-lg font-helvetica">Carson</h1>
                     <img src={Logo512} className="h-10 ml-1" alt="" />
