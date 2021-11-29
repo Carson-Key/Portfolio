@@ -6,8 +6,9 @@ const Navigation = () => {
 		<nav className="flex w-screen h-14 bg-secondary text-white">
             <MdMenu className="absolute inset-y-0 left-0 h-full text-4xl ml-2"/>
             <div className="flex justify-center col-span-2 w-2/3 my-auto mx-auto">
-                <img src={Logo512} className="h-10" alt="" />
-                <h1 className="my-auto text-lg ml-1">Carson Key</h1>
+                <h1 className="my-auto text-lg font-helvetica">Carson</h1>
+                <img src={Logo512} className="h-10 ml-1" alt="" />
+                <h1 className="my-auto text-lg font-helvetica ml-1">Key</h1>
             </div>
 			{/* <ul>
                 <li>Projects</li>

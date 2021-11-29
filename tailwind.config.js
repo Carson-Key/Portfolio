@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         primary: "#9e9243",
         secondary: "#222222"
+      },
+      fontFamily: {
+        helvetica: ["Helvetica"],
       }
     },
   },
