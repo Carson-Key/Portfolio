@@ -2,7 +2,7 @@ import Header from './ui/Header'
 
 const App = () => {
 	return (
-		<main>
+		<main className="relative">
 			<Header />
 		</main>
 	)
