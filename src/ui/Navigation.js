@@ -3,8 +3,8 @@ import Logo512 from '../assets/Logo-512.png'
 
 const Navigation = () => {
 	return (
-		<nav>
-            <div className="flex relative w-screen h-14 z-40 bg-secondary text-white">
+		<nav className="text-white">
+            <div className="flex relative w-screen h-14 z-40 bg-secondary">
                 <MdMenu className="absolute inset-y-0 left-0 h-14 text-4xl ml-2"/>
                 <div className="flex justify-center my-auto mx-auto">
                     <h1 className="my-auto text-lg font-helvetica">Carson</h1>
