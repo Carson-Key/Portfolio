@@ -12,7 +12,7 @@ const Header = () => {
     }
 
 	return (
-		<header className="flex relative w-screen h-14 z-40 text-white bg-secondary lg:h-20 lg:text-2xl xl:h-24 xl:text-3xl">
+		<header className="flex relative w-screen h-14 z-40 text-white bg-secondary lg:h-20 lg:text-2xl xl:h-24 xl:text-3xl 2xl:h-28 2xl:text-4xl">
 			<Banner openDrawerMenu={openDrawerMenu} />
 			<Navigation drawerMenuIsOpen={drawerMenuIsOpen} />
 		</header>

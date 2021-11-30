@@ -15,7 +15,9 @@ const Navigation = (props) => {
                 " lg:w-auto lg:h-auto lg:divide-y-0 lg:divide-x lg:mr-0 lg:ml-8 lg:p-0 lg:text-2xl" + 
                 " lg:bg-none lg:bg-transparent" +
                 // Large Computer
-                " xl:text-3xl"
+                " xl:text-3xl" +
+                // Extremely Large Computer
+                " 2xl:text-4xl"
             }>
                 <li className="px-3 lg:px-4">Projects</li>
                 <li className="px-3 lg:px-4">Work</li>
