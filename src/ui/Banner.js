@@ -1,7 +1,7 @@
 import { MdMenu } from 'react-icons/md'
 import Logo512 from '../assets/Logo-512.png'
 
-const Header = (props) => {
+const Banner = (props) => {
 	const { openDrawerMenu } = props
 
 	return (
@@ -16,4 +16,4 @@ const Header = (props) => {
 	)
 }
 
-export default Header
+export default Banner
