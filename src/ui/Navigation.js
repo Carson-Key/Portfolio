@@ -19,7 +19,13 @@ const Navigation = () => {
                     <h1 className="my-auto text-lg font-helvetica ml-1">Key</h1>
                 </div>
             </div>
-			<ul className={"absolute transform ease-in-out transition-all duration-500 translate-x-0 top-0 left-0 z-0 w-screen h-screen bg-secondary bg-opacity-90 pt-14" + (drawerMenuIsOpen ? " translate-x-0" : " -translate-x-full")}>
+			<ul className={
+                "absolute top-0 left-0 z-0" + 
+                " transform ease-in-out transition-all duration-500 translate-x-0" +
+                " w-screen h-screen divide-y px-2 pt-14" +
+                " bg-drawer-menu bg-contain bg-no-repeat bg-right-bottom bg-secondary bg-opacity-90" + 
+                (drawerMenuIsOpen ? " translate-x-0" : " -translate-x-full")
+            }>
                 <li>Projects</li>
                 <li>Work</li>
                 <li>Eduction</li>
