@@ -1,10 +1,21 @@
+// Packages
+import { useState } from 'react'
+// UI
+import Banner from './Banner'
 import Navigation from './Navigation'
 
 const Header = () => {
+    const [drawerMenuIsOpen, setDrawerMenuIsOpen] = useState(false)
+
+    const openDrawerMenu = () => {
+        setDrawerMenuIsOpen(!drawerMenuIsOpen)
+    }
+
 	return (
-		<header>
-			<Navigation />
-		</header>
+		<>
+			<Banner openDrawerMenu={openDrawerMenu} />
+			<Navigation drawerMenuIsOpen={drawerMenuIsOpen} />
+		</>
 	)
 }
 
