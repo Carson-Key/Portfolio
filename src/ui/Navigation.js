@@ -26,11 +26,11 @@ const Navigation = () => {
                 " bg-drawer-menu bg-contain bg-no-repeat bg-right-bottom bg-secondary bg-opacity-90" + 
                 (drawerMenuIsOpen ? " translate-x-0" : " -translate-x-full")
             }>
-                <li>Projects</li>
-                <li>Work</li>
-                <li>Eduction</li>
-                <li>Resume</li>
-                <li>About</li>
+                <li className="px-3">Projects</li>
+                <li className="px-3">Work</li>
+                <li className="px-3">Eduction</li>
+                <li className="px-3">Resume</li>
+                <li className="px-3">About</li>
             </ul>
 		</nav>
 	)
