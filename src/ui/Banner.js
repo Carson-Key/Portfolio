@@ -1,6 +1,6 @@
 // Packages
 import { MdMenu } from 'react-icons/md'
-// Images
+// Assets
 import Logo512 from '../assets/Logo-512.png'
 
 const Banner = (props) => {
