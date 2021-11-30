@@ -12,7 +12,10 @@ module.exports = {
       },
       fontFamily: {
         helvetica: ["Helvetica"],
-      }
+      },
+      zIndex: {
+        '-10': '-10',
+       }
     },
   },
   variants: {
