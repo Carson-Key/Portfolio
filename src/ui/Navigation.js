@@ -1,3 +1,6 @@
+// Packages
+import { Link } from 'react-router-dom'
+
 const Navigation = (props) => {
     const { drawerMenuIsOpen } = props
 	return (
@@ -19,11 +22,11 @@ const Navigation = (props) => {
                 // Extremely Large Computer
                 " 2xl:text-4xl"
             }>
-                <li className="px-3 lg:px-4">Projects</li>
-                <li className="px-3 lg:px-4">Work</li>
-                <li className="px-3 lg:px-4">Eduction</li>
-                <li className="px-3 lg:px-4">Resume</li>
-                <li className="px-3 lg:px-4">About</li>
+                <Link to="/Projects"><li className="px-3 lg:px-4">Projects</li></Link>
+                <Link to="/Work"><li className="px-3 lg:px-4">Work</li></Link>
+                <Link to="/Education"><li className="px-3 lg:px-4">Education</li></Link>
+                <Link to="/Resume"><li className="px-3 lg:px-4">Resume</li></Link>
+                <Link to="/About"><li className="px-3 lg:px-4">About</li></Link>
             </ul>
 		</nav>
 	)
