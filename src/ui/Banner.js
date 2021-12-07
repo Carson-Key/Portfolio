@@ -11,6 +11,7 @@ const Banner = (props) => {
 		<>
 			<button 
 				onClick={openDrawerMenu} 
+				aria-hidden='true'
 				aria-expanded={drawerMenuIsOpen}
 				aria-label="Mobile Navigation Button" 
 				className="lg:hidden"
