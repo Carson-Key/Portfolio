@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom'
 
 const Navigation = (props) => {
-    const { drawerMenuIsOpen } = props
+    const { drawerMenuIsOpen, openDrawerMenu } = props
 	return (
 		<nav className="text-white lg:my-auto">
 			<ul className={
@@ -22,11 +22,11 @@ const Navigation = (props) => {
                 // Extremely Large Computer
                 " 2xl:text-4xl"
             }>
-                <li className="px-3 lg:px-4"><Link to="/Projects">Projects</Link></li>
-                <li className="px-3 lg:px-4"><Link to="/Work">Work</Link></li>
-                <li className="px-3 lg:px-4"><Link to="/Education">Education</Link></li>
-                <li className="px-3 lg:px-4"><Link to="/Resume">Resume</Link></li>
-                <li className="px-3 lg:px-4"><Link to="/About">About</Link></li>
+                <li className="px-3 lg:px-4" onClick={openDrawerMenu}><Link to="/Projects">Projects</Link></li>
+                <li className="px-3 lg:px-4" onClick={openDrawerMenu}><Link to="/Work">Work</Link></li>
+                <li className="px-3 lg:px-4" onClick={openDrawerMenu}><Link to="/Education">Education</Link></li>
+                <li className="px-3 lg:px-4" onClick={openDrawerMenu}><Link to="/Resume">Resume</Link></li>
+                <li className="px-3 lg:px-4" onClick={openDrawerMenu}><Link to="/About">About</Link></li>
             </ul>
 		</nav>
 	)
