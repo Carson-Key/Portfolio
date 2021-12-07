@@ -10,11 +10,21 @@ const Header = () => {
     const toggleDrawerMenu = () => {
         setDrawerMenuIsOpen(!drawerMenuIsOpen)
     }
+	const closeDrawerMenu = () => {
+        setDrawerMenuIsOpen(false)
+    }
 
 	return (
 		<header className="flex relative w-screen h-14 z-40 text-white bg-secondary lg:h-20 lg:text-2xl xl:h-24 xl:text-3xl 2xl:h-28 2xl:text-4xl">
-			<Banner toggleDrawerMenu={toggleDrawerMenu} drawerMenuIsOpen={drawerMenuIsOpen} />
-			<Navigation toggleDrawerMenu={toggleDrawerMenu} drawerMenuIsOpen={drawerMenuIsOpen} />
+			<Banner 
+				toggleDrawerMenu={toggleDrawerMenu} 
+				closeDrawerMenu={closeDrawerMenu} 
+				drawerMenuIsOpen={drawerMenuIsOpen} 
+			/>
+			<Navigation 
+				closeDrawerMenu={closeDrawerMenu} 
+				drawerMenuIsOpen={drawerMenuIsOpen}
+			/>
 		</header>
 	)
 }
