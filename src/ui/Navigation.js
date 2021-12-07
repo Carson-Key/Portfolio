@@ -22,11 +22,11 @@ const Navigation = (props) => {
                 // Extremely Large Computer
                 " 2xl:text-4xl"
             }>
-                <li className="px-3 lg:px-4" onClick={closeDrawerMenu}><Link to="/Projects">Projects</Link></li>
-                <li className="px-3 lg:px-4" onClick={closeDrawerMenu}><Link to="/Work">Work</Link></li>
-                <li className="px-3 lg:px-4" onClick={closeDrawerMenu}><Link to="/Education">Education</Link></li>
-                <li className="px-3 lg:px-4" onClick={closeDrawerMenu}><Link to="/Resume">Resume</Link></li>
-                <li className="px-3 lg:px-4" onClick={closeDrawerMenu}><Link to="/About">About</Link></li>
+                <li><Link to="/Projects"><p className="px-3 lg:px-4" onClick={closeDrawerMenu}>Projects</p></Link></li>
+                <li><Link to="/Work"><p className="px-3 lg:px-4" onClick={closeDrawerMenu}>Work</p></Link></li>
+                <li><Link to="/Education"><p className="px-3 lg:px-4" onClick={closeDrawerMenu}>Education</p></Link></li>
+                <li><Link to="/Resume"><p className="px-3 lg:px-4" onClick={closeDrawerMenu}>Resume</p></Link></li>
+                <li><Link to="/About"><p className="px-3 lg:px-4" onClick={closeDrawerMenu}>About</p></Link></li>
             </ul>
 		</nav>
 	)
