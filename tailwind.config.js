@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'drawer-menu': "url('./assets/Menu-BG.png')"
+        'drawer-menu': "url('./Menu-BG.png')"
       },
       colors: {
         primary: "#9e9243",
