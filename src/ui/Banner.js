@@ -5,11 +5,18 @@ import { NavLink } from 'react-router-dom'
 import Logo512 from '../assets/Logo-512.png'
 
 const Banner = (props) => {
-	const { openDrawerMenu } = props
+	const { openDrawerMenu, drawerMenuIsOpen } = props
 
 	return (
 		<>
-			<button onClick={openDrawerMenu} className="lg:hidden"><MdMenu className="absolute inset-y-0 left-0 h-14 text-2xl ml-2"/></button>
+			<button 
+				onClick={openDrawerMenu} 
+				aria-expanded={drawerMenuIsOpen}
+				aria-label="Mobile Navigation Button" 
+				className="lg:hidden"
+			>
+				<MdMenu className="absolute inset-y-0 left-0 h-14 text-2xl ml-2"/>
+			</button>
 			<NavLink to="/" className="flex justify-center my-auto mx-auto lg:mx-3">
 				<h1 className="my-auto text-lg font-helvetica lg:text-2xl xl:text-3xl 2xl:text-4xl">Carson</h1>
 				<img src={Logo512} className="h-10 ml-1 lg:h-14 xl:h-16 2xl:h-20" alt="" />
