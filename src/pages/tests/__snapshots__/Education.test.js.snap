@@ -2,6 +2,6 @@
 
 exports[`Education Page Should Render Education page 1`] = `
 <p>
-  About
+  Education
 </p>
 `;
