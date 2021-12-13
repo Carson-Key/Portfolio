@@ -1,6 +1,11 @@
+// Components
+import Container from '../components/Container'
+
 const Education = () => {
     return (
-		<p>Education</p>
+		<Container>
+			<p>Education</p>
+		</Container>
 	)
 }
 

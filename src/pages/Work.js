@@ -1,6 +1,11 @@
+// Components
+import Container from '../components/Container'
+
 const Work = () => {
     return (
-		<p>Work</p>
+		<Container>
+			<p>Work</p>
+		</Container>
 	)
 }
 

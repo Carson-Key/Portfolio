@@ -9,16 +9,14 @@ import About from '../pages/About'
 
 const PageRoutes = () => {
     return (
-		<main>
-            <Routes>
-                <Route path='/Projects' element={<Projects />} />
-                <Route path='/Work' element={<Work />} />
-                <Route path="/Education" element={<Education />} />
-                <Route path="/Resume" element={<Resume />} />
-                <Route path="/About" element={<About />} />
-                <Route path="/" element={<About />} />
-            </Routes>
-		</main>
+        <Routes>
+            <Route path='/Projects' element={<Projects />} />
+            <Route path='/Work' element={<Work />} />
+            <Route path="/Education" element={<Education />} />
+            <Route path="/Resume" element={<Resume />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/" element={<About />} />
+        </Routes>
 	)
 }
 
