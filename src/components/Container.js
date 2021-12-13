@@ -1,8 +1,8 @@
 const Container = (props) => {
-	const { children } = props
+	const { children, className } = props
 
 	return (
-		<main>
+		<main className={className}>
 			{children}
 		</main>
 	)
