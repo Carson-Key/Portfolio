@@ -1,7 +1,7 @@
 // Packages
 import renderer from 'react-test-renderer'
 // Pages
-import Education from '../About'
+import Education from '../Education'
 
 describe('Education Page', () => {
     it('Should Render Education page', () => {

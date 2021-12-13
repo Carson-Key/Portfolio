@@ -1,7 +1,7 @@
 // Packages
 import renderer from 'react-test-renderer'
 // Pages
-import Projects from '../About'
+import Projects from '../Projects'
 
 describe('Projects Page', () => {
     it('Should Render Projects page', () => {
