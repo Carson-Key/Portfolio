@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageRoutes Component Should Render PageRoutes component 1`] = `
+<main>
+  <p>
+    About
+  </p>
+</main>
+`;

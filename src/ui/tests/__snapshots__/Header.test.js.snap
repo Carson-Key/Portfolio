@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component Should Render Header Component 1`] = `
+<header
+  className="flex relative w-screen h-14 z-40 text-white bg-secondary lg:h-20 lg:text-2xl xl:h-24 xl:text-3xl 2xl:h-28 2xl:text-4xl"
+>
+  <button
+    aria-expanded={false}
+    aria-hidden="true"
+    aria-label="Mobile Navigation Button"
+    className="lg:hidden"
+    onClick={[Function]}
+  >
+    <svg
+      className="absolute inset-y-0 left-0 h-14 text-2xl ml-2"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </button>
+  <a
+    aria-current="page"
+    className="flex justify-center my-auto mx-auto lg:mx-3 active"
+    href="/"
+    onClick={[Function]}
+  >
+    <h1
+      aria-label="Title first name"
+      className="my-auto text-lg font-helvetica lg:text-2xl xl:text-3xl 2xl:text-4xl"
+    >
+      Carson
+    </h1>
+    <img
+      alt="Brass colored Node.js hexagon logo with brass colored React logo inside, which has the nucleus replaced with a brass key "
+      className="h-10 ml-1 lg:h-14 xl:h-16 2xl:h-20"
+      src="Logo-512.png"
+    />
+    <h1
+      aria-label="Title last name"
+      className="my-auto text-lg font-helvetica ml-1 lg:text-2xl xl:text-3xl 2xl:text-4xl"
+    >
+      Key
+    </h1>
+  </a>
+  <nav
+    className="text-white lg:my-auto"
+  >
+    <ul
+      className="absolute top-0 left-0 -z-10 transform ease-in-out transition-all duration-500 translate-x-0 w-screen h-screen divide-y px-2 pt-14 text-2xl bg-drawer-menu bg-contain bg-no-repeat bg-right-bottom bg-secondary bg-opacity-90 -translate-x-full lg:static lg:flex lg:transform-none lg:w-auto lg:h-auto lg:divide-y-0 lg:divide-x lg:mr-0 lg:ml-8 lg:p-0 lg:text-3xl lg:bg-none lg:bg-transparent xl:text-4xl 2xl:text-5xl"
+    >
+      <li
+        className="py-2 lg:py-0"
+      >
+        <a
+          href="/Projects"
+          onClick={[Function]}
+        >
+          <p
+            className="px-3 lg:px-4"
+            onClick={[Function]}
+          >
+            Projects
+          </p>
+        </a>
+      </li>
+      <li
+        className="py-2 lg:py-0"
+      >
+        <a
+          href="/Work"
+          onClick={[Function]}
+        >
+          <p
+            className="px-3 lg:px-4"
+            onClick={[Function]}
+          >
+            Work
+          </p>
+        </a>
+      </li>
+      <li
+        className="py-2 lg:py-0"
+      >
+        <a
+          href="/Education"
+          onClick={[Function]}
+        >
+          <p
+            className="px-3 lg:px-4"
+            onClick={[Function]}
+          >
+            Education
+          </p>
+        </a>
+      </li>
+      <li
+        className="py-2 lg:py-0"
+      >
+        <a
+          href="/Resume"
+          onClick={[Function]}
+        >
+          <p
+            className="px-3 lg:px-4"
+            onClick={[Function]}
+          >
+            Resume
+          </p>
+        </a>
+      </li>
+      <li
+        className="py-2 lg:py-0"
+      >
+        <a
+          href="/About"
+          onClick={[Function]}
+        >
+          <p
+            className="px-3 lg:px-4"
+            onClick={[Function]}
+          >
+            About
+          </p>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;

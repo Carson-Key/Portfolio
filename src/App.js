@@ -1,10 +1,16 @@
+// Packages
+import { BrowserRouter as Router } from 'react-router-dom'
+// UI
 import Header from './ui/Header'
+// Components
+import PageRoutes from './components/PageRoutes'
 
 const App = () => {
 	return (
-		<main>
+		<Router>
 			<Header />
-		</main>
+			<PageRoutes />
+		</Router>
 	)
 }
 
