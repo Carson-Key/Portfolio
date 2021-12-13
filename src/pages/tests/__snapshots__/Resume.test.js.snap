@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Resume Page Should Render Resume page 1`] = `
-<p>
-  Resume
-</p>
+<main>
+  <p>
+    Resume
+  </p>
+</main>
 `;

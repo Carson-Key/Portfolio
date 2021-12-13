@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Education Page Should Render Education page 1`] = `
-<p>
-  Education
-</p>
+<main>
+  <p>
+    Education
+  </p>
+</main>
 `;
