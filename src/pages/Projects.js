@@ -3,7 +3,7 @@ import Container from '../components/Container'
 
 const Projects = () => {
     return (
-		<Container>
+		<Container className="flex flex-wrap justify-evenly">
 			<p>Projects</p>
 		</Container>
 	)
