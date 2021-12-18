@@ -1,12 +1,13 @@
 // Components
 import Container from '../components/Container'
+import Card from '../components/Card'
 
 const Projects = () => {
     return (
 		<Container className="flex flex-wrap justify-evenly">
-			<section className={"m-4 w-72 h-72 rounded-2xl border-2 border-secondary"}>
+			<Card>
 				Project!
-			</section>
+			</Card>
 		</Container>
 	)
 }
