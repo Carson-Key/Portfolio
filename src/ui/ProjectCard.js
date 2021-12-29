@@ -23,9 +23,15 @@ const ProjectCard = (props) => {
 				<img className="w-full h-auto block" src={imageSrc} alt={imageAlt} />
 			</ConditionalRender>
 			<p className="block">{description}</p>
-			<a className="block" href={projectLink}>Link to Project</a>
-			<a className="block" href={githubLink}>Link to Github</a>
-			<a className="block" href={work}>Link to Word Card</a>
+			<ConditionalRender condition={projectLink}>
+				<a className="block" href={projectLink}>Link to Project</a>
+			</ConditionalRender>
+			<ConditionalRender condition={githubLink}>
+				<a className="block" href={githubLink}>Link to Github</a>
+			</ConditionalRender>
+			<ConditionalRender condition={work}>
+				<a className="block" href={work}>Link to Word Card</a>
+			</ConditionalRender>
 		</Card>
 	)
 }
