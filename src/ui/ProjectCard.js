@@ -13,7 +13,11 @@ const ProjectCard = (props) => {
 
     return (
 		<Card>
-			<h3>{title}</h3>
+			<h3 className="rounded-t-xl bg-secondary text-white h-10 content-center">
+				<center>
+					{title}
+				</center>
+			</h3>
 			<img src={image.src} alt={image.alt} />
 			<p>{description}</p>
 			<a href={projectLink}>Link to Project</a>
