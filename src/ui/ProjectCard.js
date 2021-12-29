@@ -1,5 +1,6 @@
 // Components
 import Card from '../components/Card'
+import CardTitle from '../components/CardTitle'
 
 const ProjectCard = (props) => {
 	const { 
@@ -13,11 +14,9 @@ const ProjectCard = (props) => {
 
     return (
 		<Card>
-			<h3 className="rounded-t-xl bg-secondary text-white h-10 content-center">
-				<center>
-					{title}
-				</center>
-			</h3>
+			<CardTitle>
+				{title}
+			</CardTitle>
 			<img src={image.src} alt={image.alt} />
 			<p>{description}</p>
 			<a href={projectLink}>Link to Project</a>
