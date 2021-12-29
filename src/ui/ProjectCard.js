@@ -1,11 +1,13 @@
 // Components
 import Card from '../components/Card'
 import CardTitle from '../components/CardTitle'
+import ConditionalRender from '../components/ConditionalRender'
 
 const ProjectCard = (props) => {
 	const { 
 		title, 
-		image, 
+		imageSrc,
+		imageAlt, 
 		description, 
 		projectLink, 
 		githubLink,
@@ -17,7 +19,9 @@ const ProjectCard = (props) => {
 			<CardTitle>
 				{title}
 			</CardTitle>
-			<img className="w-full h-auto block" src={image.src} alt={image.alt} />
+			<ConditionalRender condition={imageSrc && imageAlt}>
+				<img className="w-full h-auto block" src={imageSrc} alt={imageAlt} />
+			</ConditionalRender>
 			<p className="block">{description}</p>
 			<a className="block" href={projectLink}>Link to Project</a>
 			<a className="block" href={githubLink}>Link to Github</a>
