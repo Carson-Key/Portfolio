@@ -17,11 +17,11 @@ const ProjectCard = (props) => {
 			<CardTitle>
 				{title}
 			</CardTitle>
-			<img src={image.src} alt={image.alt} />
-			<p>{description}</p>
-			<a href={projectLink}>Link to Project</a>
-			<a href={githubLink}>Link to Github</a>
-			<a href={work}>Link to Word Card</a>
+			<img className="w-full h-auto block" src={image.src} alt={image.alt} />
+			<p className="block">{description}</p>
+			<a className="block" href={projectLink}>Link to Project</a>
+			<a className="block" href={githubLink}>Link to Github</a>
+			<a className="block" href={work}>Link to Word Card</a>
 		</Card>
 	)
 }
