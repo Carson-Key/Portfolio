@@ -2,7 +2,7 @@ const CardHeader = (props) => {
 	const { children } = props
 
     return (
-			<h3 className="rounded-t-xl bg-secondary text-white h-10 content-center">
+			<h3 className="rounded-t-xl bg-secondary text-white h-10 py-2">
 				<center>
 					{children}
 				</center>
