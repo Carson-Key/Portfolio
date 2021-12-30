@@ -41,7 +41,7 @@ const ProjectCard = (props) => {
 				<img className="w-full h-auto block mb-2" src={imageSrc} alt={imageAlt} />
 			</ConditionalRender>
 			<ConditionalRender condition={shortDescription && !expanded}>
-				<p className="block my-2 mx-2">{shortDescription}</p>
+				<p className="block my-2 mx-2 text-center">{shortDescription}</p>
 			</ConditionalRender>
 			<ConditionalRender condition={longDescription && expanded}>
 				<p className="block my-2 mx-2">{longDescription}</p>
