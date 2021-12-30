@@ -2,7 +2,7 @@
 import Container from '../components/Container'
 import ProjectCard from '../ui/ProjectCard'
 // Assets
-import Logo from '../assets/Logo-512.png'
+import Logo from '../assets/Portfolio-Logo-Card.png'
 
 const Projects = () => {
     return (
