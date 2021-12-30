@@ -20,17 +20,17 @@ const ProjectCard = (props) => {
 				{title}
 			</CardTitle>
 			<ConditionalRender condition={imageSrc && imageAlt}>
-				<img className="w-full h-auto block" src={imageSrc} alt={imageAlt} />
+				<img className="w-full h-auto block mb-2" src={imageSrc} alt={imageAlt} />
 			</ConditionalRender>
-			<p className="block">{description}</p>
+			<p className="block my-2 mx-2">{description}</p>
 			<ConditionalRender condition={projectLink}>
-				<a className="block" href={projectLink}>Link to Project</a>
+				<a className="block my-2 mx-2" href={projectLink}>Link to Project</a>
 			</ConditionalRender>
 			<ConditionalRender condition={githubLink}>
-				<a className="block" href={githubLink}>Link to Github</a>
+				<a className="block my-2 mx-2" href={githubLink}>Link to Github</a>
 			</ConditionalRender>
 			<ConditionalRender condition={work}>
-				<a className="block" href={work}>Link to Word Card</a>
+				<a className="block my-2 mx-2" href={work}>Link to Word Card</a>
 			</ConditionalRender>
 		</Card>
 	)
