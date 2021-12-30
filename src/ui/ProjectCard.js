@@ -18,9 +18,18 @@ const ProjectCard = (props) => {
 		work
 	} = props
 	const [expanded, setExpanded] = useState(false)
+	const [expandButtonText, setExpandButtonText] = useState("more")
 
+	const changeExpandButtonText = (currentExpand) => {
+		if (currentExpand) {
+			setExpandButtonText("more")
+		} else {
+			setExpandButtonText("less")
+		}
+	}
 	const toggleExpanded = () => {
 		setExpanded(!expanded)
+		changeExpandButtonText(expanded)
 	}
 
     return (
@@ -49,7 +58,7 @@ const ProjectCard = (props) => {
 			<ConditionalRender condition={work}>
 				<a className="block my-2 mx-2" href={work}>Link to Word Card</a>
 			</ConditionalRender>
-			<button onClick={toggleExpanded}>more</button>
+			<button onClick={toggleExpanded}>{expandButtonText}</button>
 		</Card>
 	)
 }
