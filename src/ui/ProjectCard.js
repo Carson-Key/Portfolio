@@ -50,13 +50,13 @@ const ProjectCard = (props) => {
 				<p className="block my-2 mx-2">{techDescription}</p>
 			</ConditionalRender>
 			<ConditionalRender condition={projectLink}>
-				<a className="block my-2 mx-2" href={projectLink}>Link to Project</a>
+				<a className="block my-2 mx-2" href={projectLink}>To Project</a>
 			</ConditionalRender>
 			<ConditionalRender condition={githubLink}>
-				<a className="block my-2 mx-2" href={githubLink}>Link to Github</a>
+				<a className="block my-2 mx-2" href={githubLink}>To Github</a>
 			</ConditionalRender>
 			<ConditionalRender condition={work}>
-				<a className="block my-2 mx-2" href={work}>Link to Word Card</a>
+				<a className="block my-2 mx-2" href={work}>To Word Card</a>
 			</ConditionalRender>
 			<button onClick={toggleExpanded}>{expandButtonText}</button>
 		</Card>
