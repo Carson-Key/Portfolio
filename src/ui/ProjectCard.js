@@ -2,6 +2,7 @@
 import { useState } from 'react'
 // Components
 import Card from '../components/Card'
+import Anchor from '../components/Anchor'
 import CardTitle from '../components/CardTitle'
 import ConditionalRender from '../components/ConditionalRender'
 
@@ -52,13 +53,13 @@ const ProjectCard = (props) => {
 			<section className="my-2 mx-auto">
 				<center>
 					<ConditionalRender condition={projectLink}>
-						<a className="mx-2" href={projectLink}>To Project</a>
+						<Anchor className="mx-2" href={projectLink}>To Project</Anchor>
 					</ConditionalRender>
 					<ConditionalRender condition={githubLink}>
-						<a className="mx-2" href={githubLink}>To Github</a>
+						<Anchor className="mx-2" href={githubLink}>To Github</Anchor>
 					</ConditionalRender>
 					<ConditionalRender condition={work}>
-						<a className="mx-2" href={work}>To Word Card</a>
+						<Anchor className="mx-2" href={work}>To Word Card</Anchor>
 					</ConditionalRender>
 				</center>
 			</section>
