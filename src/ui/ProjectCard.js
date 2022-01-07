@@ -43,7 +43,7 @@ const ProjectCard = (props) => {
 				<img className="w-full h-auto block mb-2" src={imageSrc} alt={imageAlt} />
 			</ConditionalRender>
 			<ConditionalRender condition={shortDescription && !expanded}>
-				<p className="block my-2 mx-2 text-center">{shortDescription}</p>
+				<p className="block my-3 mx-2 text-center">{shortDescription}</p>
 			</ConditionalRender>
 			<ConditionalRender condition={longDescription && expanded}>
 				<p className="block my-2 mx-2">{longDescription}</p>
@@ -51,7 +51,7 @@ const ProjectCard = (props) => {
 			<ConditionalRender condition={techDescription && expanded}>
 				<p className="block my-2 mx-2">{techDescription}</p>
 			</ConditionalRender>
-			<section className="my-2 mx-auto">
+			<section className="my-3 mx-auto">
 				<center>
 					<ConditionalRender condition={projectLink}>
 						<a className="mx-2 bg-primary rounded text-white px-2 py-1" href={projectLink}>To Project</a>
@@ -61,7 +61,7 @@ const ProjectCard = (props) => {
 					</ConditionalRender>
 				</center>
 			</section>
-			<section className="flex justify-between mx-3 mb-1">
+			<section className="flex justify-between mx-3 mb-1 mt-2">
 				<div>
 					<ConditionalRender condition={githubLink}>
 						<a href={githubLink} className="text-2xl"><FaGithub /></a>
