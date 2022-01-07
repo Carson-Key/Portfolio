@@ -4,10 +4,12 @@ import { useState } from 'react'
 import Card from '../components/Card'
 import CardTitle from '../components/CardTitle'
 import ConditionalRender from '../components/ConditionalRender'
-import { MdKeyboardArrowDown } from 'react-icons/md'
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 import { FaGithub } from 'react-icons/fa'
 
 const ProjectCard = (props) => {
+	const moreComponent = <p>more<MdKeyboardArrowDown className="inline" /></p>
+	const lessComponent = <p>less<MdKeyboardArrowUp className="inline" /></p>
 	const { 
 		title, 
 		imageSrc,
@@ -20,13 +22,13 @@ const ProjectCard = (props) => {
 		work
 	} = props
 	const [expanded, setExpanded] = useState(false)
-	const [expandButtonText, setExpandButtonText] = useState(<p>more<MdKeyboardArrowDown className="inline" /></p>)
+	const [expandButtonText, setExpandButtonText] = useState(moreComponent)
 
 	const changeExpandButtonText = (currentExpand) => {
 		if (currentExpand) {
-			setExpandButtonText("more")
+			setExpandButtonText(moreComponent)
 		} else {
-			setExpandButtonText("less")
+			setExpandButtonText(lessComponent)
 		}
 	}
 	const toggleExpanded = () => {
