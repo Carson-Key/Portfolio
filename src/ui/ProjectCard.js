@@ -2,10 +2,10 @@
 import { useState } from 'react'
 // Components
 import Card from '../components/Card'
-import Anchor from '../components/Anchor'
 import CardTitle from '../components/CardTitle'
 import ConditionalRender from '../components/ConditionalRender'
 import { MdKeyboardArrowDown } from 'react-icons/md'
+import { FaGithub } from 'react-icons/fa'
 
 const ProjectCard = (props) => {
 	const { 
@@ -56,16 +56,18 @@ const ProjectCard = (props) => {
 					<ConditionalRender condition={projectLink}>
 						<a className="mx-2 bg-primary rounded text-white px-2 py-1" href={projectLink}>To Project</a>
 					</ConditionalRender>
-					<ConditionalRender condition={githubLink}>
-						<a className="mx-2" href={githubLink}>To Github</a>
-					</ConditionalRender>
 					<ConditionalRender condition={work}>
 						<a className="mx-2 bg-primary rounded text-white px-2 py-1" href={work}>To Word Card</a>
 					</ConditionalRender>
 				</center>
 			</section>
-			<section className="flex justify-end mx-3 mb-1">
-				<button onClick={toggleExpanded}>{expandButtonText}</button>
+			<section className="flex justify-between mx-3 mb-1">
+				<div>
+					<ConditionalRender condition={githubLink}>
+						<a href={githubLink} className="text-2xl"><FaGithub /></a>
+					</ConditionalRender>
+				</div>
+				<button onClick={toggleExpanded} className="text-lg text-primary underline">{expandButtonText}</button>
 			</section>
 		</Card>
 	)
