@@ -5,6 +5,7 @@ import Card from '../components/Card'
 import Anchor from '../components/Anchor'
 import CardTitle from '../components/CardTitle'
 import ConditionalRender from '../components/ConditionalRender'
+import { MdKeyboardArrowDown } from 'react-icons/md'
 
 const ProjectCard = (props) => {
 	const { 
@@ -19,7 +20,7 @@ const ProjectCard = (props) => {
 		work
 	} = props
 	const [expanded, setExpanded] = useState(false)
-	const [expandButtonText, setExpandButtonText] = useState("more")
+	const [expandButtonText, setExpandButtonText] = useState(<p>more<MdKeyboardArrowDown className="inline" /></p>)
 
 	const changeExpandButtonText = (currentExpand) => {
 		if (currentExpand) {
@@ -53,17 +54,19 @@ const ProjectCard = (props) => {
 			<section className="my-2 mx-auto">
 				<center>
 					<ConditionalRender condition={projectLink}>
-						<Anchor className="mx-2" href={projectLink}>To Project</Anchor>
+						<a className="mx-2 bg-primary rounded text-white px-2 py-1" href={projectLink}>To Project</a>
 					</ConditionalRender>
 					<ConditionalRender condition={githubLink}>
-						<Anchor className="mx-2" href={githubLink}>To Github</Anchor>
+						<a className="mx-2" href={githubLink}>To Github</a>
 					</ConditionalRender>
 					<ConditionalRender condition={work}>
-						<Anchor className="mx-2" href={work}>To Word Card</Anchor>
+						<a className="mx-2 bg-primary rounded text-white px-2 py-1" href={work}>To Word Card</a>
 					</ConditionalRender>
 				</center>
 			</section>
-			<button onClick={toggleExpanded}>{expandButtonText}</button>
+			<section className="flex justify-end mx-3 mb-1">
+				<button onClick={toggleExpanded}>{expandButtonText}</button>
+			</section>
 		</Card>
 	)
 }
