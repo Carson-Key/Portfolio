@@ -22,9 +22,9 @@ const ProjectCard = (props) => {
 
 	const moreComponent = <p>more<MdKeyboardArrowDown className="inline" /></p>
 	const lessComponent = <p>less<MdKeyboardArrowUp className="inline" /></p>
-	const expandedCardClass = "h-112"
-	const collapsedCardClass = "h-96"
-	const expandedCardBodyClass = "h-98"
+	const expandedCardClass = "h-112 lg:h-96 lg:w-128"
+	const collapsedCardClass = "h-96 lg:w-80"
+	const expandedCardBodyClass = "h-98 lg:h-68"
 	const collapsedCardBodyClass = "h-68"
 
 	const [expanded, setExpanded] = useState(false)
@@ -67,7 +67,7 @@ const ProjectCard = (props) => {
 			</CardTitle>
 			<div className={"transition-all duration-500 ease-out overflow-scroll " + expandCardBodyClass}>
 				<ConditionalRender condition={imageSrc && imageAlt}>
-					<img className="w-full h-auto block mb-1" src={imageSrc} alt={imageAlt} />
+					<img className="w-80 h-auto float-left mb-1" src={imageSrc} alt={imageAlt} />
 				</ConditionalRender>
 				<ConditionalRender condition={shortDescription && !expanded}>
 					<p className="block my-3 mx-2 text-center">{shortDescription}</p>
