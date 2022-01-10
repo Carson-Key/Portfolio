@@ -42,7 +42,7 @@ const ProjectCard = (props) => {
 				{title}
 			</CardTitle>
 			<ConditionalRender condition={imageSrc && imageAlt}>
-				<img className="w-full h-auto block mb-2" src={imageSrc} alt={imageAlt} />
+				<img className="w-full h-auto block mb-1" src={imageSrc} alt={imageAlt} />
 			</ConditionalRender>
 			<ConditionalRender condition={shortDescription && !expanded}>
 				<p className="block my-3 mx-2 text-center">{shortDescription}</p>
@@ -53,7 +53,7 @@ const ProjectCard = (props) => {
 			<ConditionalRender condition={techDescription && expanded}>
 				<p className="block my-2 mx-2">{techDescription}</p>
 			</ConditionalRender>
-			<section className="my-3 mx-auto">
+			<section className="my-2 mx-auto">
 				<center>
 					<ConditionalRender condition={projectLink}>
 						<a className="mx-2 bg-primary rounded text-white px-2 py-1" href={projectLink}>To Project</a>
