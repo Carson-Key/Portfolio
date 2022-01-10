@@ -61,11 +61,11 @@ const ProjectCard = (props) => {
 	}
 
     return (
-		<Card className={expandCardClass}>
+		<Card className={"transition-all duration-500 ease-out " + expandCardClass}>
 			<CardTitle>
 				{title}
 			</CardTitle>
-			<div className={"overflow-scroll " + expandCardBodyClass}>
+			<div className={"transition-all duration-500 ease-out overflow-scroll " + expandCardBodyClass}>
 				<ConditionalRender condition={imageSrc && imageAlt}>
 					<img className="w-full h-auto block mb-1" src={imageSrc} alt={imageAlt} />
 				</ConditionalRender>
@@ -79,7 +79,7 @@ const ProjectCard = (props) => {
 					<p className="block my-2 mx-2">{techDescription}</p>
 				</ConditionalRender>
 			</div>
-			<div className="my-2 mx-auto">
+			<div className="transition-all duration-500 ease-out my-2 mx-auto">
 				<center>
 					<ConditionalRender condition={projectLink}>
 						<a className="mx-2 bg-primary rounded text-white px-2 py-1" href={projectLink}>To Project</a>
@@ -89,7 +89,7 @@ const ProjectCard = (props) => {
 					</ConditionalRender>
 				</center>
 			</div>
-			<div className="flex justify-between mx-3 mb-1 mt-2">
+			<div className="transition-all duration-500 ease-out flex justify-between mx-3 mb-1 mt-2">
 				<div>
 					<ConditionalRender condition={githubLink}>
 						<a href={githubLink} className="text-2xl"><FaGithub /></a>
