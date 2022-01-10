@@ -8,8 +8,6 @@ import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 import { FaGithub } from 'react-icons/fa'
 
 const ProjectCard = (props) => {
-	const moreComponent = <p>more<MdKeyboardArrowDown className="inline" /></p>
-	const lessComponent = <p>less<MdKeyboardArrowUp className="inline" /></p>
 	const { 
 		title, 
 		imageSrc,
@@ -21,8 +19,15 @@ const ProjectCard = (props) => {
 		githubLink,
 		work
 	} = props
+
+	const moreComponent = <p>more<MdKeyboardArrowDown className="inline" /></p>
+	const lessComponent = <p>less<MdKeyboardArrowUp className="inline" /></p>
+	const expandedCardClass = "h-112"
+	const collapsedCardClass = "h-96"
+
 	const [expanded, setExpanded] = useState(false)
 	const [expandButtonText, setExpandButtonText] = useState(moreComponent)
+	const [expandCardClass, setExpandCardClass] = useState(collapsedCardClass)
 
 	const changeExpandButtonText = (currentExpand) => {
 		if (currentExpand) {
@@ -31,13 +36,21 @@ const ProjectCard = (props) => {
 			setExpandButtonText(lessComponent)
 		}
 	}
+	const changeExpandCardClass = (currentExpand) => {
+		if (currentExpand) {
+			setExpandCardClass(collapsedCardClass)
+		} else {
+			setExpandCardClass(expandedCardClass)
+		}
+	}
 	const toggleExpanded = () => {
 		setExpanded(!expanded)
 		changeExpandButtonText(expanded)
+		changeExpandCardClass(expanded)
 	}
 
     return (
-		<Card>
+		<Card className={expandCardClass}>
 			<CardTitle>
 				{title}
 			</CardTitle>
