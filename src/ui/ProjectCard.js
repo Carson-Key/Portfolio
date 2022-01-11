@@ -26,11 +26,14 @@ const ProjectCard = (props) => {
 	const collapsedCardClass = "h-96 lg:w-80"
 	const expandedCardBodyClass = "h-98 lg:h-68"
 	const collapsedCardBodyClass = "h-68"
+	const expadedImgClass = "float-left mx-3 mt-2 mb-0"
+	const collapsedImgClass = ""
 
 	const [expanded, setExpanded] = useState(false)
 	const [expandButtonText, setExpandButtonText] = useState(moreComponent)
 	const [expandCardClass, setExpandCardClass] = useState(collapsedCardClass)
 	const [expandCardBodyClass, setExpandCardBodyClass] = useState(collapsedCardBodyClass)
+	const [expandImgClass, setExpandImgClass] = useState(collapsedImgClass)
 
 	const changeExpandButtonText = (currentExpand) => {
 		if (currentExpand) {
@@ -53,11 +56,19 @@ const ProjectCard = (props) => {
 			setExpandCardBodyClass(expandedCardBodyClass)
 		}
 	}
+	const changeExpandImgClass = (currentExpand) => {
+		if (currentExpand) {
+			setExpandImgClass(collapsedImgClass)
+		} else {
+			setExpandImgClass(expadedImgClass)
+		}
+	}
 	const toggleExpanded = () => {
 		setExpanded(!expanded)
 		changeExpandButtonText(expanded)
 		changeExpandCardClass(expanded)
 		changeExpandCardBodyClass(expanded)
+		changeExpandImgClass(expanded)
 	}
 
     return (
@@ -67,7 +78,7 @@ const ProjectCard = (props) => {
 			</CardTitle>
 			<div className={"transition-all duration-500 ease-out overflow-scroll " + expandCardBodyClass}>
 				<ConditionalRender condition={imageSrc && imageAlt}>
-					<img className="w-80 h-auto float-left mb-1" src={imageSrc} alt={imageAlt} />
+					<img className={"w-44 mx-auto h-auto mb-1 " + expandImgClass} src={imageSrc} alt={imageAlt} />
 				</ConditionalRender>
 				<ConditionalRender condition={shortDescription && !expanded}>
 					<p className="block my-3 mx-2 text-center">{shortDescription}</p>
