@@ -27,7 +27,7 @@ const ProjectCard = (props) => {
 	const expandedCardBodyClass = "h-98 lg:h-68"
 	const collapsedCardBodyClass = "h-68"
 	const expadedImgClass = "float-left mx-3 mt-2 mb-0"
-	const collapsedImgClass = ""
+	const collapsedImgClass = "mt-1"
 
 	const [expanded, setExpanded] = useState(false)
 	const [expandButtonText, setExpandButtonText] = useState(moreComponent)
