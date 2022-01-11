@@ -2,7 +2,11 @@
 import Container from '../components/Container'
 import ProjectCard from '../ui/ProjectCard'
 // Assets
-import Logo from '../assets/Portfolio-Logo-Card.png'
+import Logo from '../assets/Logo-512.png'
+import LogoGuardianGroup from '../assets/Logo-GuardianGroup.png'
+import LogoCBTNuggets from '../assets/Logo-CBTNuggets.png'
+import LogoOSU from '../assets/Logo-OSU.png'
+import LogoAHC from '../assets/Logo-AHC.jpg'
 
 const Projects = () => {
     return (
@@ -19,18 +23,24 @@ const Projects = () => {
 			 />
 			 <ProjectCard
 				title="Portfolio Manager"
+				imageSrc={Logo}
+				imageAlt={"Brass colored Node.js hexagon logo with brass colored React logo inside, which has the nucleus replaced with a brass key"}
 				shortDescription=""
 				longDescription=""
 				techDescription=""
 			 />
 			 <ProjectCard
 				title="OSU-C Capstone - Guardian Group"
+				imageSrc={LogoGuardianGroup}
+				imageAlt={"A capital blue G with a side shot of a light blue face silhouette inside"}
 				shortDescription=""
 				longDescription=""
 				techDescription=""
 			 />
 			 <ProjectCard
 				title="Roll20 MM 3e Chrome Extension"
+				imageSrc={Logo}
+				imageAlt={"Brass colored Node.js hexagon logo with brass colored React logo inside, which has the nucleus replaced with a brass key"}
 				shortDescription=""
 				longDescription=""
 				techDescription=""
@@ -38,24 +48,32 @@ const Projects = () => {
 			 />
 			 <ProjectCard
 				title="CBT Nuggets - QA Test Project"
+				imageSrc={LogoCBTNuggets}
+				imageAlt={"Two lower case g's made of three golden circles"}
 				shortDescription=""
 				longDescription=""
 				techDescription=""
 			 />
 			 <ProjectCard
 				title="CBT Nuggets - QA Statistics Dashboard"
+				imageSrc={LogoCBTNuggets}
+				imageAlt={"Two lower case g's made of three golden circles"}
 				shortDescription=""
 				longDescription=""
 				techDescription=""
 			 />
 			 <ProjectCard
-				title="OSU Cascades IT - Product Status Page"
+				title="OSU IT - Product Status Page"
+				imageSrc={LogoOSU}
+				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription=""
 				longDescription=""
 				techDescription=""
 			 />
 			 <ProjectCard
 				title="DnD Timeline"
+				imageSrc={Logo}
+				imageAlt={"Brass colored Node.js hexagon logo with brass colored React logo inside, which has the nucleus replaced with a brass key"}
 				shortDescription=""
 				longDescription=""
 				techDescription=""
@@ -63,6 +81,8 @@ const Projects = () => {
 			 />
 			 <ProjectCard
 				title="Alyce Hatch Center Website"
+				imageSrc={LogoAHC}
+				imageAlt={"Alyce Hatch Center written out with a child reaching for a star next to the words"}
 				shortDescription=""
 				longDescription=""
 				techDescription=""
@@ -70,6 +90,8 @@ const Projects = () => {
 			 />
 			 <ProjectCard
 				title="SE 303 - Final Project"
+				imageSrc={LogoOSU}
+				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription=""
 				longDescription=""
 				techDescription=""
@@ -77,6 +99,8 @@ const Projects = () => {
 			 />
 			 <ProjectCard
 				title="SE 201 - Final Project"
+				imageSrc={LogoOSU}
+				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription=""
 				longDescription=""
 				techDescription=""
@@ -84,6 +108,8 @@ const Projects = () => {
 			 />
 			 <ProjectCard
 				title="CS 261 - Final Project"
+				imageSrc={LogoOSU}
+				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription=""
 				longDescription=""
 				techDescription=""
