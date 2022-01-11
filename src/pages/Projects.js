@@ -17,6 +17,78 @@ const Projects = () => {
 				projectLink="/"
 				githubLink="https://github.com/Carson-Key/Portfolio"
 			 />
+			 <ProjectCard
+				title="Portfolio Manager"
+				shortDescription=""
+				longDescription=""
+				techDescription=""
+			 />
+			 <ProjectCard
+				title="OSU-C Capstone - Guardian Group"
+				shortDescription=""
+				longDescription=""
+				techDescription=""
+			 />
+			 <ProjectCard
+				title="Roll20 MM 3e Chrome Extension"
+				shortDescription=""
+				longDescription=""
+				techDescription=""
+				githubLink="https://github.com/Carson-Key/Metamorph-Manager-Chrome"
+			 />
+			 <ProjectCard
+				title="CBT Nuggets - QA Test Project"
+				shortDescription=""
+				longDescription=""
+				techDescription=""
+			 />
+			 <ProjectCard
+				title="CBT Nuggets - QA Statistics Dashboard"
+				shortDescription=""
+				longDescription=""
+				techDescription=""
+			 />
+			 <ProjectCard
+				title="OSU Cascades IT - Product Status Page"
+				shortDescription=""
+				longDescription=""
+				techDescription=""
+			 />
+			 <ProjectCard
+				title="DnD Timeline"
+				shortDescription=""
+				longDescription=""
+				techDescription=""
+				githubLink="https://github.com/Carson-Key/dnd-timeline"
+			 />
+			 <ProjectCard
+				title="Alyce Hatch Center Website"
+				shortDescription=""
+				longDescription=""
+				techDescription=""
+				githubLink="https://github.com/Carson-Key/AlyceHatchWebSite"
+			 />
+			 <ProjectCard
+				title="SE 303 - Final Project"
+				shortDescription=""
+				longDescription=""
+				techDescription=""
+				githubLink="https://github.com/Carson-Key/SE-303-House-Project"
+			 />
+			 <ProjectCard
+				title="SE 201 - Final Project"
+				shortDescription=""
+				longDescription=""
+				techDescription=""
+				githubLink="https://github.com/Carson-Key/trade-wars-static"
+			 />
+			 <ProjectCard
+				title="CS 261 - Final Project"
+				shortDescription=""
+				longDescription=""
+				techDescription=""
+				githubLink="https://github.com/Carson-Key/data-structures-handbook"
+			 />
 		</Container>
 	)
 }
