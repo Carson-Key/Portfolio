@@ -3,17 +3,10 @@ import ConditionalRender from '../../components/ConditionalRender'
 
 const ProjectCardBody = (props) => {
 	const { 
-		imageSrc,
-		imageAlt,
-		shortDescription,
-		longDescription,
-		techDescription,
-		expanded,
-		expandImgClass,
-		expandCardBodyClass,
-		projectLink,
-		work,
-		education
+		imageSrc, imageAlt,
+		shortDescription, longDescription, techDescription,
+		expanded, expandImgClass, expandCardBodyClass,
+		projectLink, work, education
 	} = props
 
     return (
