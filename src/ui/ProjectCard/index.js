@@ -13,15 +13,9 @@ import ProjectCardFooter from './ProjectCardFooter'
 const ProjectCard = (props) => {
 	const { 
 		title, 
-		imageSrc,
-		imageAlt,
-		shortDescription,
-		longDescription,
-		techDescription,
-		projectLink, 
-		githubLink,
-		work,
-		education
+		imageSrc, imageAlt,
+		shortDescription, longDescription, techDescription,
+		projectLink, githubLink, work, education
 	} = props
 
 	const moreComponent = <p>more<MdKeyboardArrowDown className="inline" /></p>
