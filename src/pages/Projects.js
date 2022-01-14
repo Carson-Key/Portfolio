@@ -115,6 +115,18 @@ const Projects = () => {
 				techDescription=""
 				githubLink="https://github.com/Carson-Key/data-structures-handbook"
 			 />
+			 <ProjectCard
+				title="CS 261 - Final Project"
+				imageSrc={LogoOSU}
+				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
+				work="/"
+				education="/"
+				projectLink="/"
+				shortDescription="test"
+				longDescription="test"
+				techDescription="test"
+				githubLink="/"
+			 />
 		</Container>
 	)
 }

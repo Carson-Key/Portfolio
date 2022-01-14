@@ -17,7 +17,8 @@ const ProjectCard = (props) => {
 		techDescription,
 		projectLink, 
 		githubLink,
-		work
+		work,
+		education
 	} = props
 
 	const moreComponent = <p>more<MdKeyboardArrowDown className="inline" /></p>
@@ -92,12 +93,15 @@ const ProjectCard = (props) => {
 					<p className="block mt-1 mb-3 mx-2">{techDescription}</p>
 				</ConditionalRender>
 			</div>
-			<div className="flex justify-center h-6 transition-all duration-500 ease-out my-2 mx-auto">
+			<div className="flex justify-center h-6 transition-all duration-500 ease-out my-2 mx-auto overflow-scroll">
 				<ConditionalRender condition={projectLink}>
-					<a className="mx-2 bg-primary rounded text-white px-2" href={projectLink}>To Project</a>
+					<a className="w-auto mx-2 bg-primary rounded text-white px-2" href={projectLink}>To Project</a>
 				</ConditionalRender>
 				<ConditionalRender condition={work}>
-					<a className="mx-2 bg-primary rounded text-white px-2" href={work}>To Word Card</a>
+					<a className="w-auto mx-2 bg-primary rounded text-white px-2" href={work}>To Word Card</a>
+				</ConditionalRender>
+				<ConditionalRender condition={work}>
+					<a className="w-auto mx-2 bg-primary rounded text-white px-2" href={education}>To Education Card</a>
 				</ConditionalRender>
 			</div>
 			<div className="transition-all duration-500 ease-out flex justify-between mx-3 mb-1 mt-2">
