@@ -1,11 +1,14 @@
 // Packages
 import { useState } from 'react'
 // Components
-import Card from '../components/Card'
-import CardTitle from '../components/CardTitle'
-import ConditionalRender from '../components/ConditionalRender'
+import Card from '../../components/Card'
+import CardTitle from '../../components/CardTitle'
+import ConditionalRender from '../../components/ConditionalRender'
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 import { FaGithub } from 'react-icons/fa'
+// UI
+import ProjectCardBody from './ProjectCardBody'
+import ProjectCardFooter from './ProjectCardFooter'
 
 const ProjectCard = (props) => {
 	const { 
@@ -77,41 +80,24 @@ const ProjectCard = (props) => {
 			<CardTitle>
 				{title}
 			</CardTitle>
-			<div className={"transition-all duration-500 ease-out overflow-scroll " + expandCardBodyClass}>
-				<ConditionalRender condition={imageSrc && imageAlt}>
-					<img className={"w-44 mx-auto h-auto mb-1 " + expandImgClass} src={imageSrc} alt={imageAlt} />
-				</ConditionalRender>
-				<ConditionalRender condition={shortDescription && !expanded}>
-					<p className="block my-3 mx-2 text-center">{shortDescription}</p>
-				</ConditionalRender>
-				<ConditionalRender condition={longDescription && expanded}>
-					<h5 className="mt-2 mb-1 mx-2 font-bold">Project Description</h5>
-					<p className="block mt-1 mb-3 mx-2">{longDescription}</p>
-				</ConditionalRender>
-				<ConditionalRender condition={techDescription && expanded}>
-					<h5 className="mt-2 mb-1 mx-2 font-bold">Tech Description</h5>
-					<p className="block mt-1 mb-3 mx-2">{techDescription}</p>
-				</ConditionalRender>
-			</div>
-			<div className="flex justify-center h-6 transition-all duration-500 ease-out my-2 mx-auto overflow-scroll">
-				<ConditionalRender condition={projectLink}>
-					<a className="w-auto mx-2 bg-primary rounded text-white px-2" href={projectLink}>To Project</a>
-				</ConditionalRender>
-				<ConditionalRender condition={work}>
-					<a className="w-auto mx-2 bg-primary rounded text-white px-2" href={work}>To Word Card</a>
-				</ConditionalRender>
-				<ConditionalRender condition={work}>
-					<a className="w-auto mx-2 bg-primary rounded text-white px-2" href={education}>To Education Card</a>
-				</ConditionalRender>
-			</div>
-			<div className="transition-all duration-500 ease-out flex justify-between mx-3 mb-1 mt-2">
-				<div>
-					<ConditionalRender condition={githubLink}>
-						<a href={githubLink} className="text-2xl"><FaGithub /></a>
-					</ConditionalRender>
-				</div>
-				<button onClick={toggleExpanded} className="text-lg text-primary underline">{expandButtonText}</button>
-			</div>
+			<ProjectCardBody 
+				imageSrc={imageSrc}
+				imageAlt={imageAlt}
+				shortDescription={shortDescription}
+				longDescription={longDescription}
+				techDescription={techDescription}
+				expanded={expanded}
+				expandImgClass={expandImgClass}
+				expandCardBodyClass={expandCardBodyClass}
+				projectLink={projectLink}
+				work={work}
+				education={education}
+			/>
+			<ProjectCardFooter
+				githubLink={githubLink}
+				toggleExpanded={toggleExpanded}
+				expandButtonText={expandButtonText}
+			/>
 		</Card>
 	)
 }
