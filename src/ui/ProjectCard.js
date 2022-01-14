@@ -93,17 +93,17 @@ const ProjectCard = (props) => {
 				</ConditionalRender>
 			</div>
 			<div className="flex justify-center h-6 transition-all duration-500 ease-out my-2 mx-auto">
-					<ConditionalRender condition={projectLink}>
-						<a className="mx-2 bg-primary rounded text-white px-2" href={projectLink}>To Project</a>
-					</ConditionalRender>
-					<ConditionalRender condition={work}>
-						<a className="mx-2 bg-primary rounded text-white px-2" href={work}>To Word Card</a>
-					</ConditionalRender>
+				<ConditionalRender condition={projectLink}>
+					<a className="mx-2 bg-primary rounded text-white px-2" href={projectLink}>To Project</a>
+				</ConditionalRender>
+				<ConditionalRender condition={work}>
+					<a className="mx-2 bg-primary rounded text-white px-2" href={work}>To Word Card</a>
+				</ConditionalRender>
 			</div>
 			<div className="transition-all duration-500 ease-out flex justify-between mx-3 mb-1 mt-2">
-					<ConditionalRender condition={githubLink}>
-						<a href={githubLink} className="text-2xl"><FaGithub /></a>
-					</ConditionalRender>
+				<ConditionalRender condition={githubLink}>
+					<a href={githubLink} className="text-2xl"><FaGithub /></a>
+				</ConditionalRender>
 				<button onClick={toggleExpanded} className="text-lg text-primary underline">{expandButtonText}</button>
 			</div>
 		</Card>
