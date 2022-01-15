@@ -33,40 +33,20 @@ const ProjectCard = (props) => {
 	const [expandCardBodyClass, setExpandCardBodyClass] = useState(collapsedCardBodyClass)
 	const [expandImgClass, setExpandImgClass] = useState(collapsedImgClass)
 
-	const changeExpandButtonText = (currentExpand) => {
-		if (currentExpand) {
-			setExpandButtonText(moreComponent)
+	const changeElementOnExpanded = (condition, setState, more, less) => {
+		if (condition) {
+			setState(more)
 		} else {
-			setExpandButtonText(lessComponent)
+			setState(less)
 		}
 	}
-	const changeExpandCardClass = (currentExpand) => {
-		if (currentExpand) {
-			setExpandCardClass(collapsedCardClass)
-		} else {
-			setExpandCardClass(expandedCardClass)
-		}
-	}
-	const changeExpandCardBodyClass = (currentExpand) => {
-		if (currentExpand) {
-			setExpandCardBodyClass(collapsedCardBodyClass)
-		} else {
-			setExpandCardBodyClass(expandedCardBodyClass)
-		}
-	}
-	const changeExpandImgClass = (currentExpand) => {
-		if (currentExpand) {
-			setExpandImgClass(collapsedImgClass)
-		} else {
-			setExpandImgClass(expadedImgClass)
-		}
-	}
+	
 	const toggleExpanded = () => {
 		setExpanded(!expanded)
-		changeExpandButtonText(expanded)
-		changeExpandCardClass(expanded)
-		changeExpandCardBodyClass(expanded)
-		changeExpandImgClass(expanded)
+		changeElementOnExpanded(expanded, setExpandButtonText, moreComponent, lessComponent)
+		changeElementOnExpanded(expanded, setExpandCardClass, collapsedCardClass, expandedCardClass)
+		changeElementOnExpanded(expanded, setExpandCardBodyClass, collapsedCardBodyClass, expandedCardBodyClass)
+		changeElementOnExpanded(expanded, setExpandImgClass, collapsedImgClass, expadedImgClass)
 	}
 
     return (
