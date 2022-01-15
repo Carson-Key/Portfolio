@@ -71,6 +71,7 @@ const Projects = () => {
 				shortDescription=""
 				longDescription=""
 				techDescription=""
+				githubLink=""
 			 />
 			 <ProjectCard
 				title="DnD Timeline"
@@ -88,7 +89,6 @@ const Projects = () => {
 				shortDescription=""
 				longDescription=""
 				techDescription=""
-				githubLink="https://github.com/Carson-Key/AlyceHatchWebSite"
 			 />
 			 <ProjectCard
 				title="SE 303 - Final Project"
