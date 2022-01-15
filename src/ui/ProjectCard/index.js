@@ -13,7 +13,8 @@ const ProjectCard = (props) => {
 		title, 
 		imageSrc, imageAlt,
 		shortDescription, longDescription, techDescription,
-		projectLink, githubLink, work, education
+		projectLink, githubLink, work, education,
+		years
 	} = props
 
 	const moreComponent = <p>more<MdKeyboardArrowDown className="inline" /></p>
@@ -69,6 +70,7 @@ const ProjectCard = (props) => {
 				githubLink={githubLink}
 				toggleExpanded={toggleExpanded}
 				expandButtonText={expandButtonText}
+				years={years}
 			/>
 		</Card>
 	)
