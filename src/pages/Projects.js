@@ -6,7 +6,7 @@ import Logo from '../assets/Logo-512.png'
 import LogoGuardianGroup from '../assets/Logo-GuardianGroup.png'
 import LogoCBTNuggets from '../assets/Logo-CBTNuggets.png'
 import LogoOSU from '../assets/Logo-OSU.png'
-import LogoAHC from '../assets/Logo-AHC.jpg'
+import LogoAHC from '../assets/Logo-AHC.png'
 
 const Projects = () => {
     return (
