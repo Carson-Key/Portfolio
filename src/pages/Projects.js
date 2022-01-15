@@ -25,9 +25,10 @@ const Projects = () => {
 				title="Portfolio Manager"
 				imageSrc={Logo}
 				imageAlt={"Brass colored Node.js hexagon logo with brass colored React logo inside, which has the nucleus replaced with a brass key"}
-				shortDescription=""
-				longDescription=""
-				techDescription=""
+				shortDescription="To manange the content of this portfolio, there is an electron app that hits the endpoint for instant changes/additions."
+				longDescription="Because I wanted my portfolio website to be the best display of my skills possible, I decided to make a psuedo CMS website. But to manage the CMS I wanted to do something more than just add an admin page to the site, so I went with an electron app to show a more diverse set of skills than just pure web development."
+				techDescription="To accomplish my goals I went with a React based Electron app, with AWS' amplify to hit the portfolio's GarphQL backend. The tech stack for this project is almost the exact same as the portfolio, with the addition of Electron, so for a more detailed look expand the Portfolio card under the Projects page."
+				githubLink="https://github.com/Carson-Key/Portfolio-Manager"
 			 />
 			 <ProjectCard
 				title="OSU-C Capstone - Guardian Group"
