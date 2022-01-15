@@ -17,7 +17,7 @@ const Projects = () => {
 				imageAlt={"Brass colored Node.js hexagon logo with brass colored React logo inside, which has the nucleus replaced with a brass key"}
 				shortDescription="This portfolio is far more than a static page, it uses React for frontend and AWS Amplify to handle all the backend."
 				longDescription="I wanted to make a portfolio that would both display my accomplishments and experiences, but to also act as one. This portfolio website was created using React.js for frontend, Tailwind for css, GraphQL for backend, and AWS Amplify as a serverless framework. In a design perspective this is overkill, a portfolio website is as static of a website as they come. HTML and Tailwind would have done the job at a far better labor cost. But I decided that the extra costs in design, testing, and implemtation would not outweigh the benefits of having a far more presentable portfolio with a better display of my skills."
-				techDescription="In this project I used some cutting egde frameworks, libraries, project managment and design techiques. To start the frontend is done in React, and utilised to dynamically render a variable amount of data gathered from a GraphQL backend. React is also used to provided a responsive user experience with seemless page navigation and interaction. To handle all the backend and hosting I decided to use AWS's Amplify. Which uses a Dynamo database to store all content, then a GraphQL endpoint to request this data from a client browser in a CMS like fashion."
+				techDescription="In this project I used some cutting egde frameworks, libraries, project managment and design techiques. To start the frontend is done in React, and utilised to dynamically render a variable amount of data gathered from a GraphQL backend. React is also used to provided a responsive user experience with seemless page navigation and interaction. To handle all the backend and hosting I decided to use AWS's Amplify. Which uses a Dynamo database to store all content, then a GraphQL endpoint to request this data from a client browser in a CMS like fashion. Finally I used tailwind to style the front end."
 				projectLink="/"
 				githubLink="https://github.com/Carson-Key/Portfolio"
 			 />
@@ -34,9 +34,9 @@ const Projects = () => {
 				title="OSU-C Capstone - Guardian Group"
 				imageSrc={LogoGuardianGroup}
 				imageAlt={"A capital blue G with a side shot of a light blue face silhouette inside"}
-				shortDescription=""
-				longDescription=""
-				techDescription=""
+				shortDescription="This project was a web based application to help automate the Guardian Groups mission"
+				longDescription="For my senior capstone project me and two other computer science seniors created a web product for Guardian Group, and it was such a pleasure to work on. The idea was to make a platform for a community of volunteers to help the non profit Guardian Group. Unfortunatly because of an NDA I am limited in my discussion of this project. However I can say some stuff, like this was a green field idea and had no prior work done. To start we worked with a local firm, Effectual, to help us get the start for the project. We worked with a UI/UX to get a basic wireframe of the project. After that our team gathered requirments from the client (Guardian Group/Effectual). Then we all decided (The team of seniors and Effectual) to make a React front end with an AWS Amplify backend, so that we could make a high quility application with relative quickness. The main goal of this application was give us valuible industry experience to use in our careers. This included Agile development, modern frame works, modern backend, requirments gathering, working with a UI/UX team, deployemnt automations, test suite development, and team based full stack projects."
+				techDescription="Because of an NDA I can't go into great detail of the technology used. However, we used React, AWS Amplify, GraphQl, and Tailwind."
 			 />
 			 <ProjectCard
 				title="Roll20 MM 3e Chrome Extension"
