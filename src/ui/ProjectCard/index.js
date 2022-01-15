@@ -1,11 +1,9 @@
 // Packages
 import { useState } from 'react'
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 // Components
 import Card from '../../components/Card'
 import CardTitle from '../../components/CardTitle'
-import ConditionalRender from '../../components/ConditionalRender'
-import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
-import { FaGithub } from 'react-icons/fa'
 // UI
 import ProjectCardBody from './ProjectCardBody'
 import ProjectCardFooter from './ProjectCardFooter'
