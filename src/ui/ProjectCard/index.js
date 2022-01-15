@@ -33,20 +33,20 @@ const ProjectCard = (props) => {
 	const [expandCardBodyClass, setExpandCardBodyClass] = useState(collapsedCardBodyClass)
 	const [expandImgClass, setExpandImgClass] = useState(collapsedImgClass)
 
-	const changeElementOnExpanded = (setState, more, less) => {
+	const changeElementOnExpandedChange = (setState, collapsed, extdended) => {
 		if (expanded) {
-			setState(more)
+			setState(collapsed)
 		} else {
-			setState(less)
+			setState(extdended)
 		}
 	}
 
 	const toggleExpanded = () => {
 		setExpanded(!expanded)
-		changeElementOnExpanded(setExpandButtonText, moreComponent, lessComponent)
-		changeElementOnExpanded(setExpandCardClass, collapsedCardClass, expandedCardClass)
-		changeElementOnExpanded(setExpandCardBodyClass, collapsedCardBodyClass, expandedCardBodyClass)
-		changeElementOnExpanded(setExpandImgClass, collapsedImgClass, expadedImgClass)
+		changeElementOnExpandedChange(setExpandButtonText, moreComponent, lessComponent)
+		changeElementOnExpandedChange(setExpandCardClass, collapsedCardClass, expandedCardClass)
+		changeElementOnExpandedChange(setExpandCardBodyClass, collapsedCardBodyClass, expandedCardBodyClass)
+		changeElementOnExpandedChange(setExpandImgClass, collapsedImgClass, expadedImgClass)
 	}
 
     return (
