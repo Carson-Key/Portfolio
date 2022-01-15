@@ -19,12 +19,12 @@ const ProjectCardBody = (props) => {
 					<p className="block my-3 mx-2 text-center">{shortDescription}</p>
 				</ConditionalRender>
 				<ConditionalRender condition={longDescription && expanded}>
-					<h5 className="mt-2 mb-1 mx-2 font-bold">Project Description</h5>
-					<p className="block mt-1 mb-3 mx-2">{longDescription}</p>
+					<h5 className="mt-2 mx-2 font-bold">Project Description</h5>
+					<p className="block mb-2 mx-2">{longDescription}</p>
 				</ConditionalRender>
 				<ConditionalRender condition={techDescription && expanded}>
-					<h5 className="mt-2 mb-1 mx-2 font-bold">Tech Description</h5>
-					<p className="block mt-1 mb-3 mx-2">{techDescription}</p>
+					<h5 className="mx-2 font-bold">Tech Description</h5>
+					<p className="block mb-2 mx-2">{techDescription}</p>
 				</ConditionalRender>
 			</div>
 			<div className="flex justify-center h-6 transition-all duration-500 ease-out my-2 mx-auto overflow-scroll">
