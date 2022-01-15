@@ -117,6 +117,36 @@ const Projects = () => {
 				techDescription=""
 				githubLink="https://github.com/Carson-Key/data-structures-handbook"
 			 />
+			 <ProjectCard
+				title="CS 493 - Project: Front End"
+				imageSrc={LogoOSU}
+				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
+				shortDescription=""
+				longDescription=""
+				techDescription=""
+				projectLink="https://cs-493-hw1.web.app/"
+				githubLink="https://github.com/Carson-Key/CS493-FrontEnd"
+			 />
+			 <ProjectCard
+				title="CS 493 - Project: Back End"
+				imageSrc={LogoOSU}
+				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
+				shortDescription=""
+				longDescription=""
+				techDescription=""
+				projectLink="https://cs-493-hw1.web.app/"
+				githubLink="https://github.com/Carson-Key/CS-493-BackEnd"
+			 />
+			 <ProjectCard
+				title="CS 493 - Project: Electron"
+				imageSrc={LogoOSU}
+				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
+				shortDescription=""
+				longDescription=""
+				techDescription=""
+				projectLink="https://cs-493-hw1.web.app/"
+				githubLink="https://github.com/Carson-Key/carson-key-aws-and-s3-electron-app"
+			 />
 		</Container>
 	)
 }
