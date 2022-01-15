@@ -7,6 +7,7 @@ import LogoGuardianGroup from '../assets/Logo-GuardianGroup.png'
 import LogoCBTNuggets from '../assets/Logo-CBTNuggets.png'
 import LogoOSU from '../assets/Logo-OSU.png'
 import LogoAHC from '../assets/Logo-AHC.png'
+import LogoMM from '../assets/Logo-MM.png'
 
 const Projects = () => {
     return (
@@ -39,12 +40,12 @@ const Projects = () => {
 				techDescription="Because of an NDA I can't go into great detail of the technology used. However, we used React, AWS Amplify, GraphQl, and Tailwind."
 			 />
 			 <ProjectCard
-				title="Roll20 MM 3e Chrome Extension"
-				imageSrc={Logo}
-				imageAlt={"Brass colored Node.js hexagon logo with brass colored React logo inside, which has the nucleus replaced with a brass key"}
-				shortDescription=""
-				longDescription=""
-				techDescription=""
+				title="Roll20 MM Chrome Extension"
+				imageSrc={LogoMM}
+				imageAlt={"A dull red flatted 20 sided dice with overlaying Ms in the middle"}
+				shortDescription="A personal project to make my virtual M&M (like Dungeons & Dragons, but super heros) experience easier"
+				longDescription="During my summer after gratuating me and my Dungeons and Dragons group started playing a similar table top called Mutants and Masterminds. While playing I noticed that there were a lot of dynamic changing that our virtual table top (Roll 20) didn't support. So I decided to make a chrome extension to handle this for me. Which ended up taking a lot more work than I originally thought. I needed to learnhow to use the chrome extension library to scrap a website, and then I needed to learn how Roll20 handled its data in the DOM without the source code. This posed a pretty difficult problem, of working entirely in the DOM. Ultimatly I made something I'm proud of, can be refactored for other aspects of the game with ease, and a better understanding/appreciation of the DOM."
+				techDescription="This project doesn't use anything too fancy like some of my other projects. It uses Jquerry for easy DOM searching, and Chrome's extension library. One of the things I'm most proud of accomplishing in this project was the web scrapping. I'd done web scrapping before, but never to a site like Roll20. Roll20 uses some form of Ruby on Rails or PHP equivalent to modify values, and some form of a canvas to render them. This lead to manipulating a grabbing fields being more than just a simple querry with jquerry. I had to dig and come up with creative solutions to overcome the challenges."
 				githubLink="https://github.com/Carson-Key/Metamorph-Manager-Chrome"
 			 />
 			 <ProjectCard
