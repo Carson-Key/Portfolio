@@ -4,7 +4,7 @@ import ConditionalRender from '../../components/ConditionalRender'
 const ProjectCardBody = (props) => {
 	const { 
 		imageSrc, imageAlt,
-		shortDescription, longDescription, techDescription,
+		shortDescription, background, longDescription, techDescription,
 		expanded, expandImgClass, expandCardBodyClass,
 		projectLink, work, education
 	} = props
@@ -17,6 +17,10 @@ const ProjectCardBody = (props) => {
 				</ConditionalRender>
 				<ConditionalRender condition={shortDescription && !expanded}>
 					<p className="block my-3 mx-2 text-center">{shortDescription}</p>
+				</ConditionalRender>
+				<ConditionalRender condition={background && expanded}>
+					<h5 className="mt-2 mb-1 mx-2 font-bold">Project Background</h5>
+					<p className="block mb-2 mx-2">{background}</p>
 				</ConditionalRender>
 				<ConditionalRender condition={longDescription && expanded}>
 					<h5 className="mt-2 mb-1 mx-2 font-bold">Project Description</h5>

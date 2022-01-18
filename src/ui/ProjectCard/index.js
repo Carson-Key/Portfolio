@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
 	const { 
 		title, 
 		imageSrc, imageAlt,
-		shortDescription, longDescription, techDescription,
+		shortDescription, background, longDescription, techDescription,
 		projectLink, githubLink, work, education,
 		years
 	} = props
@@ -57,6 +57,7 @@ const ProjectCard = (props) => {
 				imageSrc={imageSrc}
 				imageAlt={imageAlt}
 				shortDescription={shortDescription}
+				background={background}
 				longDescription={longDescription}
 				techDescription={techDescription}
 				expanded={expanded}
