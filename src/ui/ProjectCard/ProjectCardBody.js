@@ -38,7 +38,7 @@ const ProjectCardBody = (props) => {
 				<ConditionalRender condition={work}>
 					<a className="w-auto mx-2 bg-primary rounded text-white px-2" href={work}>To Word Card</a>
 				</ConditionalRender>
-				<ConditionalRender condition={work}>
+				<ConditionalRender condition={education}>
 					<a className="w-auto mx-2 bg-primary rounded text-white px-2" href={education}>To Education Card</a>
 				</ConditionalRender>
 			</div>
