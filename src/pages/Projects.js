@@ -78,10 +78,13 @@ const Projects = () => {
 				title="OSU IT - Product Status Page"
 				imageSrc={LogoOSU}
 				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
-				shortDescription=""
-				longDescription=""
-				techDescription=""
-				githubLink=""
+				shortDescription="A dashboard to display the status of various products that Oregon State University IT maintains"
+				background="At Oregon State University every moring the director of IT goes to five product websites (this includs Microsoft 365, Box, Kaltura, Instruture, and Zoom), looks at their status, and then sends out an email to all employees on the current status. My boss, who was an assitant director under the directer thought that the process could be automatted, and she had me develope a dashboard to display the statuses."
+				longDescription="This is hands down my favorite project, I love making dashboards that hit an API and display data. When I first started this project I thought that I might have to do some funky web scraping workarounds to automate the data retrival. Then while looking into how the product's status pages worked I found that 4 (Microsoft 365 used an admin blocked page to display status) of them used the exact same API to get their data and those APIs were all public! After making a card system to display each status page (similar to the one used in this portfolio!) I thought that I could make this dashboard work for a variable amount of status pages that used the same API. After getting approval from the client (in this situation it was my boss), I made a page to add new status cards and a way through url atributes. Where all new status pages get saved as a cookie, and can be enabled/disabled and deleted when the used doesn't need it. I did this because I wanted to make a dashboard that would outlive my employment at OSU, which knowing that these products would change as time went on I found the variable approach the best option. And it would allow each user to set up a different array for their indiviual needs."
+				techDescription="This project uses React for the frontend, Firebase for hosting, react-cookies for hook based cookie managment, and Tailwind for a CSS library."
+				githubLink="https://github.com/Carson-Key/OSU-Products-Dashboard"
+				projectLink="https://osu-products-status.web.app/"
+				work="/"
 				years="2021"
 			/>
 			<ProjectCard
