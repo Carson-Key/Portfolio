@@ -88,7 +88,7 @@ const Projects = () => {
 				longDescription=""
 				techDescription=""
 				githubLink="https://github.com/Carson-Key/dnd-timeline"
-				years="2019"
+				years="2019-2020"
 			/>
 			<ProjectCard
 				title="Alyce Hatch Center Website"
@@ -97,7 +97,7 @@ const Projects = () => {
 				shortDescription=""
 				longDescription=""
 				techDescription=""
-				years="2016"
+				years="2016-2021"
 			/>
 			<ProjectCard
 				title="SE 303 - Final Project"
