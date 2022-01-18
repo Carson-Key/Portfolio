@@ -53,7 +53,7 @@ const Projects = () => {
 				years="2021"
 			/>
 			<ProjectCard
-				title="CBT Nuggets - QA Test Project"
+				title="CBT Nuggets - Bug Hunt"
 				imageSrc={LogoCBTNuggets}
 				imageAlt={"Two lower case g's made of three golden circles"}
 				shortDescription="A Scavenger Hunt for Bugs, to use in QA Engineer interviews"
