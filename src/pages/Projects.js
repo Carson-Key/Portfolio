@@ -56,9 +56,11 @@ const Projects = () => {
 				title="CBT Nuggets - QA Test Project"
 				imageSrc={LogoCBTNuggets}
 				imageAlt={"Two lower case g's made of three golden circles"}
-				shortDescription=""
-				longDescription=""
-				techDescription=""
+				shortDescription="A Scavenger Hunt for Bugs, to use in QA Engineer interviews"
+				background="CBT Nuggets was looking to better their QA engineer interview process to test canidents in selenium (and other test automation frameworks/libraries). They hired me as an Intern to create a 'Scanvenger Hunt' like project to accomplish his goal. I am unfortunatly limited in my discussion of details by an NDA."
+				longDescription="This project was the first industry expeirence that I ever did, and it was a blast! The idea of behind the project was to intentionally create a bug filled website, which was perfect for an 18 year old college freshmen. That's not to say I didn't spend time on debugging and QA, I still fixed everything that caused compelete application breakdown. It put less pressure on me to make a bug free production application, because every litle bug could help in the interview. The actual project was based on a college assignment that some of my colluges at OSU - Cascades did in a class, it was a population simulatur. The population was represented by a bunch of dots, these dots would duplicate if they were near another dot and each dot had enough food to duplicate. The simulation had configuarable settings to control the populations growth/start, which could change how the simulation went. I terms of bugs there was all kinds, from a static copyright date to a wrong title, to a crash when a specific thing happened, to a serverside console log."
+				techDescription="The project used React for frontend, and was my first exposure into React and helped develope my love for the framework. It used Firebase for backend to maintain a saved setting configuration for cross device saving. Finally it used Bootstarpe as a baseline CSS library"
+				work="/"
 				years="2018"
 			/>
 			<ProjectCard
