@@ -67,9 +67,11 @@ const Projects = () => {
 				title="CBT Nuggets - QA Statistics Dashboard"
 				imageSrc={LogoCBTNuggets}
 				imageAlt={"Two lower case g's made of three golden circles"}
-				shortDescription=""
-				longDescription=""
-				techDescription=""
+				shortDescription="An addition to the CBT Nuggets internal dashboard to show continuous testing statistics"
+				background="After compeleting the Bug Hunt project I still had some time left at CBT Nuggets, so my team lead gave me an extra project. Which was to add a Test Automation section to CBT Nuggets internal dashboard, and display the reports given by our continuous tests product (SauceLabs in this situation). Unfortunatly I am limited in my discussion of this project, because of an NDA."
+				longDescription="This was a fairly simple project, only using the SauceLabs api to gather statistcs and display them in a meaningful way with charts/tables/ect. The main goal was to show the rest of the company as to how powerful test automation is. This project was really cool, I love to mess with data and display tthem in a dashboard."
+				techDescription="This project used React as a frontend, some internally developed libraries for the dashboard functionality, S3/Lambda for api key hosting, SauceLabs API to grab the test data, and an internally developed CSS library."
+				work="/"
 				years="2018"
 			/>
 			<ProjectCard
