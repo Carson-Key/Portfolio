@@ -114,9 +114,11 @@ const Projects = () => {
 				title="SE 303 - Final Project"
 				imageSrc={LogoOSU}
 				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
-				shortDescription=""
-				longDescription=""
-				techDescription=""
+				shortDescription="The rhyme 'The House That Jack Built' in Ruby that uses tecniques discussed by Sandy Metz and Martin Fowler"
+				background="This was a project that spaned the enire 3 months of the course SE 303 (Software engineering 3), and the goal was to learn the refactoring techniques that Sandi Metz and Martin Fowler discuss in their books '99 Bottles of OOP' (By Sandy Metz) and 'Refactoring: Improving the Design of Code' (by Marttin Fowler). With more on an emphathis on Metz's teaching for refactoring for new requirments."
+				longDescription="This project was to learn using the concepts of Shameless Green as a starting point, then using the Flocking Rules to develope out the project. Which were both discussed by Metz in her book (title mention above). We started the project out by exercising Shameless Green, which is just getting the requirments met with minimum amount of thinking, and in this case that was just printing out the song outright. But then the requirments started to slowly change (as projects do), were we needed to start using the Flocking rules to refactor, which at simplest is just do the tiniest change you can do. The end result was to refactor until the addtions we needed to make for the new requirments wouldn't be changing exsiting code, but adding new code. This line of thought had an end result of some very elegant solutions, and I recommend looking at the commit log and seeing the evolution of the projeect, its quite amazing."
+				techDescription="The tech stack for this project was very simple, Ruby for the core of the project and minitests for the testing suit."
+				education="/"
 				githubLink="https://github.com/Carson-Key/SE-303-House-Project"
 				years="2021"
 			/>
