@@ -103,9 +103,11 @@ const Projects = () => {
 				title="Alyce Hatch Center Website"
 				imageSrc={LogoAHC}
 				imageAlt={"Alyce Hatch Center written out with a child reaching for a star next to the words"}
-				shortDescription=""
-				longDescription=""
-				techDescription=""
+				shortDescription="A website for the non-profit Alyce Hatch Center, which is a pre-school for children with special needs"
+				background="In high school my brother, who has aniridia and various vision problems associated with it, started attending he school. Their website at the was pretty old and lacked a lot of modern features and designs that they needed to get donors. So I offered to make them a website, and maintained that website until 2021 when their board disolved the non-profit and donated their assests to High Desert Education."
+				longDescription="This project was just a simple static website, which would display various peices of information. Including: mission, testamonials, volunteering, their facebook feed, and a donation link. The only dynamic portion of the website (besides the facebook feed) was a background image on the donation page that would change based on the season."
+				techDescription="This website, despite being static, actually posed some intereting challenges. The hosting service that AHC used was very old and limited, where all I could use was html and had to imbed all my styling/scripts in each page. However, the only tech used was HTML for frontend, a custom made CSS library, and javascriptt for the dynamic part."
+				githubLink="https://github.com/Carson-Key/AlyceHatchWebSite"
 				years="2016-2021"
 			/>
 			<ProjectCard
