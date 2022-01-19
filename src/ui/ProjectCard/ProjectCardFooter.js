@@ -15,7 +15,7 @@ const ProjectCardFooter = (props) => {
         <div className="grid grid-cols-3 mx-2 mb-1 mt-2 transition-all duration-500 ease-out">
             <div className="flex justify-start">
                 <ConditionalRender condition={githubLink}>
-                    <a href={githubLink} className="text-2xl"><FaGithub /></a>
+                    <a href={githubLink} className="text-2xl"><FaGithub title="github link"/></a>
                 </ConditionalRender>
             </div>
             <div className="mx-auto">
