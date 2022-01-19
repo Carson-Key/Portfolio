@@ -91,10 +91,12 @@ const Projects = () => {
 				title="DnD Timeline"
 				imageSrc={Logo}
 				imageAlt={"Brass colored Node.js hexagon logo with brass colored React logo inside, which has the nucleus replaced with a brass key"}
-				shortDescription=""
-				longDescription=""
-				techDescription=""
+				shortDescription="A website to help give history and life to my D&D worlds and share them to my players"
+				background="One of my life's passions is D&D, and other Tabletop RPGs, its the thing I look forward to every week. One of the problems I saw in 2019 was that I couldn't share my world with my players. So, I came up wih DnD Timeline tto help solve that issue. In the begining I used this as a way to keep track for my sake, but eventually I added functionality that would allow me to share it to my players and even use as a way to share new character knowledge to thier player."
+				longDescription="This is a personal project I started to keep track of historical events of my various D&D worlds, eventually becoming a place for my players to visit as well. This was my frist presonal project that I made to better my personal life, and although I may have moved onto a professionally managed application, this project still helped further develope my love for react that started at my CBT Nuggets job."
+				techDescription="This is a fairly simple project (tech stack wise, there is some more complex javascript going on in the project), only using React for frontend and Bootstrap for CSS."
 				githubLink="https://github.com/Carson-Key/dnd-timeline"
+				projectLink="https://carson-key.github.io/dnd-timeline/"
 				years="2019-2020"
 			/>
 			<ProjectCard
