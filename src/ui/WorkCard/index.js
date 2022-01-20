@@ -13,7 +13,7 @@ const WorkCard = (props) => {
 		title,
 		imageSrc, imageAlt,
 		description, role, years,
-		projects
+		shortDecription, projects
 	} = props
 
 	const moreComponent = <p>more<MdKeyboardArrowDown className="inline" /></p>
@@ -53,6 +53,7 @@ const WorkCard = (props) => {
 				{title}
 			</CardTitle>
 			<WorkCardBody 
+				expanded={expanded}
 				imageSrc={imageSrc}
 				imageAlt={imageAlt}
 				description={description}
@@ -60,6 +61,7 @@ const WorkCard = (props) => {
 				projects={projects}
 				expandImgClass={expandImgClass}
 				expandCardBodyClass={expandCardBodyClass}
+				shortDecription={shortDecription}
 			/>
 			<WorkCardFooter
 				years={years}

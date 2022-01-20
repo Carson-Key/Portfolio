@@ -18,6 +18,7 @@ const Work = () => {
 				role="Intern"
 				years={{from: "Jun 2018", to: "Sep 2018"}}
 				projects={[{name: "Bug Hunt", id: "#cbtnuggetsbughunt"}, {name: "QA Statistics Dashboard", id: "#cbtnuggetsqadashboard"}]}
+				shortDecription="React Programming"
 			/>
 		</Container>
 	)
