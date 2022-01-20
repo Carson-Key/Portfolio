@@ -29,19 +29,22 @@ const WorkCardBody = (props) => {
 				</ConditionalRender>
 			</div>
 			<ConditionalRender condition={projects && expanded}>
-					{
-						projects.map((project, i) => {
-							return (
-								<div>
-									<p className="block my-3 mx-2 text-center">{project.name}</p>
-									<p className="block my-3 mx-2 text-center">{project.id}</p>
-								</div>
-							)
-						})
-					}
-				</ConditionalRender>
+				<h5 className="mt-4 mx-2 font-bold text-center">Projects: </h5>
+				{
+					projects.map((project, i) => {
+						return (
+							<a 
+								className="w-auto mx-2 bg-primary rounded text-white px-2 py-1" 
+								href={"/Project" + project.id}
+							>
+									{project.name}
+							</a>
+						)
+					})
+				}
+			</ConditionalRender>
 			<ConditionalRender condition={description && expanded}>
-				<p className="block my-3 mx-2 text-center">{description}</p>
+				<p className="block mt-4 mb-2 mx-2 text-center">{description}</p>
 			</ConditionalRender>
 		</div>
 	)
