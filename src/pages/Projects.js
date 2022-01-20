@@ -57,7 +57,7 @@ const Projects = () => {
 				background="CBT Nuggets was looking to better their QA engineer interview process to test candidates in Selenium (and other test automation frameworks/libraries). They hired me as an Intern to create a 'Scavenger Hunt' like project to accomplish this goal. I am unfortunately limited in my discussion of details by an NDA."
 				longDescription="This project was the first industry experience that I ever had, and it was a blast! The idea behind the project was to intentionally create a bug filled website, which was perfect for an 18 year old college freshmen. That's not to say I didn't spend time on debugging and QA, I still fixed everything that caused complete application breakdown. The core concept of this project put less pressure on me to make a bug free production application, because every little bug could help in the interview. The actual project was based on a college assignment that some of my colleagues at OSU - Cascades did in a class, which was a population simulator. The population was represented by a bunch of dots, these dots would duplicate if they were near another dot and if each dot had enough food. The simulation had configurable settings to control the population's growth/start, which could change how the simulation went. In terms of bugs there were all kinds, from a static copyright date to a wrong title, to a crash when a specific thing happened, to a server side console log. I wanted to make the application encompass as many kinds of bugs as possible."
 				techDescription="The project used React for frontend, and was my first exposure into React which helped develop my love for the framework. It used Firebase for backend to maintain a saved setting configuration for cross device saving. Finally it used Bootstarp as a CSS library."
-				work="/"
+				work="#cbtnuggets"
 				years="2018"
 			/>
 			<ProjectCard
@@ -83,7 +83,7 @@ const Projects = () => {
 				techDescription="This project uses React for the frontend, Firebase for hosting, react-cookies for react hooks cookie management, and Tailwind for a CSS library."
 				githubLink="https://github.com/Carson-Key/OSU-Products-Dashboard"
 				projectLink="https://osu-products-status.web.app/"
-				work="#cbtnuggets"
+				work="#osuittemp"
 				years="2021"
 			/>
 			<ProjectCard
@@ -109,6 +109,7 @@ const Projects = () => {
 				longDescription="This project was just a simple static website, which would display various pieces of information. Including: mission, testimonials, volunteering, their facebook feed, and a donation link. The only dynamic portion of the website (besides the facebook feed) was a background image on the donation page that would change based on the season."
 				techDescription="This website, despite being static, actually posed some interesting challenges. The hosting service that AHC used was very old and limited, where all I could use was html and had to embed all my styling/scripts in each page. However, the only tech used was HTML for frontend, a custom made CSS library, and javascript for the dynamic part."
 				githubLink="https://github.com/Carson-Key/AlyceHatchWebSite"
+				work="#ahc"
 				years="2016-2021"
 			/>
 			<ProjectCard
