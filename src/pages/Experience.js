@@ -37,7 +37,7 @@ const Experience = () => {
 				id="osuittemp"
 				imageSrc={LogoOSU}
 				imageAlt="A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"
-				description=""
+				description="A continuation of my position as Student Worker after my graduation. My responsibilities were roughly the same, with a larger emphasis on longer term and complicated tasks that a Tech II would be doing. Although I also had an added responsibility of showing around and helping train two new Tech IIs that started my final months, which it was really fun meeting and helping them."
 				role="Temp Tech II"
 				years={{from: "Jun 2021", to: "Dec 2021"}}
 				projects={[{name: "OSU IT Produects Status Page", id: "#osustatus"}]}
