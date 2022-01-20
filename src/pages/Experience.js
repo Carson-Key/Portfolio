@@ -79,7 +79,7 @@ const Experience = () => {
 				id="osutechclub"
 				imageSrc={LogoOSU}
 				imageAlt="A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"
-				description=""
+				description="During my Sophomore year in college I ran for treasurer of the OSU Cascades Tech club, which is a club that helps students better their portfolios and get them professional experiences in the tech world. Along with having fun projects and activities to work on. I was lucky enough to get elected for three years in a row! My role for this club was submitting yearly budgets and maintaining financial records. Along with any event planning or any odd executive tasks that needed to be done."
 				role="Treasurer"
 				years={{from: "Sep 2018", to: "Jun 2021"}}
 				shortDecription="Budget Managment"
