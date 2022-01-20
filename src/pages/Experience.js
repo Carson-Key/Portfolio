@@ -58,7 +58,7 @@ const Experience = () => {
 				id="ahc"
 				imageSrc={LogoAHC}
 				imageAlt="Alyce Hatch Center written out with a child reaching for a star next to the words"
-				description=""
+				description="This was a volunteering experience, where I created and maintained the website for the Alyce Hatch Center. It was a really cool experience to work with this non profit, and if they came back I would volunteer in a heart beat."
 				role="Web Developer"
 				years={{from: "Jun 2016", to: "Jun 2021"}}
 				projects={[{name: "Website", id: "#ahcwebsite"}]}
