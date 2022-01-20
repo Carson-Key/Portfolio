@@ -10,6 +10,8 @@ const WorkCardBody = (props) => {
 		expandImgClass, expandCardBodyClass
 	} = props
 
+	let nullProjects = projects ? projects : []
+
     return (
 		<div className={"transition-all duration-500 ease-out overflow-scroll " + expandCardBodyClass}>
 			<ConditionalRender condition={imageSrc && imageAlt}>
@@ -33,7 +35,7 @@ const WorkCardBody = (props) => {
 			<ConditionalRender condition={projects && expanded}>
 				<h5 className="mt-4 mx-2 font-bold text-center">Projects: </h5>
 				{
-					projects.map((project, i) => {
+					nullProjects.map((project, i) => {
 						return (
 							<HashLink 
 								smooth
