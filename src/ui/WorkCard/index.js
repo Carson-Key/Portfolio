@@ -20,8 +20,8 @@ const WorkCard = (props) => {
 	const lessComponent = <p>less<MdKeyboardArrowUp className="inline" /></p>
 	const expandedCardClass = "h-112 lg:h-96 lg:w-128"
 	const collapsedCardClass = "h-96 lg:w-80"
-	const expandedCardBodyClass = "h-98 lg:h-68"
-	const collapsedCardBodyClass = "h-68"
+	const expandedCardBodyClass = "h-98 lg:h-72"
+	const collapsedCardBodyClass = "h-72"
 	const expadedImgClass = "float-left mx-3 mt-2 mb-0"
 	const collapsedImgClass = "mt-1"
 
