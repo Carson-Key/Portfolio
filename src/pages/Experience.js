@@ -69,7 +69,7 @@ const Experience = () => {
 				id="shs"
 				imageSrc={LogoSummit}
 				imageAlt="A capital green S with a lightning bolt going through it"
-				description=""
+				description="During my senior year in high school, I was in a program called Cadet Teaching, for which I helped teach an intro class of Computer Science. After graduating I still really wanted to help out the growing CS program at Summit High School, so I started volunteering. I would help make curriculum decisions, teach when needed, and help answer questions. If it wasn't for the COVID-19 pandemic, I would still be volunteering whenever I had the chance."
 				role="Teacher's Assistant"
 				years={{from: "Jun 2017", to: "Mar 2020"}}
 				shortDecription="Helping Students in CS"
