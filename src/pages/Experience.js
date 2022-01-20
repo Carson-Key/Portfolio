@@ -68,7 +68,7 @@ const Experience = () => {
 				title="Summit High School"
 				id="shs"
 				imageSrc={LogoSummit}
-				imageAlt="Two lower case g's made of three golden circles"
+				imageAlt="A capital green S with a lightning bolt going through it"
 				description=""
 				role="Teacher's Assistant"
 				years={{from: "Jun 2017", to: "Mar 2020"}}
