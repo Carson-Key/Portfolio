@@ -44,7 +44,8 @@ const WorkCardBody = (props) => {
 				}
 			</ConditionalRender>
 			<ConditionalRender condition={description && expanded}>
-				<p className="block mt-4 mb-2 mx-2 text-center">{description}</p>
+				<h5 className="mt-6 mx-2 font-bold text-center">Job Description: </h5>
+				<p className="block mb-2 mx-2 text-center">{description}</p>
 			</ConditionalRender>
 		</div>
 	)
