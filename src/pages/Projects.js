@@ -47,6 +47,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="CBT Nuggets - Bug Hunt"
+				id="cbtnuggetsbughunt"
 				imageSrc={LogoCBTNuggets}
 				imageAlt={"Two lower case g's made of three golden circles"}
 				shortDescription="A Scavenger Hunt for Bugs, to use in QA Engineer interviews"
@@ -58,6 +59,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="CBT Nuggets - QA Statistics Dashboard"
+				id="cbtnuggetsqadashboard"
 				imageSrc={LogoCBTNuggets}
 				imageAlt={"Two lower case g's made of three golden circles"}
 				shortDescription="An addition to the CBT Nuggets internal dashboard to show continuous testing statistics"

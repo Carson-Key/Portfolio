@@ -10,7 +10,7 @@ import ProjectCardFooter from './ProjectCardFooter'
 
 const ProjectCard = (props) => {
 	const { 
-		title, 
+		title, id,
 		imageSrc, imageAlt,
 		shortDescription, background, longDescription, techDescription,
 		projectLink, githubLink, work, education,
@@ -49,7 +49,7 @@ const ProjectCard = (props) => {
 	}
 
     return (
-		<Card className={"transition-all duration-500 ease-out " + expandCardClass}>
+		<Card id={id} className={"transition-all duration-500 ease-out " + expandCardClass}>
 			<CardTitle>
 				{title}
 			</CardTitle>

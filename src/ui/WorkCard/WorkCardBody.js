@@ -1,3 +1,5 @@
+// Packages
+import { HashLink } from 'react-router-hash-link'
 // Components
 import ConditionalRender from '../../components/ConditionalRender'
 
@@ -33,12 +35,13 @@ const WorkCardBody = (props) => {
 				{
 					projects.map((project, i) => {
 						return (
-							<a 
+							<HashLink 
+								smooth
 								className="w-auto mx-2 bg-primary rounded text-white px-2 py-1" 
-								href={"/Project" + project.id}
+								to={"/Projects" + project.id}
 							>
-									{project.name}
-							</a>
+								{project.name}
+							</HashLink>
 						)
 					})
 				}
