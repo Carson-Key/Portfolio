@@ -48,7 +48,7 @@ const Experience = () => {
 				id="redhawk"
 				imageSrc={LogoRedHawk}
 				imageAlt="Two 90 degree swooshes, a lrager black one and a smaller red one, that form a square hawk head"
-				description=""
+				description="At this position I was in charge of maintaining and fixing a legacy (20 years old) php dashboard for RedHawk. I really learned a lot about the development process of legacy code, which I have since learned are exteremly valuable skills in the industry. Towards the end of my time at RedHawk I started work on an external user creation wizard using React, but because of a ramp up in school I didn't have the time to finish it."
 				role="Intern Developer"
 				years={{from: "Jul 2019", to: "Jan 2020"}}
 				shortDecription="Legacy PHP Development"
