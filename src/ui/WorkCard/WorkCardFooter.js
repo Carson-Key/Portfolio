@@ -11,7 +11,7 @@ const WorkCardFooter = (props) => {
         <div className="flex justify-between h-10 mx-2 mb-1 mt-2 transition-all duration-500 ease-out">
             <ConditionalRender condition={years}>
                 <div className="text-sm grid grid-cols-2 gap-x-4">
-                    <p>From</p><p>To</p>
+                    <p className="font-bold">From</p><p className="font-bold">To</p>
 				    <p>{years.from}</p><p>{years.to}</p>
                 </div>
             </ConditionalRender>
