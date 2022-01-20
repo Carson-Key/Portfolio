@@ -27,7 +27,7 @@ const Experience = () => {
 				id="osuitstudnet"
 				imageSrc={LogoOSU}
 				imageAlt="A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"
-				description="My responsibilities at this position had a very wide scope. I did everything from maintain campus classrooms to helping professors debug problems, from maintaining network infastruture to imaging computers. Although my degree is in Computer Science, I still leanred a lot in this job that I will be using for all my career, and I loved working there."
+				description="My responsibilities at this position had a very wide scope. I did everything from maintain campus classrooms to helping professors debug problems, from maintaining network infrastructure to imaging computers. Although my degree is in Computer Science, I still learned a lot in this job that I will be using for all my career, and I loved working there."
 				role="Student Worker"
 				years={{from: "Feb 2018", to: "Jun 2021"}}
 				shortDecription="Basic/Intermediate Tech II Tasks"
@@ -37,7 +37,7 @@ const Experience = () => {
 				id="osuittemp"
 				imageSrc={LogoOSU}
 				imageAlt="A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"
-				description="A continuation of my position as Student Worker after my graduation. My responsibilities were roughly the same, with a larger emphasis on longer term and complicated tasks that a Tech II would be doing. Although I also had an added responsibility of showing around and helping train two new Tech IIs that started my final months, which it was really fun meeting and helping them."
+				description="A continuation of my position as Student Worker after my graduation. My responsibilities were roughly the same, with a larger emphasis on longer term and complicated tasks that a Tech II would be doing. Although I also had an added responsibility of showing around and helping train two new Tech IIs that started my final months, which was really fun meeting and helping them."
 				role="Temp Tech II"
 				years={{from: "Jun 2021", to: "Dec 2021"}}
 				projects={[{name: "OSU IT Produects Status Page", id: "#osustatus"}]}
@@ -48,7 +48,7 @@ const Experience = () => {
 				id="redhawk"
 				imageSrc={LogoRedHawk}
 				imageAlt="Two 90 degree swooshes, a lrager black one and a smaller red one, that form a square hawk head"
-				description="At this position I was in charge of maintaining and fixing a legacy (20 years old) php dashboard for RedHawk. I really learned a lot about the development process of legacy code, which I have since learned are exteremly valuable skills in the industry. Towards the end of my time at RedHawk I started work on an external user creation wizard using React, but because of a ramp up in school I didn't have the time to finish it."
+				description="At this position I was in charge of maintaining and fixing a legacy (20 years old) php dashboard for RedHawk. I really learned a lot about the development process of legacy code, which I have since learned are extremely valuable skills in the industry. Towards the end of my time at RedHawk I started work on an external user creation wizard using React, but because of a ramp up in school I didn't have the time to finish it."
 				role="Intern Developer"
 				years={{from: "Jul 2019", to: "Jan 2020"}}
 				shortDecription="Legacy PHP Development"
@@ -58,7 +58,7 @@ const Experience = () => {
 				id="ahc"
 				imageSrc={LogoAHC}
 				imageAlt="Alyce Hatch Center written out with a child reaching for a star next to the words"
-				description="This was a volunteering experience, where I created and maintained the website for the Alyce Hatch Center. It was a really cool experience to work with this non profit, and if they came back I would volunteer in a heart beat."
+				description="This was a volunteering experience, where I created and maintained the website for the Alyce Hatch Center. It was a really cool experience to work with this non profit, and if they came back I would volunteer in a heartbeat."
 				role="Web Developer"
 				years={{from: "Jun 2016", to: "Jun 2021"}}
 				projects={[{name: "Website", id: "#ahcwebsite"}]}
