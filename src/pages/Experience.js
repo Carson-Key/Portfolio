@@ -5,6 +5,8 @@ import WorkCard from '../ui/ExperienceCard'
 import LogoCBTNuggets from '../assets/Logo-CBTNuggets.png'
 import LogoOSU from '../assets/Logo-OSU.png'
 import LogoAHC from '../assets/Logo-AHC.png'
+import LogoRedHawk from '../assets/Logo-RedHawk.png'
+import LogoSummit from '../assets/Logo-Summit.png'
 
 const Experience = () => {
     return (
@@ -44,8 +46,8 @@ const Experience = () => {
 			<WorkCard
 				title="RedHawk Network Security"
 				id="redhawk"
-				imageSrc={LogoCBTNuggets}
-				imageAlt="Two lower case g's made of three golden circles"
+				imageSrc={LogoRedHawk}
+				imageAlt="Two 90 degree swooshes, a lrager black one and a smaller red one, that form a square hawk head"
 				description=""
 				role="Intern Developer"
 				years={{from: "Jul 2019", to: "Jan 2020"}}
@@ -65,7 +67,7 @@ const Experience = () => {
 			<WorkCard
 				title="Summit High School"
 				id="shs"
-				imageSrc={LogoCBTNuggets}
+				imageSrc={LogoSummit}
 				imageAlt="Two lower case g's made of three golden circles"
 				description=""
 				role="Teacher's Assistant"
