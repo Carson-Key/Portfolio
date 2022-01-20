@@ -57,12 +57,12 @@ const WorkCard = (props) => {
 				imageAlt={imageAlt}
 				description={description}
 				role={role}
-				years={years}
 				projects={projects}
 				expandImgClass={expandImgClass}
 				expandCardBodyClass={expandCardBodyClass}
 			/>
 			<WorkCardFooter
+				years={years}
 				toggleExpanded={toggleExpanded}
 				expandButtonText={expandButtonText}
 			/>

@@ -4,8 +4,7 @@ import ConditionalRender from '../../components/ConditionalRender'
 const WorkCardBody = (props) => {
 	const { 
 		imageSrc, imageAlt,
-		description, role,
-		years, projects,
+		description, role, projects,
 		expandImgClass, expandCardBodyClass
 	} = props
 
@@ -19,9 +18,6 @@ const WorkCardBody = (props) => {
 			</ConditionalRender>
 			<ConditionalRender condition={role}>
 				<p className="block my-3 mx-2 text-center">{role}</p>
-			</ConditionalRender>
-			<ConditionalRender condition={years}>
-				<p className="block my-3 mx-2 text-center">{years}</p>
 			</ConditionalRender>
 			<ConditionalRender condition={projects}>
 				{
