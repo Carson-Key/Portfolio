@@ -12,6 +12,7 @@ const Work = () => {
 		<Container className="flex flex-wrap justify-evenly">
 			<WorkCard
 				title="CBT Nuggets"
+				id="cbtnuggets"
 				imageSrc={LogoCBTNuggets}
 				imageAlt="Two lower case g's made of three golden circles"
 				description="At this position my main task was developing a bug filled website to use in the QA engineer interview process. After finishing the project early, I moved onto creating a dashboard to display automated test statistics."

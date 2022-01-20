@@ -10,7 +10,7 @@ import WorkCardFooter from './WorkCardFooter'
 
 const WorkCard = (props) => {
 	const { 
-		title,
+		title, id,
 		imageSrc, imageAlt,
 		description, role, years,
 		shortDecription, projects
@@ -48,7 +48,7 @@ const WorkCard = (props) => {
 	}
 
     return (
-		<Card className={"transition-all duration-500 ease-out " + expandCardClass}>
+		<Card id={id} className={"transition-all duration-500 ease-out " + expandCardClass}>
 			<CardTitle>
 				{title}
 			</CardTitle>

@@ -69,7 +69,7 @@ const Projects = () => {
 				background="After completing the Bug Hunt project I still had some time left at CBT Nuggets, so my team's lead gave me an extra project. Which was to add a Test Automation section to CBT Nuggets internal dashboard, and display the reports given by our continuous tests product (SauceLabs in this situation). Unfortunately I am limited in my discussion of this project, because of an NDA."
 				longDescription="This was a fairly simple project, only using the SauceLabs API to gather statistics and display them in a meaningful way with charts/tables/ect. The main goal was to show the rest of the company how powerful test automation is, with fun displays of data. This project was really cool, I love to mess with data and display them in ways such as a dashboard."
 				techDescription="This project used React as a frontend, some internally developed libraries for the dashboard functionality, S3/Lambda for API key hosting, SauceLabs API to grab the test data, and an internally developed CSS library."
-				work="/"
+				work="#cbtnuggets"
 				years="2018"
 			/>
 			<ProjectCard
@@ -83,7 +83,7 @@ const Projects = () => {
 				techDescription="This project uses React for the frontend, Firebase for hosting, react-cookies for react hooks cookie management, and Tailwind for a CSS library."
 				githubLink="https://github.com/Carson-Key/OSU-Products-Dashboard"
 				projectLink="https://osu-products-status.web.app/"
-				work="/"
+				work="#cbtnuggets"
 				years="2021"
 			/>
 			<ProjectCard
