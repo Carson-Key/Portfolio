@@ -34,6 +34,7 @@ const ExperienceCardBody = (props) => {
 			</div>
 			<ConditionalRender condition={projects && expanded}>
 				<h5 className="mt-4 mx-2 font-bold text-center">Projects: </h5>
+				<div className="flex justify-center mt-2">
 				{
 					nullProjects.map((project, i) => {
 						return (
@@ -47,6 +48,7 @@ const ExperienceCardBody = (props) => {
 						)
 					})
 				}
+				</div>
 			</ConditionalRender>
 			<ConditionalRender condition={description && expanded}>
 				<h5 className="mt-6 mx-2 font-bold text-center">Job Description: </h5>
