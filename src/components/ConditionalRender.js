@@ -1,10 +1,10 @@
 const ConditionalRender = (props) => {
-    const { condition, children } = props
+    const { condition, children, returnComponent } = props
 
     if (condition) {
         return children
     } else {
-        return (<></>)
+        return ((returnComponent) ? returnComponent :<></>)
     }
 }
 
