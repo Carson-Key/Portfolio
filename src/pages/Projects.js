@@ -14,6 +14,7 @@ const Projects = () => {
 		<Container className="flex flex-wrap justify-evenly">
 			<ProjectCard
 				title="This Very Portfolio!"
+				id="portfolio"
 				imageSrc={Logo}
 				imageAlt={"Brass colored Node.js hexagon logo with brass colored React logo inside, which has the nucleus replaced with a brass key"}
 				shortDescription="This portfolio is far more than a static page, it uses React for frontend and with plans for an AWS backend"
@@ -26,6 +27,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="OSU-C Capstone - Guardian Group"
+				id="capstone"
 				imageSrc={LogoGuardianGroup}
 				imageAlt={"A capital blue G with a side shot of a light blue face silhouette inside"}
 				shortDescription="This project was a web based application to help automate the Guardian Groups mission"
@@ -36,6 +38,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="Roll20 MM Chrome Extension"
+				id="rollmm"
 				imageSrc={LogoMM}
 				imageAlt={"A dull red flatted 20 sided dice with overlaying Ms in the middle"}
 				shortDescription="A personal project to make my virtual M&M (like Dungeons & Dragons, but super heros) experience easier"
@@ -71,6 +74,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="OSU IT - Product Status Page"
+				id="osustatus"
 				imageSrc={LogoOSU}
 				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription="A dashboard to display the status of various products that Oregon State University IT maintains"
@@ -84,6 +88,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="DnD Timeline"
+				id="dndtimeline"
 				imageSrc={Logo}
 				imageAlt={"Brass colored Node.js hexagon logo with brass colored React logo inside, which has the nucleus replaced with a brass key"}
 				shortDescription="A website to help give history and life to my D&D worlds and share them to my players"
@@ -96,6 +101,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="Alyce Hatch Center Website"
+				id="ahcwebsite"
 				imageSrc={LogoAHC}
 				imageAlt={"Alyce Hatch Center written out with a child reaching for a star next to the words"}
 				shortDescription="A website for the non-profit Alyce Hatch Center, which is a pre-school for children with special needs"
@@ -107,6 +113,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="SE 303 - Final Project"
+				id="se303final"
 				imageSrc={LogoOSU}
 				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription="The rhyme 'The House That Jack Built' in Ruby that uses techniques discussed by Sandy Metz and Martin Fowler"
@@ -119,6 +126,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="SE 201 - Final Project"
+				id="se201final"
 				imageSrc={LogoOSU}
 				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription="A modern clone of the classic game Trade Wars"
@@ -132,6 +140,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="CS 493 - Project: FrontEnd"
+				id="cs493finalfront"
 				imageSrc={LogoOSU}
 				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription="The frontend of a fake music streaming platform"
@@ -145,6 +154,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="CS 493 - Project: Back End"
+				id="cs493finalback"
 				imageSrc={LogoOSU}
 				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription="The back end of a fake music streaming platform"
@@ -157,6 +167,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="CS 493 - Project: Electron"
+				id="cs493finalelectron"
 				imageSrc={LogoOSU}
 				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription="The data manager of a fake music streaming platform"
