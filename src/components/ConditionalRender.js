@@ -4,7 +4,7 @@ const ConditionalRender = (props) => {
     if (condition) {
         return children
     } else {
-        return ((returnComponent) ? returnComponent :<></>)
+        return ((returnComponent) ? returnComponent : <></>)
     }
 }
 
