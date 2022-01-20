@@ -22,7 +22,7 @@ const WorkCard = (props) => {
 	const collapsedCardClass = "h-96 lg:w-80"
 	const expandedCardBodyClass = "h-100 lg:h-72"
 	const collapsedCardBodyClass = "h-72"
-	const expadedImgClass = "float-left mx-3 mt-2 mb-0"
+	const expadedImgClass = "mt-1 lg:mx-3 lg:mt-2 lg:mb-0 lg:float-left "
 	const collapsedImgClass = "mt-1"
 
 	const [expanded, setExpanded] = useState(false)
