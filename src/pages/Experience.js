@@ -27,7 +27,7 @@ const Experience = () => {
 				id="osuitstudnet"
 				imageSrc={LogoOSU}
 				imageAlt="A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"
-				description=""
+				description="My responsibilities at this position had a very wide scope. I did everything from maintain campus classrooms to helping professors debug problems, from maintaining network infastruture to imaging computers. Although my degree is in Computer Science, I still leanred a lot in this job that I will be using for all my career, and I loved working there."
 				role="Student Worker"
 				years={{from: "Feb 2018", to: "Jun 2021"}}
 				shortDecription="Basic/Intermediate Tech II Tasks"
