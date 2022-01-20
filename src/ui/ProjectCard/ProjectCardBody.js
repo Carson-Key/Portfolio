@@ -41,9 +41,9 @@ const ProjectCardBody = (props) => {
 					<HashLink 
 						smooth
 						className="w-auto mx-2 bg-primary rounded text-white px-2" 
-						to={"/Work" + work}
+						to={"/Experience" + work}
 					>
-						To Work Page
+						To Experience Page
 					</HashLink>
 				</ConditionalRender>
 				<ConditionalRender condition={education}>

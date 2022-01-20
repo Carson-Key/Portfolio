@@ -23,7 +23,7 @@ const Navigation = (props) => {
                 " 2xl:text-5xl"
             }>
                 <li className="py-2 lg:py-0"><Link to="/Projects"><p className="px-3 lg:px-4" onClick={closeDrawerMenu}>Projects</p></Link></li>
-                <li className="py-2 lg:py-0"><Link to="/Work"><p className="px-3 lg:px-4" onClick={closeDrawerMenu}>Work</p></Link></li>
+                <li className="py-2 lg:py-0"><Link to="/Experience"><p className="px-3 lg:px-4" onClick={closeDrawerMenu}>Experience</p></Link></li>
                 <li className="py-2 lg:py-0"><Link to="/Education"><p className="px-3 lg:px-4" onClick={closeDrawerMenu}>Education</p></Link></li>
                 <li className="py-2 lg:py-0"><Link to="/Resume"><p className="px-3 lg:px-4" onClick={closeDrawerMenu}>Resume</p></Link></li>
                 <li className="py-2 lg:py-0"><Link to="/About"><p className="px-3 lg:px-4" onClick={closeDrawerMenu}>About</p></Link></li>

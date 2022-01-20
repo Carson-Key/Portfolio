@@ -3,7 +3,7 @@ import { HashLink } from 'react-router-hash-link'
 // Components
 import ConditionalRender from '../../components/ConditionalRender'
 
-const WorkCardBody = (props) => {
+const ExperienceCardBody = (props) => {
 	const { 
 		imageSrc, imageAlt, expanded,
 		description, role, projects, shortDecription,
@@ -56,4 +56,4 @@ const WorkCardBody = (props) => {
 	)
 }
 
-export default WorkCardBody
+export default ExperienceCardBody

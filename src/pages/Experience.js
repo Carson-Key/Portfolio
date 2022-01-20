@@ -1,12 +1,12 @@
 // Components
 import Container from '../components/Container'
-import WorkCard from '../ui/WorkCard'
+import WorkCard from '../ui/ExperienceCard'
 // Assets
 import LogoCBTNuggets from '../assets/Logo-CBTNuggets.png'
 import LogoOSU from '../assets/Logo-OSU.png'
 import LogoAHC from '../assets/Logo-AHC.png'
 
-const Work = () => {
+const Experience = () => {
     return (
 		<Container className="flex flex-wrap justify-evenly">
 			<WorkCard
@@ -86,4 +86,4 @@ const Work = () => {
 	)
 }
 
-export default Work
+export default Experience

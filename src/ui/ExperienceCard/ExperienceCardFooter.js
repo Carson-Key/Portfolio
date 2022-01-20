@@ -1,7 +1,7 @@
 // Components
 import ConditionalRender from '../../components/ConditionalRender'
 
-const WorkCardFooter = (props) => {
+const ExperienceCardFooter = (props) => {
 	const {
         toggleExpanded, expandButtonText, 
         years
@@ -22,4 +22,4 @@ const WorkCardFooter = (props) => {
 	)
 }
 
-export default WorkCardFooter
+export default ExperienceCardFooter

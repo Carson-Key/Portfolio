@@ -5,8 +5,8 @@ import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 import Card from '../../components/Card'
 import CardTitle from '../../components/CardTitle'
 // UI
-import WorkCardBody from './WorkCardBody'
-import WorkCardFooter from './WorkCardFooter'
+import ExperienceCardBody from './ExperienceCardBody'
+import ExperienceCardFooter from './ExperienceCardFooter'
 
 const WorkCard = (props) => {
 	const { 
@@ -52,7 +52,7 @@ const WorkCard = (props) => {
 			<CardTitle>
 				{title}
 			</CardTitle>
-			<WorkCardBody 
+			<ExperienceCardBody 
 				expanded={expanded}
 				imageSrc={imageSrc}
 				imageAlt={imageAlt}
@@ -63,7 +63,7 @@ const WorkCard = (props) => {
 				expandCardBodyClass={expandCardBodyClass}
 				shortDecription={shortDecription}
 			/>
-			<WorkCardFooter
+			<ExperienceCardFooter
 				years={years}
 				toggleExpanded={toggleExpanded}
 				expandButtonText={expandButtonText}
