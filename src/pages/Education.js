@@ -23,11 +23,21 @@ const Education = () => {
 				/>
 				<EducationCard
 					title="CS 434 - Machine Learning & Data Mining"
-					id="capstoneclass"
-					term="Fall/Winter/Spring"
+					id="cs434"
+					term="Spring"
 					year="2021"
 					objective="At the completion of this course, students will be able to: apply supervised learning algorithms to prediction problems and evaluate the results; analyze data using unsupervised learning programs and evaluate the performance; implement and test reinforcement learning for control and optimization problems; formulate given learning problems appropriately as instances of supervised, unsupervised, or reinforcement learning problem"
 					textbook="Geron, A. (2019). Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow: Concepts, Tools and Techniques to Build Intelligent Systems (2nd ed)"
+					grade="A"
+					credits="4"
+				/>
+				<EducationCard
+					title="CS 478 - Network Security"
+					id="cs478"
+					term="Spring"
+					year="2021"
+					objective="Upon successful completion of this course, students will be able to: select among packet capture strategies for specific situations, analyze protocols to determine potential security weaknesses, create protocol fuzzers to find potential vulnerabilities, select appropriate defensive strategies based on goals"
+					textbook="None"
 					grade="A"
 					credits="4"
 				/>
