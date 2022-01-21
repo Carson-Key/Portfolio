@@ -155,6 +155,16 @@ const Education = () => {
 					grade="A"
 					credits="4"
 				/>
+				<EducationCard
+					title="CS 344 - Operating Systems I"
+					id="cs344"
+					term="Winter"
+					year="2020"
+					objective="Introduction to operating systems using UNIX as the case study. System calls and utilities, fundamentals of processes and inter-process communication. The primary learning outcomes are: explain why multiprogramming is important for modern operating systems, explain the general structure of a multi-programmed operating system, explain the purpose and operation of system calls, write programs utilizing system calls, write programs using a scripting language (bash), write a program that uses regular expressions to parse input data, write a program that spawns processes and provides mutual exclusion for variables or other resources shared by the processes, write a program that uses sockets to implement a client/server system."
+					textbook="THE LINUX PROGRAMMING INTERFACE by Michael Kerrisk"
+					grade="B"
+					credits="4"
+				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
