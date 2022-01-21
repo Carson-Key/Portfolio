@@ -34,7 +34,8 @@ const Projects = () => {
 				background="For my senior capstone project me and two other computer science seniors created a web product for Guardian Group, and it was such a pleasure to work on. The core idea was to make a platform for a community of volunteers to help the non profit Guardian Group. Unfortunately because of an NDA I am limited in my discussion of this project."
 				longDescription="This was almost a complete greenfield project, with only a basic wireframe from a UI/UX team. To start we worked with a local firm, Effectual, to help us get a start on the project. We worked with a UI/UX to get the previously done wireframe of the project. After that our team gathered requirements from the client (Guardian Group and Effectual). Then we all decided (The team of seniors and Effectual) to make a React frontend with an AWS Amplify backend, so that we could make a high quality application with relative quickness. That could be maintained by Effectual (this tech stack was their standard for greenfield projects). The main goal of this application was to give us valuable industry experience to use in our careers. This included Agile development, modern frameworks, modern backend, requirements gathering, working with a UI/UX team, deployment automations, test suite development, and team based full stack workflows."
 				techDescription="Because of an NDA I can't go into great detail of the technology used. However, we used React, AWS Amplify, and Tailwind."
-			 	years="2020-2021"
+			 	education="#capstoneclass"
+				years="2020-2021"
 			/>
 			<ProjectCard
 				title="Roll20 MM Chrome Extension"
@@ -121,7 +122,7 @@ const Projects = () => {
 				background="This was a project that spanned the entire 3 months of the course SE 303 (Software engineering 3), and the goal was to learn the refactoring techniques that Sandi Metz and Martin Fowler discuss in their books '99 Bottles of OOP' (By Sandi Metz) and 'Refactoring: Improving the Design of Code' (by Martin Fowler). With more of an emphasis on Metz's teaching for refactoring for new requirements. Fowler's book was more designed for legacy refactoring."
 				longDescription="This project was to learn using the concepts of Shameless Green as a starting point, then using the Flocking Rules to develop the project. Both concepts were discussed by Metz in her book (title mentioned above). We started the project out by exercising Shameless Green, which is just getting the requirements met with minimum amount of thinking, and in this case that was just printing out the song outright. But then the requirements started to slowly change (as projects do), where we needed to start using the Flocking rules to refactor, which at simplest is just do the tiniest change you can do until you reach the goal of the refactor. The end result was to refactor until the additions for the new requirement wouldn't need to change any of the existing code, but by adding new code. This line of thought had an end result of some very elegant solutions, and I recommend looking at the commit log of this project and seeing its evolution, it's quite amazing."
 				techDescription="The tech stack for this project was very simple, Ruby for the core of the project and minitests for the testing suite."
-				education="/"
+				education="#se303"
 				githubLink="https://github.com/Carson-Key/SE-303-House-Project"
 				years="2021"
 			/>
@@ -135,7 +136,7 @@ const Projects = () => {
 				longDescription="This was actually a really fun project, me and my partner decided to split the workload along our strengths. My partner being a better GO programmer, and me being a better frontend developer. I decided to use React, and hit the GO API that my partner developed. To start we discussed what the API hits would entail, after which we split up and worked separately on each of our sections, ultimately creating something I was very proud of. The idea of this project was to create a multiplayer game that would simulate an intergalactic trade system. However, it was never the goal of the class to finish the project, but to get as much done and as close to the specs as possible. Along with learning how to divide the specs into manageable pieces."
 				techDescription="This Project surprisingly has a complicated tech stack. The backend was all done in GO (I'm not to sure with the specifics, so all I can mention now is just GO), React for the frontend, Pixi.js (React version) for a canvas manager library for the game screen itself, JS websockets to manage player connections, redux (react) to manage the global data (mainly the socket object), and Bootstrap for a CSS library."
 				projectLink="https://carson-key.github.io/trade-wars-static/#/game"
-				education="/"
+				education="#se201"
 				githubLink="https://github.com/Carson-Key/trade-wars-static"
 				years="2019"
 			/>
@@ -149,7 +150,7 @@ const Projects = () => {
 				longDescription="This specific project is just the frontend portion of the whole project. However, to start the class out, I made a basic login screen using React and Firebase. Then later, after learning how to develop in AWS, I added UI to display artists and then their albums/songs. All of which was based on a very basic wireframe provided by the professor."
 				techDescription="The tech stack for this project was React for frontend, Firebase frontend library, and tailwind for a CSS."
 				projectLink="https://cs-493-hw1.web.app/"
-				education="/"
+				education="#cs493"
 				githubLink="https://github.com/Carson-Key/CS493-FrontEnd"
 				years="2021"
 			/>
@@ -162,7 +163,7 @@ const Projects = () => {
 				background="The main idea in this class was to have a single project that we would work on the entire three month term, and I had a lot of fun with it. With the main goal to teach us how to make a cloud based application."
 				longDescription="This part of the CS 493 project was the backend, which was mainly just the endpoints that the frontend uses. This includes getting all artists, all their albums, then all the songs. It also included all AWS management, including IAM user management to secure access to the project and all AWS services. Most of which was all done using cloud formation. However, my favorite part of this class was learning NoSQL access patterns. We used AWS' DynamoDB and a primary/secondary key combo for data consistency."
 				techDescription="The tech stack for this project was: Serverless (express) for the lambda framework, firebase admin to check auth token from the frontend, DynamoDB for a db, S3 to store songs, and AWS' javascript library to access services."
-				education="/"
+				education="#cs493"
 				githubLink="https://github.com/Carson-Key/CS-493-BackEnd"
 				years="2021"
 			/>
@@ -175,7 +176,7 @@ const Projects = () => {
 				background="The main idea in this class was to have a single project that we would work on the entire three month term, and I had a lot of fun with it. With the main goal to teach us how to make a cloud based application."
 				longDescription="To start out our learning of AWS, we made a way to upload songs to S3. I decided to go a step further and take the extra credit option to make this part of the project an Electron app, mainly to learn how to make an Electron app, which was really fun. The core idea of this was that an admin to the fake music service could add a new artist, album or upload a song. Where an admin is someone with an IAM user key with appropriate access."
 				techDescription="The tech stack for this project is: Electron, for desktop functionality, React for frontend, AWS SDK for service access, and Tailwind for a CSS library."
-				education="/"
+				education="#cs493"
 				githubLink="https://github.com/Carson-Key/carson-key-aws-and-s3-electron-app"
 				years="2021"
 			/>
