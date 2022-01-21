@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 
 const EducationSection = (props) => {
-    const { name, expand } = props
+    const { name, expand, children } = props
 
     const moreComponent = <MdKeyboardArrowDown/>
 	const lessComponent = <MdKeyboardArrowUp/>
@@ -46,7 +46,7 @@ const EducationSection = (props) => {
                 <h3 className="text-white text-center my-1 text-3xl py-2 px-2">{expandIcon}</h3>
             </button>
             <div className={"" + expandSectionClass}>
-
+                {children}
             </div>
         </article>
 	)
