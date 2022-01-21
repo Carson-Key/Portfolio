@@ -175,6 +175,16 @@ const Education = () => {
 					grade="A-"
 					credits="4"
 				/>
+				<EducationCard
+					title="CS 325 - Analysis of Algorithms"
+					id="cs325"
+					term="Fall"
+					year="2019"
+					objective="At the completion of this course, students will be able to: use O, Ω, Θ, and simple recurrences to analyze time complexity of recursive algorithms; prove the correctness of algorithms; implement recursive, iterative and heuristic algorithms; prove that a problem is NP-complete using reductions."
+					textbook="Algorithms by Jeff Erickson (2019)."
+					grade="B+"
+					credits="4"
+				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
