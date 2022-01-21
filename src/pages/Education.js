@@ -1,5 +1,3 @@
-// Packages
-import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 // Components
 import Container from '../components/Container'
 import EducationSection from '../ui/EducationSection'
