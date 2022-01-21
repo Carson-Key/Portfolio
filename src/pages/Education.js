@@ -165,6 +165,16 @@ const Education = () => {
 					grade="B"
 					credits="4"
 				/>
+				<EducationCard
+					title="CS 361 - Software Engineering I"
+					id="cs361"
+					term="Winter"
+					year="2020"
+					objective="This course introduces the fundamental concepts in software engineering based on best practices and cutting edge technologies, methodologies and architectures. The course provides the experienced student the opportunity to build applications using today's most relevant technology, informed by today's best practices, and supports the skills and perspective necessary for analyzing and constructing real-world software. The primary learning outcomes are: define essential vocabulary from the corpus of software engineering; distinguish benefits and drawbacks of tools, technologies and methodologies; apply postmodern languages, tools and methodologies to create usable software; construct, analyze and deconstruct a software specification into components and architecture; design and construct multiple applications that meet functional requirements; compare and assess the quality of written computer programs, tools and architectures; design and conduct experiments and to analyze and interpret data related to software and hardware design solutions; identify, formulate, and solve engineering problems based on a fundamental understanding of concepts of software engineering topics; articulate personal, professional, and ethical responsibility in software engineering; use the techniques, skills and modern engineering tools necessary for software engineering practice. Also including: select the most appropriate software process model to use in a particular situation, synthesize requirements for a realistic software system and write a requirements specification document, model system requirements using one or more semi-formal notations such as UML, dataflow diagrams, entity-relationship diagrams, or state diagrams, design software systems at an architectural level and at lower levels, using one or more techniques, such as object-oriented design or agile methods, and express these designs in design specification documents, validate designs and adjust the specification or design as necessary, describe several methods of estimating the cost and developing a schedule for a programming project, participate effectively in a team environment, produce professional-quality software-related documents."
+					textbook="Martin, R. (2008). Clean Code. and Metz, S. (2013). Practical Object-Oriented Design in Ruby."
+					grade="A-"
+					credits="4"
+				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
