@@ -195,6 +195,16 @@ const Education = () => {
 					grade="A"
 					credits="4"
 				/>
+				<EducationCard
+					title="CS 372 - Intro to Computer Networks"
+					id="cs372"
+					term="Fall"
+					year="2019"
+					objective="Introduction to wired/wireless network principles, organization, topologies, hardware, applications, and protocols in the OSI hierarchy context. Configuration and implementation of local area networks and intranets. Internet protocols, packet forwarding, and routing. The primary learning outcomes are: describe the hardware devices used to create a network; give examples of networking technologies, and examine the associated standards; describe the essential features of a networking protocol; describe various congestion control, error detection, and error correction schemes; create a local area network and a model intranet by configuring networking hardware and software in a controlled laboratory environment; create low-level client-server application programs using the socket API; demonstrate (simulate) the processes of packet construction, packet switching, and packet deconstruction; apply a route discovery algorithm to determine the shortest path in an internet represented as a weighted graph; compare/contrast cable networking and wireless networking; use a variety of networking services, such as DNS, NAT, and ARP; associate networking functions with the appropriate layers of the ISO/OSI network layering model, and associate internetworking functions with the appropriate layers of the TCP/IP layering model; describe network security issues and some of the methods for managing those issues. Also including: explain the concept of packet-switching, and identify and analyze the different types of packet delay in packet-switched networks; describe the essential principles of a transport layer protocol including reliable data transfer, flow control, and congestion control; use IP addressing and apply routing algorithms to find shortest paths for network-layer packet delivery; describe and compare data link layer services and multiple access techniques; describe network security issues and some of the methods that address them; use networking tools to observe and analyze behaviors of networking protocols."
+					textbook="Cisco Networking Academy - Introduction to Networking."
+					grade="B"
+					credits="4"
+				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
