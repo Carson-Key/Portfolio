@@ -298,21 +298,21 @@ const Education = () => {
 					id="honordegree"
 					term="Fall-Spring"
 					year="2013-2017"
-					objective=""
+					requirments=""
 				/>
 				<EducationCard
 					title="Robotics Club"
 					id="robotics"
 					term="Fall-Spring"
 					year="2014-2017"
-					objective=""
+					description=""
 				/>
 				<EducationCard
 					title="Student Government - Tech Coordinator"
 					id="techguy"
 					term="Fall-Spring"
 					year="2016-2017"
-					objective=""
+					description=""
 				/>
 			</EducationSection>
 		</Container>

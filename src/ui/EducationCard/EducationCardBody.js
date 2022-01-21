@@ -7,13 +7,26 @@ const EducationCardBody = (props) => {
 	const { 
 		expanded, expandCardBodyClass, 
 		objective, textbook,
-		grade, credits, projects
+		grade, credits, projects,
+		requirments, description
 	} = props
 
 	let nullProjects = projects ? projects : []
 
     return (
 		<div className={"overflow-scroll " + expandCardBodyClass}>
+				<ConditionalRender condition={description}>
+					<div className="mx-4 my-2">
+						<h4 className="font-bold">Description:</h4>
+						<p>{description}</p>
+					</div>
+				</ConditionalRender>
+				<ConditionalRender condition={requirments}>
+					<div className="mx-4 my-2">
+						<h4 className="font-bold">Requirments:</h4>
+						<p>{requirments}</p>
+					</div>
+				</ConditionalRender>
 				<ConditionalRender condition={textbook}>
 					<div className="mx-4 my-2">
 						<h4 className="font-bold">Textbooks:</h4>

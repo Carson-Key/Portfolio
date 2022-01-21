@@ -13,7 +13,8 @@ const EducationCard = (props) => {
 		title, id,
 		term, year,
 		objective, textbook,
-		grade, credits, projects
+		grade, credits, projects,
+		requirments, description
 	} = props
 
 	const moreComponent = <p>more<MdKeyboardArrowDown className="inline" /></p>
@@ -56,6 +57,8 @@ const EducationCard = (props) => {
 				grade={grade}
 				credits={credits}
 				projects={projects}
+				requirments={requirments}
+				description={description}
 			/>
 			<EducationCardFooter
 				term={term}
