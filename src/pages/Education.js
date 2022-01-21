@@ -265,6 +265,16 @@ const Education = () => {
 					grade="A"
 					credits="4"
 				/>
+				<EducationCard
+					title="CS 271 - Comp Arch. and Assembly"
+					id="cs271"
+					term="Spring"
+					year="2018"
+					objective="Introduction to functional organization and operation of digital computers. Coverage of assembly language; addressing, stacks, argument passing, arithmetic operations, decisions, macros, modularization, linkers and debuggers."
+					textbook="None"
+					grade="B"
+					credits="4"
+				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
