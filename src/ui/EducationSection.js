@@ -45,7 +45,7 @@ const EducationSection = (props) => {
                 <h3 className="text-white text-3xl py-2 px-2">{name}</h3>
                 <h3 className="text-white text-center my-1 text-3xl py-2 px-2">{expandIcon}</h3>
             </button>
-            <div className={"overflow-scroll " + expandSectionClass}>
+            <div className={"flex flex-wrap justify-evenly overflow-scroll " + expandSectionClass}>
                 {children}
             </div>
         </article>
