@@ -96,6 +96,16 @@ const Education = () => {
 					grade="A-"
 					credits="4"
 				/>
+				<EducationCard
+					title="CS 492 - Mobile Software Development"
+					id="cs492"
+					term="Fall"
+					year="2021"
+					objective="This course introduces students to mobile software development, emphasizing the important principles of mobile software and devices, and industry-relevant frameworks, libraries, and tools. The course provides students a hands-on, project-driven experience to apply a modern mobile software development environment to explore design patterns, language features, libraries, implementation recipes, software architecture, development workflow, and user interface design. The primary learning outcomes are: design and create applications on one or more modern mobile platforms; use mobile development tools, such as device emulators, for developing and testing applications; apply appropriate design principles to create an effective mobile application interface; employ elements of responsive design to create mobile applications that work on different screen sizes; use other apps on a mobile device to perform operations such as mapping and content sharing; rmploy different kinds of on-device data storage, such as preferences, on-device databases, and file-based storage; evaluate mobile application performance and apply appropriate optimization techniques to allow the application to scale; use analytics tools to understand in-app user behavior."
+					textbook="Windmill, E. (2019) Flutter in Action."
+					grade="A-"
+					credits="4"
+				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
