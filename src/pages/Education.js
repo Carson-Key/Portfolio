@@ -57,7 +57,7 @@ const Education = () => {
 					term="Spring"
 					year="2021"
 					objective="Creating a software product is one thing, and selling it is another. Every SaaS product shares a common set of requirements: providing a recurring subscription model, end-user subscription management, administrative customer management, and, most importantly, conducting monetary transactions. In this term of the sequence, we will create this common suite of functionality that every SaaS product needs in order to be successful and generate revenue. Our learning outcomes include: execute a software-as-a-service (SaaS) business model, from ideation to sales; apply software engineering techniques to iteratively improve a software product to meet customer requirements and market demand; implement product management processes and techniques to design, build, and scale a software-as-a-service platform; integrate e-commerce tools and systems for monetary transactions; execute a marketing and sales plan; discuss the management of a startup software business; present a business and its product for capital investment; participate effectively in a team environment."
-					textbook="Savoia, A. (2019). The Right It. Harper One. and Oliver, C. (2021). Payments with Ruby on Rails Master Class."
+					textbook="Savoia, A. (2019). The Right It. and Oliver, C. (2021). Payments with Ruby on Rails Master Class."
 					grade="A"
 					credits="4"
 				/>
@@ -75,6 +75,16 @@ const Education = () => {
 						{name: "BackEnd", id: "#cs493finalback"},
 						{name: "Electron", id: "#cs493finalelectron"}
 					]}
+				/>
+				<EducationCard
+					title="SE 467 - Business of Software II"
+					id="se467"
+					term="Winter"
+					year="2021"
+					objective="This course provides its students with an opportunity to build a business selling software as a service (SaaS). Students shall focus on product development, interpreting customer feedback, architecting multi-tenant systems, and how to conduct monetary subscription transactions online. The goal is for each student-led product team to create and deploy a minimum viable product and an online commerce system enabling a customer to purchase the product. The primary learning outcomes are: execute a software-as-a-service (SaaS) business model, from ideation to sales; apply software engineering techniques to iteratively improve a software product to meet customer requirements and market demand; implement product management processes and techniques to design, build, and scale a software-as-a-service platform; integrate e-commerce tools and systems for monetary transactions; execute a marketing and sales plan; discuss the management of a startup software business; present a business and its product for capital investment; participate effectively in a team environment."
+					textbook="Olsen, D. (2015). The Lean Product Playbook."
+					grade="A"
+					credits="4"
 				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
