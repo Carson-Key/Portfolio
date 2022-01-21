@@ -185,6 +185,16 @@ const Education = () => {
 					grade="B+"
 					credits="4"
 				/>
+				<EducationCard
+					title="CS 352 - Intro to Usability"
+					id="cs352"
+					term="Fall"
+					year="2019"
+					objective="Basic principles of usability engineering methods for the design and evaluation of software systems. Includes the study of human-machine interactions, user interface characteristics and design strategies, software evaluation methods, and related guidelines and standards. At the completion of this course, students should be able to: describe the human centered design process and usability engineering process and their roles in system design and development; discuss usability design guidelines, their foundations, assumptions, advantages, and weaknesses; describe basics of human subjects research; complete a basic human subjects research certification form; design a user interface based on analysis of human needs and prepare a prototype system; assess user interfaces using different usability engineering techniques; make a final report that justifies design decisions."
+					textbook="Interaction Design: Beyond Human-Computer Interaction."
+					grade="A"
+					credits="4"
+				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
