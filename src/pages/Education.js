@@ -142,7 +142,17 @@ const Education = () => {
 					year="2020"
 					objective="This course is intended as an introduction to the implementation of a modern operating system. This will involve implementing pieces of a Unix-like kernel, as well as additional coding projects intended to further your understanding. Upon completion of this course, students will be able to: explain why synchronization is necessary for a concurrent processes scenario, and design synchronization solutions; analyze program data access patterns that may affect the performance of a virtual memory system; design, implement, and test operating system related functions within a large and complex open source code base; select appropriately among processes, user threads, or kernel threads to solve a concurrent problem; apply appropriate algorithms to avoid deadlock for given concurrent processes; explain the strengths and weaknesses of several CPU scheduling algorithms with respect to wait time, turnaround time, throughput, and context-switching implementation challenges; explain various mechanism for protection of memory, the operating system, and system/user files; map virtual addresses to physical addresses; explain various disk block allocation / free-space management strategies; compute access times for various disk scheduling algorithms; participate effectively in a team environment; for CS544 students (or aggressive undergrads): Synthesize and apply concurrency concepts to implement solutions to classical concurrency problems."
 					textbook="Operating Systems: Three Easy Pieces by Remzi Arpaci-Dusseau & Andrea Arpaci-Dusseau. and xv6: a simple, Unix-like teaching operating system, 2017 draft by Russ Cox, Frans Kaashoek, and Robert Morris. "
-					grade="A-"
+					grade="B+"
+					credits="4"
+				/>
+				<EducationCard
+					title="CS 340 - Intro to Databases"
+					id="cs444"
+					term="Winter"
+					year="2020"
+					objective="This course introduces the concepts of data, data modeling, relational database concepts, and relational database management systems. The course provides the student the opportunity to write programs that interact with data, gather requirements for database schemas, design and implement relational schemas, understand relational algebra, and work with SQL queries. The course uses the SQLite relational database management system. The primary learning outcomes are: describe the difference between a relational database and a flat file; model a moderately complex data set by using an ER or UML diagram, and derive a relational schema from that diagram; create a relational database from a relational schema; create multiple indices in a relational database, and explain when and why such indices are appropriate; formulate SQL statements for data manipulation; formulate simple queries in relational algebra by using projection, selection, product, and join operations; describe the components and interfaces of a Web-based database system; Design and implement a Web-based relational database system, using one or more scripting languages and an open-source database development system."
+					textbook="Murach's MySQL (3rd Edition), by Joel Murach."
+					grade="A"
 					credits="4"
 				/>
 			</EducationSection>
