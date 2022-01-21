@@ -5,25 +5,24 @@ import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 import Card from '../../components/Card'
 import CardTitle from '../../components/CardTitle'
 // UI
-import ProjectCardBody from './ProjectCardBody'
-import ProjectCardFooter from './ProjectCardFooter'
+import ExperienceCardBody from './ExperienceCardBody'
+import ExperienceCardFooter from './ExperienceCardFooter'
 
-const ProjectCard = (props) => {
+const WorkCard = (props) => {
 	const { 
 		title, id,
 		imageSrc, imageAlt,
-		shortDescription, background, longDescription, techDescription,
-		projectLink, githubLink, work, education,
-		years
+		description, role, years,
+		shortDecription, projects
 	} = props
 
 	const moreComponent = <p>more<MdKeyboardArrowDown className="inline" /></p>
 	const lessComponent = <p>less<MdKeyboardArrowUp className="inline" /></p>
 	const expandedCardClass = "h-112 lg:h-96 lg:w-128"
 	const collapsedCardClass = "h-96 lg:w-80"
-	const expandedCardBodyClass = "h-98 lg:h-68"
-	const collapsedCardBodyClass = "h-68"
-	const expadedImgClass = "float-left mx-3 mt-2 mb-0"
+	const expandedCardBodyClass = "h-100 lg:h-72"
+	const collapsedCardBodyClass = "h-72"
+	const expadedImgClass = "mt-1 lg:mx-3 lg:mt-2 lg:mb-0 lg:float-left "
 	const collapsedImgClass = "mt-1"
 
 	const [expanded, setExpanded] = useState(false)
@@ -53,28 +52,24 @@ const ProjectCard = (props) => {
 			<CardTitle>
 				{title}
 			</CardTitle>
-			<ProjectCardBody 
+			<ExperienceCardBody 
+				expanded={expanded}
 				imageSrc={imageSrc}
 				imageAlt={imageAlt}
-				shortDescription={shortDescription}
-				background={background}
-				longDescription={longDescription}
-				techDescription={techDescription}
-				expanded={expanded}
+				description={description}
+				role={role}
+				projects={projects}
 				expandImgClass={expandImgClass}
 				expandCardBodyClass={expandCardBodyClass}
-				projectLink={projectLink}
-				work={work}
-				education={education}
+				shortDecription={shortDecription}
 			/>
-			<ProjectCardFooter
-				githubLink={githubLink}
+			<ExperienceCardFooter
+				years={years}
 				toggleExpanded={toggleExpanded}
 				expandButtonText={expandButtonText}
-				years={years}
 			/>
 		</Card>
 	)
 }
 
-export default ProjectCard
+export default WorkCard

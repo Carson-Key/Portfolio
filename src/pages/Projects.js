@@ -14,6 +14,7 @@ const Projects = () => {
 		<Container className="flex flex-wrap justify-evenly">
 			<ProjectCard
 				title="This Very Portfolio!"
+				id="portfolio"
 				imageSrc={Logo}
 				imageAlt={"Brass colored Node.js hexagon logo with brass colored React logo inside, which has the nucleus replaced with a brass key"}
 				shortDescription="This portfolio is far more than a static page, it uses React for frontend and with plans for an AWS backend"
@@ -26,6 +27,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="OSU-C Capstone - Guardian Group"
+				id="capstone"
 				imageSrc={LogoGuardianGroup}
 				imageAlt={"A capital blue G with a side shot of a light blue face silhouette inside"}
 				shortDescription="This project was a web based application to help automate the Guardian Groups mission"
@@ -36,6 +38,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="Roll20 MM Chrome Extension"
+				id="rollmm"
 				imageSrc={LogoMM}
 				imageAlt={"A dull red flatted 20 sided dice with overlaying Ms in the middle"}
 				shortDescription="A personal project to make my virtual M&M (like Dungeons & Dragons, but super heros) experience easier"
@@ -47,28 +50,31 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="CBT Nuggets - Bug Hunt"
+				id="cbtnuggetsbughunt"
 				imageSrc={LogoCBTNuggets}
 				imageAlt={"Two lower case g's made of three golden circles"}
 				shortDescription="A Scavenger Hunt for Bugs, to use in QA Engineer interviews"
 				background="CBT Nuggets was looking to better their QA engineer interview process to test candidates in Selenium (and other test automation frameworks/libraries). They hired me as an Intern to create a 'Scavenger Hunt' like project to accomplish this goal. I am unfortunately limited in my discussion of details by an NDA."
 				longDescription="This project was the first industry experience that I ever had, and it was a blast! The idea behind the project was to intentionally create a bug filled website, which was perfect for an 18 year old college freshmen. That's not to say I didn't spend time on debugging and QA, I still fixed everything that caused complete application breakdown. The core concept of this project put less pressure on me to make a bug free production application, because every little bug could help in the interview. The actual project was based on a college assignment that some of my colleagues at OSU - Cascades did in a class, which was a population simulator. The population was represented by a bunch of dots, these dots would duplicate if they were near another dot and if each dot had enough food. The simulation had configurable settings to control the population's growth/start, which could change how the simulation went. In terms of bugs there were all kinds, from a static copyright date to a wrong title, to a crash when a specific thing happened, to a server side console log. I wanted to make the application encompass as many kinds of bugs as possible."
 				techDescription="The project used React for frontend, and was my first exposure into React which helped develop my love for the framework. It used Firebase for backend to maintain a saved setting configuration for cross device saving. Finally it used Bootstarp as a CSS library."
-				work="/"
+				work="#cbtnuggets"
 				years="2018"
 			/>
 			<ProjectCard
 				title="CBT Nuggets - QA Statistics Dashboard"
+				id="cbtnuggetsqadashboard"
 				imageSrc={LogoCBTNuggets}
 				imageAlt={"Two lower case g's made of three golden circles"}
 				shortDescription="An addition to the CBT Nuggets internal dashboard to show continuous testing statistics"
 				background="After completing the Bug Hunt project I still had some time left at CBT Nuggets, so my team's lead gave me an extra project. Which was to add a Test Automation section to CBT Nuggets internal dashboard, and display the reports given by our continuous tests product (SauceLabs in this situation). Unfortunately I am limited in my discussion of this project, because of an NDA."
 				longDescription="This was a fairly simple project, only using the SauceLabs API to gather statistics and display them in a meaningful way with charts/tables/ect. The main goal was to show the rest of the company how powerful test automation is, with fun displays of data. This project was really cool, I love to mess with data and display them in ways such as a dashboard."
 				techDescription="This project used React as a frontend, some internally developed libraries for the dashboard functionality, S3/Lambda for API key hosting, SauceLabs API to grab the test data, and an internally developed CSS library."
-				work="/"
+				work="#cbtnuggets"
 				years="2018"
 			/>
 			<ProjectCard
 				title="OSU IT - Product Status Page"
+				id="osustatus"
 				imageSrc={LogoOSU}
 				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription="A dashboard to display the status of various products that Oregon State University IT maintains"
@@ -77,11 +83,12 @@ const Projects = () => {
 				techDescription="This project uses React for the frontend, Firebase for hosting, react-cookies for react hooks cookie management, and Tailwind for a CSS library."
 				githubLink="https://github.com/Carson-Key/OSU-Products-Dashboard"
 				projectLink="https://osu-products-status.web.app/"
-				work="/"
+				work="#osuittemp"
 				years="2021"
 			/>
 			<ProjectCard
 				title="DnD Timeline"
+				id="dndtimeline"
 				imageSrc={Logo}
 				imageAlt={"Brass colored Node.js hexagon logo with brass colored React logo inside, which has the nucleus replaced with a brass key"}
 				shortDescription="A website to help give history and life to my D&D worlds and share them to my players"
@@ -94,6 +101,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="Alyce Hatch Center Website"
+				id="ahcwebsite"
 				imageSrc={LogoAHC}
 				imageAlt={"Alyce Hatch Center written out with a child reaching for a star next to the words"}
 				shortDescription="A website for the non-profit Alyce Hatch Center, which is a pre-school for children with special needs"
@@ -101,10 +109,12 @@ const Projects = () => {
 				longDescription="This project was just a simple static website, which would display various pieces of information. Including: mission, testimonials, volunteering, their facebook feed, and a donation link. The only dynamic portion of the website (besides the facebook feed) was a background image on the donation page that would change based on the season."
 				techDescription="This website, despite being static, actually posed some interesting challenges. The hosting service that AHC used was very old and limited, where all I could use was html and had to embed all my styling/scripts in each page. However, the only tech used was HTML for frontend, a custom made CSS library, and javascript for the dynamic part."
 				githubLink="https://github.com/Carson-Key/AlyceHatchWebSite"
+				work="#ahc"
 				years="2016-2021"
 			/>
 			<ProjectCard
 				title="SE 303 - Final Project"
+				id="se303final"
 				imageSrc={LogoOSU}
 				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription="The rhyme 'The House That Jack Built' in Ruby that uses techniques discussed by Sandy Metz and Martin Fowler"
@@ -117,6 +127,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="SE 201 - Final Project"
+				id="se201final"
 				imageSrc={LogoOSU}
 				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription="A modern clone of the classic game Trade Wars"
@@ -130,6 +141,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="CS 493 - Project: FrontEnd"
+				id="cs493finalfront"
 				imageSrc={LogoOSU}
 				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription="The frontend of a fake music streaming platform"
@@ -143,6 +155,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="CS 493 - Project: Back End"
+				id="cs493finalback"
 				imageSrc={LogoOSU}
 				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription="The back end of a fake music streaming platform"
@@ -155,6 +168,7 @@ const Projects = () => {
 			/>
 			<ProjectCard
 				title="CS 493 - Project: Electron"
+				id="cs493finalelectron"
 				imageSrc={LogoOSU}
 				imageAlt={"A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"}
 				shortDescription="The data manager of a fake music streaming platform"
