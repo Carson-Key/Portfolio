@@ -245,6 +245,16 @@ const Education = () => {
 					grade="A"
 					credits="3"
 				/>
+				<EducationCard
+					title="BA 260 - Intro to Entrepreneurship"
+					id="ba260"
+					term="Fall"
+					year="2018"
+					objective="Topics include evaluating entrepreneurial capabilities, creativity, business plan creation, opportunity assessment and feasibility analysis, business implementation, new product introduction, and seeking funds."
+					textbook="Unknown"
+					grade="A-"
+					credits="4"
+				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
