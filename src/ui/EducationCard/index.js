@@ -10,7 +10,9 @@ import EducationCardFooter from './EducationCardFooter'
 
 const EducationCard = (props) => {
 	const { 
-		title, id
+		title, id,
+		objective, textbook,
+		grade, credits, projects
 	} = props
 
 	const moreComponent = <p>more<MdKeyboardArrowDown className="inline" /></p>
@@ -46,7 +48,13 @@ const EducationCard = (props) => {
 				{title}
 			</CardTitle>
 			<EducationCardBody 
+				expanded={expanded}
 				expandCardBodyClass={expandCardBodyClass}
+				objective={objective}
+				textbook={textbook}
+				grade={grade}
+				credits={credits}
+				projects={projects}
 			/>
 			<EducationCardFooter
 				toggleExpanded={toggleExpanded}
