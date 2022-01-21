@@ -294,6 +294,7 @@ const Education = () => {
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017">
 				<EducationCard
+					disableMore
 					title="Honors Degree"
 					id="honordegree"
 					term="Fall-Spring"
@@ -301,6 +302,7 @@ const Education = () => {
 					requirments="The Bend-La Pine School District offers students the opportunity to earn an Honors Diploma. The Honors Diploma requires 27 (26 with a normal diploma) credits with increased requirements in mathematics, science, and applied/fine arts. Students must also complete five capstone classes, three of which must be AP courses."
 				/>
 				<EducationCard
+					disableMore
 					title="Robotics Club"
 					id="robotics"
 					term="Fall-Spring"
@@ -308,6 +310,7 @@ const Education = () => {
 					description="Robotics club was a school/student funded club that participated in the internationally known FRC and FTC robotics league. I learned some great skills in this club, including: programming skills, budget managment, leadership, and networking. And who could forget all the wonderful people I met, some are still my best friends to this day!"
 				/>
 				<EducationCard
+					disableMore
 					title="Student Government - Tech Coordinator"
 					id="techguy"
 					term="Fall-Spring"
