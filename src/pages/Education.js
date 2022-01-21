@@ -305,7 +305,7 @@ const Education = () => {
 					id="robotics"
 					term="Fall-Spring"
 					year="2014-2017"
-					description=""
+					description="Robotics club was a school/student funded club that participated in the internationally known FRC and FTC robotics league. I learned some great skills in this club, including: programming skills, budget managment, leadership, and networking. And who could forget all the wonderful people I met, some are still my best friends to this day!"
 				/>
 				<EducationCard
 					title="Student Government - Tech Coordinator"
