@@ -4,8 +4,7 @@ import EducationSection from '../ui/EducationSection'
 import EducationCard from '../ui/EducationCard'
 
 const Education = () => {
-	
-    return (
+	return (
 		<Container className="divide-y divide-solid">
 			<EducationSection expand name="Oregon State University" gpa="3.56" years="2017-2021">
 				<EducationCard
@@ -123,6 +122,16 @@ const Education = () => {
 					year="2020"
 					objective="This course continues an exploration of the fundamental concepts in software engineering based on best practices and cutting edge technologies, methodologies and architectures. The course provides the experienced student the opportunity to build applications using today's most relevant technology, informed by today's best practices, and supports the skills and perspective necessary for analyzing and constructing real-world software. The primary learning outcomes are: apply automated tools such as make and CVS in a realistic setting; describe the cost-benefit trade-offs inherent in the use of automated tools for building software and configuration management; describe several techniques for validating and measuring the quality of software; use appropriate techniques and tools, including a debugger, to locate program faults; describe several types of maintenance processes associated with correcting and enhancing software systems; participate effectively in a software inspection; participate effectively in a team environment. Also including: improve legacy software via refactoring, testing and other best practices; apply testing techniques, including black-box and white-box techniques, automatic testing activities and regression testing; sefine essential vocabulary from the corpus of software engineering; sistinguish benefits and drawbacks of tools, technologies and methodologies; apply postmodern languages, tools and methodologies to create usable software; apply architectural, integration and object-oriented design patterns; an ability to identify, formulate, and solve engineering problems based on a fundamental understanding of concepts of software engineering topics; an ability to use the techniques, skills and modern engineering tools necessary for software engineering practice."
 					textbook="Feathers, M. (2005). Working Effectively with Legacy Code. and Rappin, N. (2018). Rails 5 Test Prescriptions."
+					grade="A"
+					credits="4"
+				/>
+				<EducationCard
+					title="CS 381 - Programming Language fund."
+					id="cs381"
+					term="Spring"
+					year="2020"
+					objective="This course is an examination of the constructs of programming languages, the four major programming paradigms, and several programming languages, including their application and underlying execution models. The paradigms examined in this course include imperative, object-oriented, functional, and logical. Students will gain exposure to and experience in a variety of languages, including Perl, Prolog, Python, and Racket. Other languages will be discussed in context in lectures: define abstract syntax for a language that is given in concrete syntax; produce and explain the output of a given program under static versus dynamic scoping mechanisms; produce and explain the behavior of a given program under static versus dynamic typing mechanisms; produce and explain the output of a given program under a selection of parameter passing mechanisms, such as by-value, by-reference, by-constant, by-result, by-value-result, and by-name; produce and explain the contents of the run-time stack of a given program as it stands at any moment in program execution; produce programs exhibiting the following kinds of polymorphism: parametric polymorphism, overloading, and subtype polymorphism, and explain their advantages and disadvantages; explain exception handling mechanisms and demonstrate the effects of exceptions on the runtime stack; explain the differences between imperative, functional, object-oriented, and one other programming language paradigm, and why it is important to understand these programming language paradigms; define the semantics of simple languages or for individual language constructs using axiomatic, operational, or denotational semantics, and given such definitions, predict specific program values or relationships between values using the definitions."
+					textbook="Sebesta, R. (2018). Concepts of Programming Languages."
 					grade="A-"
 					credits="4"
 				/>
