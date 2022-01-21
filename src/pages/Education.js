@@ -294,11 +294,11 @@ const Education = () => {
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017">
 				<EducationCard
-					title="Homors Degree"
+					title="Honors Degree"
 					id="honordegree"
 					term="Fall-Spring"
 					year="2013-2017"
-					requirments=""
+					requirments="The Bend-La Pine School District offers students the opportunity to earn an Honors Diploma. The Honors Diploma requires 27 (26 with a normal diploma) credits with increased requirements in mathematics, science, and applied/fine arts. Students must also complete five capstone classes, three of which must be AP courses."
 				/>
 				<EducationCard
 					title="Robotics Club"
