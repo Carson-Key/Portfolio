@@ -11,6 +11,7 @@ import EducationCardFooter from './EducationCardFooter'
 const EducationCard = (props) => {
 	const { 
 		title, id,
+		term, year,
 		objective, textbook,
 		grade, credits, projects
 	} = props
@@ -57,6 +58,8 @@ const EducationCard = (props) => {
 				projects={projects}
 			/>
 			<EducationCardFooter
+				term={term}
+				year={year}
 				toggleExpanded={toggleExpanded}
 				expandButtonText={expandButtonText}
 			/>
