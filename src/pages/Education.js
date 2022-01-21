@@ -49,6 +49,9 @@ const Education = () => {
 					textbook="Fowler, M. (2019). Refactoring: Improving the Design of Existing Code and Metz, S. (2021). 99 Bottles of OOP"
 					grade="A"
 					credits="4"
+					projects={[
+						{name: "House", id: "#se303final"}
+					]}
 				/>
 				<EducationCard
 					title="SE 468 - Business of Software III"
@@ -214,6 +217,9 @@ const Education = () => {
 					textbook="Lopes, C. (2014). Exercises in Programming Style."
 					grade="A-"
 					credits="4"
+					projects={[
+						{name: "Trade Wars", id: "#se201final"}
+					]}
 				/>
 				<EducationCard
 					title="CS 290 - Web Development"
