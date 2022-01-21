@@ -14,7 +14,7 @@ const EducationCard = (props) => {
 		term, year,
 		objective, textbook,
 		grade, credits, projects,
-		requirments, description
+		requirments, description, disableMore
 	} = props
 
 	const moreComponent = <p>more<MdKeyboardArrowDown className="inline" /></p>
@@ -65,6 +65,7 @@ const EducationCard = (props) => {
 				year={year}
 				toggleExpanded={toggleExpanded}
 				expandButtonText={expandButtonText}
+				disableMore={disableMore}
 			/>
 		</Card>
 	)
