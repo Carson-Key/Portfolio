@@ -235,6 +235,16 @@ const Education = () => {
 					grade="A"
 					credits="4"
 				/>
+				<EducationCard
+					title="WR 327 - Technical writing"
+					id="wr327"
+					term="Spring"
+					year="2019"
+					objective="Continued practice in writing with an emphasis on the rhetorical and critical thinking demands of writers in scientific and technological fields."
+					textbook="Team Writing by Joanna Wolfe"
+					grade="A"
+					credits="3"
+				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
