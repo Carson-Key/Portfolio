@@ -212,7 +212,7 @@ const Education = () => {
 					year="2019"
 					objective="Over fifty years have passed since the birth of “software engineering” and the “software crisis,” yet we still face similar challenges today. This course prepares students on a path toward the discipline of software engineering, and focuses on tools, workflow and building larger systems than is usually presented in introductory computer science courses. Students will explore different styles of programming paradigms, and collaborate to build a distributed system using multiple technologies. We'll explore software architecture, and the tools, principles and practice of modern software development. The primary learning outcomes are: create software application solutions that solve customer-defined problems and meet user requirements; analyze a problem domain to create appropriate abstractions; apply software engineering design principles and practice writing high-quality code; assess the maintainability and quality of code, and apply basic refactoring techniques; practice using tools to facilitate the implementation of software applications; discover and explain the features of third-party libraries and services; and integrate third-party APIs into a software system; work in a team to design a moderately-sized software system; define the terminology and describe the basic concepts of software architecture."
 					textbook="Lopes, C. (2014). Exercises in Programming Style."
-					grade="B"
+					grade="A-"
 					credits="4"
 				/>
 			</EducationSection>
