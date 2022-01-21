@@ -44,14 +44,14 @@ const EducationSection = (props) => {
                 className="w-screen bg-slate-400 flex justify-between"
                 onClick={toggleExpanded}
             >
-                <div className="text-white text-3xl flex divide-x divide-solid">
-                    <h3 className="my-2 px-2">{name}</h3>
-                    <h3 className="my-2 px-2">{years}</h3>
+                <div className="text-white text-3xl my-auto flex divide-x divide-solid">
+                    <h3 className="text-base lg:text-3xl my-2 lg:my-3 px-2">{name}</h3>
+                    <h3 className="text-base lg:text-3xl my-2 lg:my-3 px-2">{years}</h3>
                     <ConditionalRender condition={gpa} >
-                        <h3 className="my-2 px-2">GPA: {gpa}</h3>
+                        <h3 className="text-base lg:text-3xl my-2 lg:my-3 px-2">GPA: {gpa}</h3>
                     </ConditionalRender>
                 </div>
-                <h3 className="text-white text-center my-1 text-3xl py-2 px-2">{expandIcon}</h3>
+                <h3 className="text-white text-center my-2 text-3xl py-2 px-2">{expandIcon}</h3>
             </button>
             <div className={"flex flex-wrap justify-evenly overflow-scroll " + expandSectionClass}>
                 {children}
