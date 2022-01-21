@@ -18,6 +18,8 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+    "copy-cmaps": "node ./scripts/copy-cmaps.js",
+    "copy-worker": "node ./scripts/copy-worker.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
