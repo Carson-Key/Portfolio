@@ -312,7 +312,7 @@ const Education = () => {
 					id="techguy"
 					term="Fall-Spring"
 					year="2016-2017"
-					description=""
+					description="After a couple rounds of interviewing, by both teachers and students, I was chosen to coop the tech coordinator postion with another student! I learned many things during my time as tech coordinator, including: leadership, networking, team building, team work(!), and I gained some life long friends!"
 				/>
 			</EducationSection>
 		</Container>
