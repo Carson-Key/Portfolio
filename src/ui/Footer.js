@@ -1,7 +1,7 @@
 // Packages
 import { FaLinkedin, FaGithub, FaReact, FaSwift, FaRegCopyright, FaNodeJs, FaGitlab, FaCss3Alt, FaHtml5 } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io5'
-import { SiPhp, SiAmazonaws, SiFirebase, SiFlutter, SiRubyonrails, SiJest } from 'react-icons/si'
+import { SiPhp, SiAmazonaws, SiFirebase, SiFlutter, SiRubyonrails, SiJest, SiCplusplus } from 'react-icons/si'
 import { DiRuby, DiMysql, DiGit } from 'react-icons/di'
 
 const Footer = () => {
@@ -34,7 +34,8 @@ const Footer = () => {
                         <FaHtml5 title="html logo" />
                         <FaCss3Alt title="css logo" />
                         <SiRubyonrails title="ruby on rails logo" />
-                        <SiJest title="jest on rails logo" />
+                        <SiJest title="jest logo" />
+                        <SiCplusplus title="C++ logo" />
                     </div>
                 </div>
             </div>
