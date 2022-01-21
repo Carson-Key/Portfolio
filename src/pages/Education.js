@@ -286,7 +286,29 @@ const Education = () => {
 					credits="4"
 				/>
 			</EducationSection>
-			<EducationSection name="Summit High School" years="2013-2017"/>
+			<EducationSection name="Summit High School" years="2013-2017">
+				<EducationCard
+					title="Homors Degree"
+					id="honordegree"
+					term="Fall-Spring"
+					year="2013-2017"
+					objective=""
+				/>
+				<EducationCard
+					title="Robotics Club"
+					id="robotics"
+					term="Fall-Spring"
+					year="2014-2017"
+					objective=""
+				/>
+				<EducationCard
+					title="Student Government - Tech Coordinator"
+					id="techguy"
+					term="Fall-Spring"
+					year="2016-2017"
+					objective=""
+				/>
+			</EducationSection>
 		</Container>
 	)
 }
