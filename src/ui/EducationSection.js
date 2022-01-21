@@ -9,7 +9,7 @@ const EducationSection = (props) => {
 
     const moreComponent = <MdKeyboardArrowDown/>
 	const lessComponent = <MdKeyboardArrowUp/>
-    const expandedSection = "h-104"
+    const expandedSection = "h-128"
 	const collapsedSection = "h-0 hidden"
 
     const initExpanded = (expand) ? true : false
