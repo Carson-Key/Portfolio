@@ -1,6 +1,5 @@
 // Packages
 import { useState } from 'react'
-// Packages
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 
 const EducationSection = (props) => {
