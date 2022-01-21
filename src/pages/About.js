@@ -1,6 +1,11 @@
+// Components
+import Container from '../components/Container'
+
 const About = () => {
     return (
-		<p>About</p>
+		<Container>
+			<p>About</p>
+		</Container>
 	)
 }
 

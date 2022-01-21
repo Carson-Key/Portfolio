@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`About Page Should Render About page 1`] = `
-<p>
-  About
-</p>
+<main>
+  <p>
+    About
+  </p>
+</main>
 `;

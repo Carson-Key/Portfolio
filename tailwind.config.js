@@ -15,7 +15,15 @@ module.exports = {
       },
       zIndex: {
         '-10': '-10',
-       }
+      },
+      width: {
+        '128': '44rem'
+      },
+      height: {
+        '68': '17rem',
+        '98': '29rem',
+        '112': '36rem'
+      }
     },
   },
   variants: {

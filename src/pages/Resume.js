@@ -1,6 +1,11 @@
+// Components
+import Container from '../components/Container'
+
 const Resume = () => {
     return (
-		<p>Resume</p>
+		<Container>
+			<p>Resume</p>
+		</Container>
 	)
 }
 

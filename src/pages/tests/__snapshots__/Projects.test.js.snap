@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Projects Page Should Render Projects page 1`] = `
-<p>
-  Projects
-</p>
+<main>
+  <p>
+    Projects
+  </p>
+</main>
 `;
