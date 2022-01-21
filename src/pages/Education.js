@@ -215,6 +215,16 @@ const Education = () => {
 					grade="A-"
 					credits="4"
 				/>
+				<EducationCard
+					title="CS 290 - Web Development"
+					id="se201"
+					term="Spring"
+					year="2019"
+					objective="How to design and implement a multi-tier application using web technologies: Creation of extensive custom client- and server-side code, consistent with achieving a high-quality software architecture."
+					textbook="None"
+					grade="B+"
+					credits="4"
+				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
