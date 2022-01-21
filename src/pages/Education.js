@@ -135,6 +135,16 @@ const Education = () => {
 					grade="A-"
 					credits="4"
 				/>
+				<EducationCard
+					title="CS 444 - Operating Systems II"
+					id="cs444"
+					term="Spring"
+					year="2020"
+					objective="This course is intended as an introduction to the implementation of a modern operating system. This will involve implementing pieces of a Unix-like kernel, as well as additional coding projects intended to further your understanding. Upon completion of this course, students will be able to: explain why synchronization is necessary for a concurrent processes scenario, and design synchronization solutions; analyze program data access patterns that may affect the performance of a virtual memory system; design, implement, and test operating system related functions within a large and complex open source code base; select appropriately among processes, user threads, or kernel threads to solve a concurrent problem; apply appropriate algorithms to avoid deadlock for given concurrent processes; explain the strengths and weaknesses of several CPU scheduling algorithms with respect to wait time, turnaround time, throughput, and context-switching implementation challenges; explain various mechanism for protection of memory, the operating system, and system/user files; map virtual addresses to physical addresses; explain various disk block allocation / free-space management strategies; compute access times for various disk scheduling algorithms; participate effectively in a team environment; for CS544 students (or aggressive undergrads): Synthesize and apply concurrency concepts to implement solutions to classical concurrency problems."
+					textbook="Operating Systems: Three Easy Pieces by Remzi Arpaci-Dusseau & Andrea Arpaci-Dusseau. and xv6: a simple, Unix-like teaching operating system, 2017 draft by Russ Cox, Frans Kaashoek, and Robert Morris. "
+					grade="A-"
+					credits="4"
+				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
