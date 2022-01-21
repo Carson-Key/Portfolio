@@ -1,9 +1,11 @@
 // Packages
 import { useState } from 'react'
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
+// Components
+import ConditionalRender from '../components/ConditionalRender'
 
 const EducationSection = (props) => {
-    const { name, expand, children } = props
+    const { name, expand, children, years, gpa } = props
 
     const moreComponent = <MdKeyboardArrowDown/>
 	const lessComponent = <MdKeyboardArrowUp/>
@@ -42,7 +44,13 @@ const EducationSection = (props) => {
                 className="w-screen bg-slate-400 flex justify-between"
                 onClick={toggleExpanded}
             >
-                <h3 className="text-white text-3xl py-2 px-2">{name}</h3>
+                <div className="text-white text-3xl flex divide-x divide-solid">
+                    <h3 className="my-2 px-2">{name}</h3>
+                    <h3 className="my-2 px-2">{years}</h3>
+                    <ConditionalRender condition={gpa} >
+                        <h3 className="my-2 px-2">GPA: {gpa}</h3>
+                    </ConditionalRender>
+                </div>
                 <h3 className="text-white text-center my-1 text-3xl py-2 px-2">{expandIcon}</h3>
             </button>
             <div className={"flex flex-wrap justify-evenly overflow-scroll " + expandSectionClass}>

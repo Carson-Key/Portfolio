@@ -7,13 +7,13 @@ const Education = () => {
 	
     return (
 		<Container className="divide-y divide-solid">
-			<EducationSection expand name="Oregon State University">
+			<EducationSection expand name="Oregon State University" gpa="3.56" years="2017-2021">
 				<EducationCard
 					title="CS 160"
 					id="cs160"
 				/>
 			</EducationSection>
-			<EducationSection name="Summit High School" />
+			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
 	)
 }
