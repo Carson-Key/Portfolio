@@ -147,7 +147,7 @@ const Education = () => {
 				/>
 				<EducationCard
 					title="CS 340 - Intro to Databases"
-					id="cs444"
+					id="cs340"
 					term="Winter"
 					year="2020"
 					objective="This course introduces the concepts of data, data modeling, relational database concepts, and relational database management systems. The course provides the student the opportunity to write programs that interact with data, gather requirements for database schemas, design and implement relational schemas, understand relational algebra, and work with SQL queries. The course uses the SQLite relational database management system. The primary learning outcomes are: describe the difference between a relational database and a flat file; model a moderately complex data set by using an ER or UML diagram, and derive a relational schema from that diagram; create a relational database from a relational schema; create multiple indices in a relational database, and explain when and why such indices are appropriate; formulate SQL statements for data manipulation; formulate simple queries in relational algebra by using projection, selection, product, and join operations; describe the components and interfaces of a Web-based database system; Design and implement a Web-based relational database system, using one or more scripting languages and an open-source database development system."
