@@ -14,7 +14,7 @@ const Education = () => {
 					term="Fall/Winter/Spring"
 					year="2021"
 					objective="This course introduces the senior student to the realities of delivering professional quality software. The course provides the student a team-based opportunity to engage a real client in the software development process, from requirements gathering to continuous deployment, and to reflect upon the craft of software engineering. The course uses the Extreme Programming method, stand-up meetings, and project-specific platforms. The primary learning outcomes are: design, plan, organize, synthesize and complete a significant software project in three academic quarters; apply all aspects of the software engineering process, including project planning, requirements documents, software design, coding, testing, walk-throughs, documentation, and delivery; demonstrate good communication skills in the form of weekly reports and project talks, posters, and elevator talks; participate effectively in a team environment; analyze and organize their own career preparation; evaluate the professional, legal, and/or social implications of software product development; evaluate the contributions and importance of software projects to the broad user community; explain the importance of software projects to people from other disciplines and the general public; sevelop and articulate content knowledge and critical thinking in the discipline through frequent practice of informal and formal writing; demonstrate knowledge/understanding of audience expectations, genres, and conventions appropriate to communicating in the discipline; demonstrate the ability to compose a document of at least 2000 words through multiple aspects of writing, including brainstorming, drafting, using sources appropriately, and revising comprehensively after receiving feedback on a draft."
-					textbook="GBrooks, F. (1995). The Mythical Man-Month: Essays on Software Engineering and Jeffries, R. (2015). The Nature of Software Development."
+					textbook="GBrooks, F. (1995). The Mythical Man-Month: Essays on Software Engineering. and Jeffries, R. (2015). The Nature of Software Development."
 					grade="B/A-/A"
 					credits="3/3/2"
 					projects={[
@@ -27,7 +27,7 @@ const Education = () => {
 					term="Spring"
 					year="2021"
 					objective="At the completion of this course, students will be able to: apply supervised learning algorithms to prediction problems and evaluate the results; analyze data using unsupervised learning programs and evaluate the performance; implement and test reinforcement learning for control and optimization problems; formulate given learning problems appropriately as instances of supervised, unsupervised, or reinforcement learning problem."
-					textbook="Geron, A. (2019). Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow: Concepts, Tools and Techniques to Build Intelligent Systems (2nd ed)"
+					textbook="Geron, A. (2019). Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools and Techniques to Build Intelligent Systems"
 					grade="A"
 					credits="4"
 				/>
@@ -47,7 +47,7 @@ const Education = () => {
 					term="Spring"
 					year="2021"
 					objective="We strive to engineer software to accommodate change easily, but so much code that we encounter is not easy to change. It is rigid. It emits smells. We can choose to make it better, or, under the pressure of deadlines, likely make it worse. By studying known smells and targeted refactoring techniques to remove them, we become better and more efficient at engineering software for change. Furthermore, if we can incorporate these tools into a repeatable process, we might see a discipline of software engineering emerge, rather than a subjective art. In this course, we introduce students to smells and refactoring techniques to improve the quality and maintainability of software. And, we'll explore advanced tools, such as containers, and processes such as continuous integration, to enhance the discipline in our daily work. recognize flaws in software design (e.g. “code smells”), sescribe common refactoring techniques, apply refactoring techniques in a test-driven process to improve the quality and maintainability of code, describe deployment processes such as continuous integration and continuous delivery, apply tools for managing the construction and deployment of N-tier applications for virtualized environments, sescribe the benefits and drawbacks of containers for managing development and production environments, apply containerization tools to create development and production environments, participate effectively in a software engineering team."
-					textbook="Fowler, M. (2019). Refactoring: Improving the Design of Existing Code, 2nd Edition and Metz, S. (2021). 99 Bottles of OOP, 2nd Edition"
+					textbook="Fowler, M. (2019). Refactoring: Improving the Design of Existing Code and Metz, S. (2021). 99 Bottles of OOP"
 					grade="A"
 					credits="4"
 				/>
@@ -84,6 +84,16 @@ const Education = () => {
 					objective="This course provides its students with an opportunity to build a business selling software as a service (SaaS). Students shall focus on product development, interpreting customer feedback, architecting multi-tenant systems, and how to conduct monetary subscription transactions online. The goal is for each student-led product team to create and deploy a minimum viable product and an online commerce system enabling a customer to purchase the product. The primary learning outcomes are: execute a software-as-a-service (SaaS) business model, from ideation to sales; apply software engineering techniques to iteratively improve a software product to meet customer requirements and market demand; implement product management processes and techniques to design, build, and scale a software-as-a-service platform; integrate e-commerce tools and systems for monetary transactions; execute a marketing and sales plan; discuss the management of a startup software business; present a business and its product for capital investment; participate effectively in a team environment."
 					textbook="Olsen, D. (2015). The Lean Product Playbook."
 					grade="A"
+					credits="4"
+				/>
+				<EducationCard
+					title="CS 466 - Web-Based StartUp Project"
+					id="cs466"
+					term="Fall"
+					year="2021"
+					objective="This course introduces position the student in the context of working at a “tech” startup to design a new product that solves a problem and can be sold for money. The senior student shall conduct investigations of product ideas, test hypotheses, identify revenue models, and conduct customer experiments. The course provides a hands-on, team-based experience involving discovery, design, product evaluation, rapid iteration, analytics to inform decision making. The primary learning outcomes are: identify the key elements of a business model and explain the importance of articulating and testing the assumptions related to web and mobile web startups, interview customers to iterate and refine key assumptions comprising the value proposition and business model, identify state-of-the-art technologies available in web/mobile delivery, design and deliver a minimal viable product in a web or mobile application, synthesize customer feedback to refine product-market fit, explain importance of build-measure-learn process."
+					textbook="Ries, E. (2011). The Lean Startup. and Aulet, B. (2013). Disciplined Entrepreneurship."
+					grade="A-"
 					credits="4"
 				/>
 			</EducationSection>
