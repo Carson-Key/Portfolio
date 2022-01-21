@@ -217,12 +217,22 @@ const Education = () => {
 				/>
 				<EducationCard
 					title="CS 290 - Web Development"
-					id="se201"
+					id="cs290"
 					term="Spring"
 					year="2019"
 					objective="How to design and implement a multi-tier application using web technologies: Creation of extensive custom client- and server-side code, consistent with achieving a high-quality software architecture."
 					textbook="None"
 					grade="B+"
+					credits="4"
+				/>
+				<EducationCard
+					title="CS 391 - Social & Ethical Issues in CS"
+					id="cs391"
+					term="Spring"
+					year="2019"
+					objective="Upon completion of this course, students will be able to: analyze relationships among science, technology, and society using critical perspectives or examples from historical, political, or economic disciplines; analyze the role of science and technology in shaping diverse fields of study over time; explain the roles and responsibilities of a computer professional; articulate in writing a critical perspective on issues involving science, technology, and society using evidence as support."
+					textbook="None"
+					grade="A"
 					credits="4"
 				/>
 			</EducationSection>
