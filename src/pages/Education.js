@@ -116,6 +116,16 @@ const Education = () => {
 					grade="A-"
 					credits="4"
 				/>
+				<EducationCard
+					title="CS 362 - Software Engineering II"
+					id="cs362"
+					term="Spring"
+					year="2020"
+					objective="This course continues an exploration of the fundamental concepts in software engineering based on best practices and cutting edge technologies, methodologies and architectures. The course provides the experienced student the opportunity to build applications using today's most relevant technology, informed by today's best practices, and supports the skills and perspective necessary for analyzing and constructing real-world software. The primary learning outcomes are: apply automated tools such as make and CVS in a realistic setting; describe the cost-benefit trade-offs inherent in the use of automated tools for building software and configuration management; describe several techniques for validating and measuring the quality of software; use appropriate techniques and tools, including a debugger, to locate program faults; describe several types of maintenance processes associated with correcting and enhancing software systems; participate effectively in a software inspection; participate effectively in a team environment. Also including: improve legacy software via refactoring, testing and other best practices; apply testing techniques, including black-box and white-box techniques, automatic testing activities and regression testing; sefine essential vocabulary from the corpus of software engineering; sistinguish benefits and drawbacks of tools, technologies and methodologies; apply postmodern languages, tools and methodologies to create usable software; apply architectural, integration and object-oriented design patterns; an ability to identify, formulate, and solve engineering problems based on a fundamental understanding of concepts of software engineering topics; an ability to use the techniques, skills and modern engineering tools necessary for software engineering practice."
+					textbook="Feathers, M. (2005). Working Effectively with Legacy Code. and Rappin, N. (2018). Rails 5 Test Prescriptions."
+					grade="A-"
+					credits="4"
+				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
