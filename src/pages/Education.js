@@ -275,6 +275,16 @@ const Education = () => {
 					grade="B"
 					credits="4"
 				/>
+				<EducationCard
+					title="CS 195 - Website Design"
+					id="cs195"
+					term="Fall"
+					year="2017"
+					objective="This class focused on teaching the prope use of website layout, animations, colors, and pictures to provide an enjoyable experience (both visually and interactively) to any user."
+					textbook="Unknown"
+					grade="B"
+					credits="4"
+				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
