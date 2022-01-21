@@ -52,6 +52,16 @@ const Education = () => {
 					credits="4"
 				/>
 				<EducationCard
+					title="SE 468 - Business of Software III"
+					id="se468"
+					term="Spring"
+					year="2021"
+					objective="Creating a software product is one thing, and selling it is another. Every SaaS product shares a common set of requirements: providing a recurring subscription model, end-user subscription management, administrative customer management, and, most importantly, conducting monetary transactions. In this term of the sequence, we will create this common suite of functionality that every SaaS product needs in order to be successful and generate revenue. Our learning outcomes include: execute a software-as-a-service (SaaS) business model, from ideation to sales; apply software engineering techniques to iteratively improve a software product to meet customer requirements and market demand; implement product management processes and techniques to design, build, and scale a software-as-a-service platform; integrate e-commerce tools and systems for monetary transactions; execute a marketing and sales plan; discuss the management of a startup software business; present a business and its product for capital investment; participate effectively in a team environment."
+					textbook="Savoia, A. (2019). The Right It. Harper One. and Oliver, C. (2021). Payments with Ruby on Rails Master Class."
+					grade="A"
+					credits="4"
+				/>
+				<EducationCard
 					title="CS 493 - Cloud Application Development"
 					id="cs493"
 					term="Winter"
