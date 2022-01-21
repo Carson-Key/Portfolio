@@ -6,7 +6,7 @@ const Education = () => {
 	
     return (
 		<Container className="divide-y divide-solid">
-			<EducationSection name="Oregon State University" />
+			<EducationSection expand name="Oregon State University" />
 			<EducationSection name="Summit High School" />
 		</Container>
 	)

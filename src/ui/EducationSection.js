@@ -4,16 +4,20 @@ import { useState } from 'react'
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 
 const EducationSection = (props) => {
-    const { name } = props
+    const { name, expand } = props
 
     const moreComponent = <MdKeyboardArrowDown/>
 	const lessComponent = <MdKeyboardArrowUp/>
     const expandedSection = "h-104"
 	const collapsedSection = "h-0 hidden"
 
-    const [expanded, setExpanded] = useState(false)
-    const [expandIcon, setExpandIcon] = useState(moreComponent)
-    const [expandSectionClass, setExpandSectionClass] = useState(collapsedSection)
+    const initExpanded = (expand) ? true : false
+    const initIcon = (expand) ? lessComponent : moreComponent
+    const initSection = (expand) ? expandedSection : collapsedSection
+
+    const [expanded, setExpanded] = useState(initExpanded)
+    const [expandIcon, setExpandIcon] = useState(initIcon)
+    const [expandSectionClass, setExpandSectionClass] = useState(initSection)
 
     const changeElementOnExpandedChange = (setState, collapsed, extdended) => {
 		if (expanded) {
