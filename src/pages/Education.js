@@ -255,6 +255,16 @@ const Education = () => {
 					grade="A-"
 					credits="4"
 				/>
+				<EducationCard
+					title="CS 261 - Data Structures"
+					id="cs261"
+					term="Fall"
+					year="2018"
+					objective="This course introduces students to recognizing common “problem patterns” and solutions involving data structures, in a hands-on, problem-driven approach. Students will be able to improve the quality of their code, recognize universal APIs of common abstract data types, and improve the performance of their programs using data structures and algorithms. Students will also understand foundation concepts in algorithmic analysis. The primary learning outcomes are: describe the properties, interfaces, and behaviors of basic abstract data types, such as collection, bag, indexed collection, sorted collection, stack, and queue; read an algorithm or program code segment that contains iterative constructs and analyze the asymptotic time complexity of the algorithm or code segment; state the asymptotic time complexity of the fundamental operations associated with a variety of data structures, such as vector, linked list, tree, and heap; recall the space utilization of common data structures in terms of the long-term storage needed to maintain the structure, as well as the short-term memory requirements of fundamental operations, such as sorting; design and implement general-purpose, reusable data structures that implement one or more abstractions; compare and contrast the operation of common data structures (such as linear structures, priority queues, tree structures, hash tables, maps, and graphs) in terms of time complexity, space utilization, and the abstract data types they implement."
+					textbook="Miller, B., & Ranum, D. (2011). Problem Solving with Algorithms and Data Structures Using Python."
+					grade="A"
+					credits="4"
+				/>
 			</EducationSection>
 			<EducationSection name="Summit High School" years="2013-2017"/>
 		</Container>
