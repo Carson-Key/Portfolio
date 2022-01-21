@@ -9,7 +9,7 @@ const Education = () => {
 		<Container className="divide-y divide-solid">
 			<EducationSection expand name="Oregon State University" gpa="3.56" years="2017-2021">
 				<EducationCard
-					title="CS 493"
+					title="CS 493 - Cloud Application Development"
 					id="cs493"
 					term="Winter"
 					year="2021"
