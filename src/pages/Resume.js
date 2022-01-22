@@ -5,7 +5,7 @@ import Container from '../components/Container'
 
 const Resume = () => {
     return (
-		<Container className="overflow-x-scroll w-screen">
+		<Container className="scrollbar-hide overflow-x-scroll w-screen">
 			<center>
 				<Document
 					file={process.env.PUBLIC_URL + "/Resume.pdf"}
