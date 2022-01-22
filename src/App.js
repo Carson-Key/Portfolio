@@ -9,7 +9,7 @@ import PageRoutes from './components/PageRoutes'
 const App = () => {
 	return (
 		<Router>
-			<div className="flex flex-col h-screen justify-between">
+			<div className="flex flex-col min-h-screen justify-between">
 				<Header />
 				<PageRoutes />
 				<Footer />
