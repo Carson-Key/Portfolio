@@ -1,10 +1,16 @@
+// Packages
+import { Document, Page } from 'react-pdf'
 // Components
 import Container from '../components/Container'
 
 const Resume = () => {
     return (
 		<Container>
-			<p>Resume</p>
+			<Document 
+				file="" 
+			>
+				<Page pageNumber={1} />
+			</Document>
 		</Container>
 	)
 }
