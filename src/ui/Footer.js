@@ -15,7 +15,7 @@ const Footer = () => {
                         <a href="https://github.com/Carson-Key" className="text-lg"><FaGithub className="inline" title="link to Github"/></a>
                     </div>
                 </div>
-                <div>
+                <div className="overflow-scroll scrollbar-hide">
                     <h4 className="font-bold mx-auto">Technologies Learned So Far</h4>
                     <div className="flex justify-evenly text-lg my-1">
                         <FaReact title="react logo" />
