@@ -15,7 +15,7 @@ const PageRoutes = () => {
             <Route path="/Education" element={<Education />} />
             <Route path="/Resume" element={<Resume />} />
             <Route path="/About" element={<About />} />
-            <Route path="/" element={<About />} />
+            <Route path="/" element={<Projects />} />
         </Routes>
 	)
 }
