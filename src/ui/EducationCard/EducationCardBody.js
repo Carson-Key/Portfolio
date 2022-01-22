@@ -14,7 +14,7 @@ const EducationCardBody = (props) => {
 	let nullProjects = projects ? projects : []
 
     return (
-		<div className={"overflow-scroll " + expandCardBodyClass}>
+		<div className={"scrollbar-hide overflow-scroll " + expandCardBodyClass}>
 				<ConditionalRender condition={description}>
 					<div className="mx-4 my-2">
 						<h4 className="font-bold">Description:</h4>
