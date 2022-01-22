@@ -12,7 +12,7 @@ const Resume = () => {
 				>
 					<Page height={window.height} pageNumber={1} />
 				</Document>
-				<a className="w-auto mx-2 bg-primary rounded text-white py-1 px-2">Download</a>
+				<a className="w-auto mx-2 bg-primary rounded text-white py-1 px-2" href={process.env.PUBLIC_URL + "/Resume.pdf"}>Download</a>
 			</center>
 		</Container>
 	)
