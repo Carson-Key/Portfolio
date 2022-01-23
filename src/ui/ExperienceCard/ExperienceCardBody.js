@@ -13,7 +13,7 @@ const ExperienceCardBody = (props) => {
 	let nullProjects = projects ? projects : []
 
     return (
-		<div className={"transition-all duration-500 ease-out overflow-scroll " + expandCardBodyClass}>
+		<div className={"transition-all duration-500 ease-out scrollbar-hide overflow-scroll " + expandCardBodyClass}>
 			<ConditionalRender condition={imageSrc && imageAlt}>
 				<img className={"w-44 mx-auto h-auto mb-1 " + expandImgClass} src={imageSrc} alt={imageAlt} />
 			</ConditionalRender>

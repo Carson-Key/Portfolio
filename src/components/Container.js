@@ -2,7 +2,7 @@ const Container = (props) => {
 	const { children, className } = props
 
 	return (
-		<main className={className}>
+		<main className={"mb-auto " + className}>
 			{children}
 		</main>
 	)
