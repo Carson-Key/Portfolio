@@ -53,7 +53,7 @@ const EducationSection = (props) => {
                 </div>
                 <h3 className="text-white text-center my-2 text-3xl py-2 px-2">{expandIcon}</h3>
             </button>
-            <div className={"flex flex-wrap justify-evenly overflow-scroll " + expandSectionClass}>
+            <div className={"flex flex-wrap justify-evenly overflow-scroll scrollbar-hide " + expandSectionClass}>
                 {children}
             </div>
         </article>
