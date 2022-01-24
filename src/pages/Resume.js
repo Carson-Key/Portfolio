@@ -4,6 +4,7 @@ import { Document, Page } from 'react-pdf'
 import Container from '../components/Container'
 
 const Resume = () => {
+	console.log(window.innerWidth)
     return (
 		<Container className="scrollbar-hide overflow-scroll w-screen py-2">
 			<center>
@@ -11,7 +12,7 @@ const Resume = () => {
 				<Document
 					file={process.env.PUBLIC_URL + "/Resume.pdf"}
 				>
-					<Page pageNumber={1} />
+					<Page width={window.innerWidth} pageNumber={1} />
 				</Document>
 			</center>
 		</Container>
