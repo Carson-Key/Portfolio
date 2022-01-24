@@ -4,15 +4,16 @@ import { Document, Page } from 'react-pdf'
 import Container from '../components/Container'
 
 const Resume = () => {
+	console.log(window.innerWidth)
     return (
-		<Container className="scrollbar-hide overflow-x-scroll w-screen">
+		<Container className="scrollbar-hide overflow-scroll w-screen py-2">
 			<center>
+			<a className="w-auto mx-2 my-1 bg-primary rounded text-white py-1 px-2" href={process.env.PUBLIC_URL + "/Resume.pdf"}>Download</a>
 				<Document
 					file={process.env.PUBLIC_URL + "/Resume.pdf"}
 				>
-					<Page height={window.height} pageNumber={1} />
+					<Page width={window.innerWidth} pageNumber={1} />
 				</Document>
-				<a className="w-auto mx-2 bg-primary rounded text-white py-1 px-2" href={process.env.PUBLIC_URL + "/Resume.pdf"}>Download</a>
 			</center>
 		</Container>
 	)
