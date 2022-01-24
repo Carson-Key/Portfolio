@@ -20,7 +20,7 @@ const Projects = () => {
 				shortDescription="This portfolio is far more than a static page, it uses React for frontend and with plans for an AWS backend"
 				background="In my time at OSU Cascades, I learned that one of the best ways to show a potential employer your abilities is in the form of a website. Although I wanted to go a step further and make a portfolio that would both display my accomplishments and experiences, but I also wanted it to act as one."
 				longDescription="From a design perspective this is overkill, a portfolio website is as static of a website as they come. HTML and Tailwind would have done the job at a far better labor cost. But I decided that the extra costs in design, testing, and implementation would outweigh their costs by providing a far more presentable portfolio with a better display of my skills."
-				techDescription="In this project I used React for a responsive and interactive frontend, React-Scripts for a testing suite, and Tailwind for a CSS library."
+				techDescription="In this project I used React for a responsive and interactive frontend, React-Scripts for a testing suite, AWS Amplify for hosting with continuous deployment from github, and Tailwind for a CSS library."
 				projectLink="/"
 				githubLink="https://github.com/Carson-Key/Portfolio"
 				years="2022"
