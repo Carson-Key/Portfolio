@@ -16,7 +16,7 @@ const Experience = () => {
 				id="cbtnuggets"
 				imageSrc={LogoCBTNuggets}
 				imageAlt="Two lower case g's made of three golden circles"
-				description="At this position my main task was developing a bug filled website to use in the QA engineer interview process. After finishing the project early, I moved onto creating a dashboard to display automated test statistics."
+				description="In this position my main task was developing a bug filled website to use in the QA engineer interview process. After finishing the project early, I moved onto creating a dashboard to display automated test statistics."
 				role="Intern Developer"
 				years={{from: "Jun 2018", to: "Sep 2018"}}
 				projects={[{name: "Bug Hunt", id: "#cbtnuggetsbughunt"}, {name: "QA Statistics Dashboard", id: "#cbtnuggetsqadashboard"}]}
@@ -37,7 +37,7 @@ const Experience = () => {
 				id="osuittemp"
 				imageSrc={LogoOSU}
 				imageAlt="A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"
-				description="A continuation of my position as Student Worker after my graduation. My responsibilities were roughly the same, with a larger emphasis on longer term and complicated tasks that a Tech II would be doing. Although I also had an added responsibility of showing around and helping train two new Tech IIs that started my final months, which was really fun meeting and helping them."
+				description="A continuation of my position as Student Worker after my graduation. My responsibilities were roughly the same, with a larger emphasis on longer term and complicated tasks that a Tech II would be doing. In my final months in this position the OSU-C IT team hired two tech IIs. Which gave me the added responsibilitty to help orientate and train the two new hires, which it was a blast to help orientate/train and meet them."
 				role="Temp Tech II"
 				years={{from: "Jun 2021", to: "Dec 2021"}}
 				projects={[{name: "OSU IT Produects Status Page", id: "#osustatus"}]}
@@ -48,7 +48,7 @@ const Experience = () => {
 				id="redhawk"
 				imageSrc={LogoRedHawk}
 				imageAlt="Two 90 degree swooshes, a lrager black one and a smaller red one, that form a square hawk head"
-				description="At this position I was in charge of maintaining and fixing a legacy (20 years old) php dashboard for RedHawk. I really learned a lot about the development process of legacy code, which I have since learned are extremely valuable skills in the industry. Towards the end of my time at RedHawk I started work on an external user creation wizard using React, but because of a ramp up in school I didn't have the time to finish it."
+				description="In this position I was in charge of maintaining and fixing a legacy (20 years old) PHP dashboard for RedHawk. I really learned a lot about the development process of legacy code, which I have since learned are extremely valuable skills in the industry. Towards the end of my time at RedHawk I started work on an external user creation wizard using React, but because of a ramp up in school I didn't have the time to finish it."
 				role="Intern Developer"
 				years={{from: "Jul 2019", to: "Jan 2020"}}
 				shortDecription="Legacy PHP Development"
@@ -58,7 +58,7 @@ const Experience = () => {
 				id="ahc"
 				imageSrc={LogoAHC}
 				imageAlt="Alyce Hatch Center written out with a child reaching for a star next to the words"
-				description="This was a volunteering experience, where I created and maintained the website for the Alyce Hatch Center. It was a really cool experience to work with this non profit, and if they came back I would volunteer in a heartbeat."
+				description="This was a volunteering experience, where I created and maintained the website for the Alyce Hatch Center. It was a really cool experience to work with this no-profit, and if they came back I would volunteer in a heartbeat."
 				role="Web Developer"
 				years={{from: "Jun 2016", to: "Jun 2021"}}
 				projects={[{name: "Website", id: "#ahcwebsite"}]}
@@ -79,7 +79,7 @@ const Experience = () => {
 				id="osutechclub"
 				imageSrc={LogoOSU}
 				imageAlt="A crest containing the shining sun over the water, the mountains with the stars above them, and a pine tree overlaying a book. With a beaver on top of the crest"
-				description="During my Sophomore year in college I ran for treasurer of the OSU Cascades Tech club, which is a club that helps students better their portfolios and get them professional experiences in the tech world. Along with having fun projects and activities to work on. I was lucky enough to get elected for three years in a row! My role for this club was submitting yearly budgets and maintaining financial records. Along with any event planning or any odd executive tasks that needed to be done."
+				description="During my Sophomore year in college I ran for treasurer of the OSU Cascades Tech club. This is a club that helps students better their portfolios and get them professional experiences in the tech world and having fun projects and activities to work on. I was lucky enough to get elected for three years in a row! My role for this club was submitting yearly budgets and maintaining financial records. In addition to helping with any event planning or any odd executive tasks."
 				role="Treasurer"
 				years={{from: "Sep 2018", to: "Jun 2021"}}
 				shortDecription="Budget Managment"
