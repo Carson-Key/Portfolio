@@ -7,10 +7,21 @@ import LogoOSU from '../assets/Logo-OSU.png'
 import LogoAHC from '../assets/Logo-AHC.png'
 import LogoRedHawk from '../assets/Logo-RedHawk.png'
 import LogoSummit from '../assets/Logo-Summit.png'
+import LogoMazama from '../assets/Logo-Mazama.png'
 
 const Experience = () => {
     return (
 		<Container className="flex flex-wrap justify-evenly">
+			<WorkCard
+				title="Mazama"
+				id="mazama"
+				imageSrc={LogoMazama}
+				imageAlt="An M turned into a blue mountain"
+				description="In this position I did full stack development including frontend, backend, QA, requirements gathering, and devops. I used React.js, AWS, Python, and various other tech stacks to help the Mazama team improve an application/customer aquisition chat bot (Sadly because of ongoing NDA's I am unable to go into any further detail)!"
+				role="Software Developer"
+				years={{from: "Oct 2022", to: "Present"}}
+				shortDecription="Full Stack Development"
+			/>
 			<WorkCard
 				title="CBT Nuggets"
 				id="cbtnuggets"
