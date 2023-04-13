@@ -8,6 +8,7 @@ import LogoCBTNuggets from '../assets/Logo-CBTNuggets.png'
 import LogoOSU from '../assets/Logo-OSU.png'
 import LogoAHC from '../assets/Logo-AHC.png'
 import LogoMM from '../assets/Logo-MM.png'
+import LogoBrokenGM from '../assets/Logo-Brokengm.svg'
 
 const Projects = () => {
     return (
@@ -24,6 +25,19 @@ const Projects = () => {
 				projectLink="/"
 				githubLink="https://github.com/Carson-Key/Portfolio"
 				years="2022"
+			/>
+			<ProjectCard
+				title="BrokenGM"
+				id="brokengm"
+				imageSrc={LogoBrokenGM}
+				imageAlt={"Black trifold Dungeons and Dragons DM screen with a fractured purple d20 on the cennter fold"}
+				shortDescription="A personal project that I made to help streamline my expierence as a DM through a variety of web based tools."
+				background="In my 8 years of playing Dungeons and Dragons, and 5 years as a DM, I have noticed a couple of tools that would vastly increase my ability to share my world better with my players. So I decided to make them! The biggest one being a clock that follows a custom time system of any DnD world. After building a Custom clock (check out the code, its truly custom; months, years, hours, days, the whole thing!) I wanted to do even more! I made a notes system, a voting system, an event system that connects with the clock, a discord bot to transcribe sessions (and help a hearing impaired player), and much much more planned!"
+				longDescription="Using React (and its incredible ability to componentize) I made a site to house all the tools I could think of. I did this through spereating out each tool into different routes with React Router Dom. I then store all data using Firebase's Firestore (with the voting system using Firebase's realtime DB!), having an authentication system so that my more techy players don't try to access my notes, and CI/CD deployment. This was a full stack project that includes frontend, backend, DBA, Devops, and even a hook based discord bot."
+				techDescription="In this project I used React for frontend, Firebase Firestore/Realtime DB for backend, github actions for CI/CD, and Tailwind for a CSS library."
+				projectLink="https://brokengm.com/"
+				githubLink="https://github.com/Carson-Key/BrokenGM"
+				years="2022-2023"
 			/>
 			<ProjectCard
 				title="OSU-C Capstone - Guardian Group"
