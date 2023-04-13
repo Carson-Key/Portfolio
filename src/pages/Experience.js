@@ -9,6 +9,7 @@ import LogoRedHawk from '../assets/Logo-RedHawk.png'
 import LogoSummit from '../assets/Logo-Summit.png'
 import LogoMazama from '../assets/Logo-Mazama.png'
 import LogoGG from '../assets/Logo-GuardianGroup.png'
+import Logo from '../assets/Logo-512.png'
 
 const Experience = () => {
     return (
@@ -44,6 +45,16 @@ const Experience = () => {
 				years={{from: "Jun 2018", to: "Sep 2018"}}
 				projects={[{name: "Bug Hunt", id: "#cbtnuggetsbughunt"}, {name: "QA Statistics Dashboard", id: "#cbtnuggetsqadashboard"}]}
 				shortDecription="React Programming"
+			/>
+			<WorkCard
+				title="Freelance"
+				id="freelance"
+				imageSrc={Logo}
+				imageAlt="Brass colored Node.js hexagon logo with brass colored React logo inside, which has the nucleus replaced with a brass key"
+				description="I did a wide range of different types of software development during my time as a freelance software developer. Anything from a static website for a small business to an entire authentication system for a startup company. During this time I learned to use so many different tech stacks that I could fill this whole page (and I had to remove most of them from my footer); mostly I worked in PHP, Javascript, HTML, CSS, and Python."
+				role="Freelance Software Developer"
+				years={{from: "Aug 2013", to: "May 2017"}}
+				shortDecription="Anything and Everything Software Development"
 			/>
 			<WorkCard
 				title="OSU - Cascades IT Student"
