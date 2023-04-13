@@ -32,7 +32,7 @@ const Experience = () => {
 				description="I volunteered, as part of my capstone project at OSU - Cascades, to help build an application for the fantastic non-profit organisation Guardian Group, who are out there ending human traffiking!"
 				role="Volunteer Software Developer"
 				projects={[{name: "OSU-C Capstone - Guardian Group", id: "#capstone"}]}
-				years={{from: "Sep 2020", to: "Jun 21"}}
+				years={{from: "Sep 2020", to: "Jun 2021"}}
 				shortDecription="Full Stack Development"
 			/>
 			<WorkCard
