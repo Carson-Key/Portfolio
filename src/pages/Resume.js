@@ -13,6 +13,7 @@ const Resume = () => {
 					file={process.env.PUBLIC_URL + "/Resume.pdf"}
 				>
 					<Page width={window.innerWidth} pageNumber={1} />
+					<Page width={window.innerWidth} pageNumber={2} />
 				</Document>
 			</center>
 		</Container>
