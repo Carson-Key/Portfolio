@@ -8,6 +8,7 @@ import LogoAHC from '../assets/Logo-AHC.png'
 import LogoRedHawk from '../assets/Logo-RedHawk.png'
 import LogoSummit from '../assets/Logo-Summit.png'
 import LogoMazama from '../assets/Logo-Mazama.png'
+import LogoGG from '../assets/Logo-GuardianGroup.png'
 
 const Experience = () => {
     return (
@@ -20,6 +21,17 @@ const Experience = () => {
 				description="In this position I did full stack development including frontend, backend, QA, requirements gathering, and devops. I used React.js, AWS, Python, and various other tech stacks to help the Mazama team improve an application/customer aquisition chat bot (Sadly because of ongoing NDA's I am unable to go into any further detail)!"
 				role="Software Developer"
 				years={{from: "Oct 2022", to: "Present"}}
+				shortDecription="Full Stack Development"
+			/>
+			<WorkCard
+				title="Guardian Group"
+				id="guardiangroup"
+				imageSrc={LogoGG}
+				imageAlt="A capital blue G with a side shot of a light blue face silhouette inside"
+				description="I volunteered, as part of my capstone project at OSU - Cascades, to help build an application for the fantastic non-profit organisation Guardian Group, who are out there ending human traffiking!"
+				role="Volunteer Software Developer"
+				projects={[{name: "OSU-C Capstone - Guardian Group", id: "#capstone"}]}
+				years={{from: "Sep 2020", to: "Jun 21"}}
 				shortDecription="Full Stack Development"
 			/>
 			<WorkCard
