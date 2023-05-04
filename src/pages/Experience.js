@@ -19,7 +19,20 @@ const Experience = () => {
 				id="mazama"
 				imageSrc={LogoMazama}
 				imageAlt="An M turned into a blue mountain"
-				description="In this position I did full stack development including frontend, backend, QA, requirements gathering, and devops. I used React.js, AWS, Python, and various other tech stacks to help the Mazama team improve an application/customer aquisition chat bot (Sadly because of ongoing NDA's I am unable to go into any further detail)!"
+				description={<>
+					<ul>
+						<li>- Full Stack development: Front-end, Back-end, Devops, Architecture, ect</li>
+						<li>- Creating new features and improvements to a SaaS customer acquisition chat bot</li>
+						<li>- Using various tech stacks like React, AWS, Python, and Twilio to accomplish tasks</li>
+						<li>- Gathering requirements from key stakeholders</li>
+						<li>- Helping Junior developers with any technical help they needed</li>
+						<li>- Implementing CI/CD across all old systems</li>
+						<li>- Refactoring legacy code</li>
+						<li>- Complete over hall of all front-end (React) to a more maintainable and scalable code base</li>
+						<li>- Onboarding new SaaS clients</li>
+						<li>- Creating/Maintaining Python/Node REST APIs</li>
+					</ul>
+				</>}
 				role="Software Developer"
 				years={{from: "Oct 2022", to: "Present"}}
 				shortDecription="Full Stack Development"
