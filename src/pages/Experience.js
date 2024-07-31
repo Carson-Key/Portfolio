@@ -18,23 +18,25 @@ const Experience = () => {
 				title="Mazama"
 				id="mazama"
 				imageSrc={LogoMazama}
-				imageAlt="An M turned into a blue mountain"
+				imageAlt="A M turned into a blue mountain"
 				description={<>
+					During my Time at Mazama I was mainly in charge of maintaining/owning our Frontend stacks and our AWS infrastructure along with building our code base to move towards a SaaS product. Here's some of the projects and tasks I completed/did at Mazama:
 					<ul>
-						<li>- Full Stack development: Front-end, Back-end, Devops, Architecture, ect</li>
-						<li>- Creating new features and improvements to a SaaS customer acquisition chat bot</li>
-						<li>- Using various tech stacks like React, AWS, Python, and Twilio to accomplish tasks</li>
-						<li>- Gathering requirements from key stakeholders</li>
-						<li>- Helping Junior developers with any technical help they needed</li>
-						<li>- Implementing CI/CD across all old systems</li>
-						<li>- Refactoring legacy code</li>
-						<li>- Complete over hall of all front-end (React) to a more maintainable and scalable code base</li>
-						<li>- Onboarding new SaaS clients</li>
-						<li>- Creating/Maintaining Python/Node REST APIs</li>
+						<li>- Rebuild our legacy frontend stack using React.js, Typescript, and Tailwind to better fit within business needs and move towards a SaaS product</li>
+						<li>- Build out a CMS lead generation form for non-technical employees to build out web forms</li>
+						<li>- Build a template and easy to use foundational code for our AWS SAM Lambda functions. This included built in CI/CD using Github Actions, Cloudformation templates for IaC, cookiecutter for easy boilerplate generation, and a Python object that wraps the Lambda code and does a lot of the hard work for developers (like logging, secrets management, and error handling)</li>
+						<li>- Build out integral APIs used to make our sales rate more efficient</li>
+						<li>- Support the development team with my past experiences as a software developer</li>
+						<li>- Build out a split AWS VPN using AWS' VPN Client Endpoint service for Mazama employees to connect to IP whitelisted resources</li>
+						<li>- Administer our AWS Accelerated Landing Zone organization (which uses Control Tower and Identity Center)</li>
+						<li>- Create an AWS Cloudformation template VPC for Lambdas to use so they can access IP whitelisted resources</li>
+						<li>- Write up an error matrix to be used for building out a system health dashboard of our entire AWS system, and third party resources</li>
+						<li>- Build a middle man program using Twilio to track inbound calls in a CRM</li>
+						<li>- Maintain an automated customer acquisition chatbot</li>
 					</ul>
 				</>}
 				role="Software Developer"
-				years={{from: "Oct 2022", to: "Present"}}
+				years={{from: "Oct 2022", to: "Jul 2024"}}
 				shortDecription="Full Stack Development"
 			/>
 			<WorkCard
@@ -42,7 +44,17 @@ const Experience = () => {
 				id="guardiangroup"
 				imageSrc={LogoGG}
 				imageAlt="A capital blue G with a side shot of a light blue face silhouette inside"
-				description="I volunteered, as part of my capstone project at OSU - Cascades, to help build an application for the fantastic non-profit organisation Guardian Group, who are out there ending human traffiking!"
+				description={<>
+					OSU Cascades and Effectual partnered together to help out a local charity, called Guardian Group, that aims to stop sex trafficking. I worked along side two other OSU Cascades students and a product team at Effectual to build out a full stack application that aims to crowd source case generation for Guardian Group. Here some of the things I accomplished with Guardian Group and Effectual:
+					<ul>
+						<li>- Build out a full stack web application using AWS Amplify (Which includes: React, GraphQL, Cognito, ect)</li>
+						<li>- Use Agile to plan out project sprints to meet deadlines and create amazing code!</li>
+						<li>- Work with Effectual's design team to turn their wire frames into a function!</li>
+						<li>- Plan and work with fellow students to make sure we were on time and everyone was supported</li>
+						<li>- Overcome and adapt to COVID era remote work</li>
+						<li>- Use AWS Cloudformation to create other resources within Amplify</li>
+					</ul>
+				</>}
 				role="Volunteer Software Developer"
 				projects={[{name: "OSU-C Capstone - Guardian Group", id: "#capstone"}]}
 				years={{from: "Sep 2020", to: "Jun 2021"}}
@@ -53,7 +65,17 @@ const Experience = () => {
 				id="cbtnuggets"
 				imageSrc={LogoCBTNuggets}
 				imageAlt="Two lower case g's made of three golden circles"
-				description="In this position my main task was developing a bug filled website to use in the QA engineer interview process. After finishing the project early, I moved onto creating a dashboard to display automated test statistics."
+				description={<>
+					At CBT Nuggets I had two main tasks: create a application to be used for interviewing QA engineers and a dashboard to show statistics on testing automation. I had a lot of fun working on these two projects and learned to much! Here are some of the specifics about my time at CBT Nuggets:
+					<ul>
+						<li>- Build out a bug filled web app using React and Firebase</li>
+						<li>- Document all bugs so interviewers can know what to look for</li>
+						<li>- Create a project plan and timeline so key stakeholders know what to expect</li>
+						<li>- Add a page to the internal dashboard application that would pull and display statics from Sauce Labs</li>
+						<li>- Use chart.js and SheetsJs to display and information in fun and meaningful ways</li>
+						<li>- Create a lambda function to access secrets to keep Sauce Lab API Keys hidden</li>
+					</ul>
+				</>}
 				role="Intern Developer"
 				years={{from: "Jun 2018", to: "Sep 2018"}}
 				projects={[{name: "Bug Hunt", id: "#cbtnuggetsbughunt"}, {name: "QA Statistics Dashboard", id: "#cbtnuggetsqadashboard"}]}
