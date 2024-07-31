@@ -2,7 +2,7 @@
 import Container from '../components/Container'
 // Assests
 import CarsonPicture from '../assets/Key-Silver-Selfie.png'
-import BendiPicture from '../assets/Profile-Kitty.png'
+// import BendiPicture from '../assets/Profile-Kitty.png'
 
 const About = () => {
     return (
