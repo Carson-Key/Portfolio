@@ -20,19 +20,15 @@ const Experience = () => {
 				imageSrc={LogoMazama}
 				imageAlt="A M turned into a blue mountain"
 				description={<>
-					During my Time at Mazama I was mainly in charge of maintaining/owning our Frontend stacks and our AWS infrastructure along with building our code base to move towards a SaaS product. Here's some of the projects and tasks I completed/did at Mazama:
 					<ul>
-						<li>- Rebuild our legacy frontend stack using React.js, Typescript, and Tailwind to better fit within business needs and move towards a SaaS product</li>
-						<li>- Build out a CMS lead generation form for non-technical employees to build out web forms</li>
-						<li>- Build a template and easy to use foundational code for our AWS SAM Lambda functions. This included built in CI/CD using Github Actions, Cloudformation templates for IaC, cookiecutter for easy boilerplate generation, and a Python object that wraps the Lambda code and does a lot of the hard work for developers (like logging, secrets management, and error handling)</li>
-						<li>- Build out integral APIs used to make our sales rate more efficient</li>
-						<li>- Support the development team with my past experiences as a software developer</li>
-						<li>- Build out a split AWS VPN using AWS' VPN Client Endpoint service for Mazama employees to connect to IP whitelisted resources</li>
-						<li>- Administer our AWS Accelerated Landing Zone organization (which uses Control Tower and Identity Center)</li>
-						<li>- Create an AWS Cloudformation template VPC for Lambdas to use so they can access IP whitelisted resources</li>
-						<li>- Write up an error matrix to be used for building out a system health dashboard of our entire AWS system, and third party resources</li>
-						<li>- Build a middle man program using Twilio to track inbound calls in a CRM</li>
-						<li>- Maintain an automated customer acquisition chatbot</li>
+						<li>- Business: Internet Reseller</li>
+						<li>- Meet with key stake holders to gather business requirements and own the build for a frontend rebuild using React, Tailwind, cloudfornt, Lambda@edge, and S3</li>
+						<li>- Create requirements and own the development of a template using AWS SAM for developers to use when creating Python and NodeJS AWS Lambda functions</li>
+						<li>- Support and unblock my peers when needed</li>
+						<li>- Own the build of a VPN using AWS' VPN Client Endpoint and Cloudformation for employees to connect to IP whitelisted resources</li>
+						<li>- Own the maintenance of an AWS Accelerated Landing Zone organization</li>
+						<li>- Own the development of a VPC Cloudformation template for Lambdas to access IP whitelisted resources</li>
+						<li>- Own the build and requirements of a Twillio middleman program to add inbound calls to a CRM</li>
 					</ul>
 				</>}
 				role="Software Developer"
@@ -45,17 +41,14 @@ const Experience = () => {
 				imageSrc={LogoGG}
 				imageAlt="A capital blue G with a side shot of a light blue face silhouette inside"
 				description={<>
-					OSU Cascades and Effectual partnered together to help out a local charity, called Guardian Group, that aims to stop sex trafficking. I worked along side two other OSU Cascades students and a product team at Effectual to build out a full stack application that aims to crowd source case generation for Guardian Group. Here some of the things I accomplished with Guardian Group and Effectual:
 					<ul>
-						<li>- Build out a full stack web application using AWS Amplify (Which includes: React, GraphQL, Cognito, ect)</li>
-						<li>- Use Agile to plan out project sprints to meet deadlines and create amazing code!</li>
-						<li>- Work with Effectual's design team to turn their wire frames into a function!</li>
-						<li>- Plan and work with fellow students to make sure we were on time and everyone was supported</li>
-						<li>- Overcome and adapt to COVID era remote work</li>
-						<li>- Use AWS Cloudformation to create other resources within Amplify</li>
+						<li>- Business: Anti-sex trafficking charity</li>
+						<li>- Work with key stake holders from both Guardian Group and Effectual to build project requirements</li>
+						<li>- Own the development and requirements of project roadmap/components</li>
+						<li>- Build out a full stack web application using AWS Amplify, React, GraphQL, Cognito, and Tailwind</li>
 					</ul>
 				</>}
-				role="Volunteer Software Developer"
+				role="Software Developer"
 				projects={[{name: "OSU-C Capstone - Guardian Group", id: "#capstone"}]}
 				years={{from: "Sep 2020", to: "Jun 2021"}}
 				shortDecription="Full Stack Development"
@@ -66,30 +59,35 @@ const Experience = () => {
 				imageSrc={LogoCBTNuggets}
 				imageAlt="Two lower case g's made of three golden circles"
 				description={<>
-					At CBT Nuggets I had two main tasks: create a application to be used for interviewing QA engineers and a dashboard to show statistics on testing automation. I had a lot of fun working on these two projects and learned to much! Here are some of the specifics about my time at CBT Nuggets:
 					<ul>
-						<li>- Build out a bug filled web app using React and Firebase</li>
-						<li>- Document all bugs so interviewers can know what to look for</li>
-						<li>- Create a project plan and timeline so key stakeholders know what to expect</li>
-						<li>- Add a page to the internal dashboard application that would pull and display statics from Sauce Labs</li>
-						<li>- Use chart.js and SheetsJs to display and information in fun and meaningful ways</li>
-						<li>- Create a lambda function to access secrets to keep Sauce Lab API Keys hidden</li>
+						<li>- Business: Technical training platform</li>
+						<li>- Own the creation of roadmap for a bug filled web app for interviewing QA engineers</li>
+						<li>- Own the creation of roadmap for a testing automation stats dashboard</li>
+						<li>- Create and report on a project plan and timeline for key stakeholders</li>
 					</ul>
 				</>}
-				role="Intern Developer"
+				role="Software Developer"
 				years={{from: "Jun 2018", to: "Sep 2018"}}
 				projects={[{name: "Bug Hunt", id: "#cbtnuggetsbughunt"}, {name: "QA Statistics Dashboard", id: "#cbtnuggetsqadashboard"}]}
-				shortDecription="React Programming"
+				shortDecription="Full Stack Development"
 			/>
 			<WorkCard
 				title="Freelance"
 				id="freelance"
 				imageSrc={Logo}
 				imageAlt="Brass colored Node.js hexagon logo with brass colored React logo inside, which has the nucleus replaced with a brass key"
-				description="I did a wide range of different types of software development during my time as a freelance software developer. Anything from a static website for a small business to an entire authentication system for a startup company. During this time I learned to use so many different tech stacks that I could fill this whole page (and I had to remove most of them from my footer); mostly I worked in PHP, Javascript, HTML, CSS, and Python."
-				role="Freelance Software Developer"
+				description={<>
+					<ul>
+						<li>- Business: For hire development</li>
+						<li>- Build and own requirements/SOWs by working with clients on project needs</li>
+						<li>- Take on learning new frameworks, programming languages, ect to meet pre-existing application requirements</li>
+						<li>- Work with various types of clients from small mom-and-pop business to large corporations</li>
+						<li>- Common technologies used: NodeJs, PHP, JavaScript, Python, HTML, and CSS</li>
+					</ul>
+				</>}
+				role="Software Developer"
 				years={{from: "Aug 2013", to: "May 2017"}}
-				shortDecription="Anything and Everything Software Development"
+				shortDecription="Full Stack Development"
 			/>
 			<WorkCard
 				title="OSU - Cascades IT Student"
@@ -99,7 +97,7 @@ const Experience = () => {
 				description="My responsibilities at this position had a very wide scope. I did everything from maintain campus classrooms to helping professors debug problems, from maintaining network infrastructure to imaging computers. Although my degree is in Computer Science, I still learned a lot in this job that I will be using for all my career, and I loved working there."
 				role="Student Worker"
 				years={{from: "Feb 2018", to: "Jun 2021"}}
-				shortDecription="Basic/Intermediate Tech II Tasks"
+				shortDecription="Tech II"
 			/>
 			<WorkCard
 				title="OSU - Cascades IT Tech II"
@@ -110,17 +108,22 @@ const Experience = () => {
 				role="Temp Tech II"
 				years={{from: "Jun 2021", to: "Dec 2021"}}
 				projects={[{name: "OSU IT Produects Status Page", id: "#osustatus"}]}
-				shortDecription="Tech II Tasks"
+				shortDecription="Tech II"
 			/>
 			<WorkCard
 				title="RedHawk Network Security"
 				id="redhawk"
 				imageSrc={LogoRedHawk}
 				imageAlt="Two 90 degree swooshes, a lrager black one and a smaller red one, that form a square hawk head"
-				description="In this position I was in charge of maintaining and fixing a legacy (20 years old) PHP dashboard for RedHawk. I really learned a lot about the development process of legacy code, which I have since learned are extremely valuable skills in the industry. Towards the end of my time at RedHawk I started work on an external user creation wizard using React, but because of a ramp up in school I didn't have the time to finish it."
-				role="Intern Developer"
+				description={<ul>
+					<li>- Business: IT security consultant</li>
+					<li>- Own scoping, business requirements, and project buildout of new features and bug fixes to legacy applications</li>
+					<li>- I maintained my own work schedule</li>
+					<li>- Own the transition of legacy technology (PHP) to modern technologies (React, Node)</li>
+				</ul>}
+				role="Software Developer"
 				years={{from: "Jul 2019", to: "Jan 2020"}}
-				shortDecription="Legacy PHP Development"
+				shortDecription="Full Stack Development"
 			/>
 			<WorkCard
 				title="Alyce Hatch Center"
@@ -151,7 +154,7 @@ const Experience = () => {
 				description="During my Sophomore year in college I ran for treasurer of the OSU Cascades Tech club. This is a club that helps students better their portfolios and get them professional experiences in the tech world and having fun projects and activities to work on. I was lucky enough to get elected for three years in a row! My role for this club was submitting yearly budgets and maintaining financial records. In addition to helping with any event planning or any odd executive tasks."
 				role="Treasurer"
 				years={{from: "Sep 2018", to: "Jun 2021"}}
-				shortDecription="Budget Managment"
+				shortDecription="Budget Management"
 			/>
 		</Container>
 	)
